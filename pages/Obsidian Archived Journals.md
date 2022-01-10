@@ -1,5 +1,6 @@
 - # Standup 101321
   id:: 61dcb4e2-a252-4abd-ad4a-242ab080208a
+  collapsed:: true
 	- ## Onboarding
 	- ### prod cronicle server
 	- how pushing of changes in data are executed (dev server to redis)
