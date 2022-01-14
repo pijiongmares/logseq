@@ -99,10 +99,9 @@
 									- 2. **modify** - use to modify current date sent orders
 									- 3. **void** - void the order
 									- 4. **reminder** - used to warn or give a message to an agent for that order
-										-
 										- run out of specific dish
-									- can set time occurence
-									  5. **rush** - rush order. provide reason
+										- can set time occurence
+									- 5. **rush** - rush order. provide reason
 		- ###### order filters
 		- today, delivery, pickup, saved, online, and date (select date of order)
 		- ###### order list
