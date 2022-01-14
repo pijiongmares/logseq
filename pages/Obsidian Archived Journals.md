@@ -189,11 +189,13 @@
 		- Continue working on this
 	- # Setting Up the Issued Laptop to Me
 - # Standup 111721
+  collapsed:: true
 	- ## SKT-7123 Order Time Editor Sync Capabilities
 		- Working on backend API
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
-		-
+		- Will be working on this
 - # Standup 111821
+  collapsed:: true
 	- ## Meeting
 		- Regarding with the SKT-7123 and SKT-7120
 	- ## SKT-7123 Order Time Editor Sync Capabilities
@@ -201,6 +203,7 @@
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Will be working on this
 - # Standup 111921
+  collapsed:: true
 	- ## Meeting
 	- Attended the knowledge sharing of Marley for the Push Notification
 	- ## SKT-7123 Order Time Editor Sync Capabilities
@@ -208,4 +211,8 @@
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Will be working on this
 	-
--
+- # Standup 112221
+	- ## SKT-7120 Add Cloning Restaurant Category/dishes in restaurant editor
+	- Fixed the myBatis error due to CategeryMapper was set as BATCH operation. Just set the Dish, DishProperties, and ComboAppCategory mappers to BATCH also
+- # Standup 112321
+- # Standup 112421
