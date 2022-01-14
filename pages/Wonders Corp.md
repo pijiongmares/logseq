@@ -91,7 +91,7 @@
 						- #### Online (Managers Use Only)
 							- Toggle button. used together with pick-up or delivery option
 						- #### More Button Option
-							- ##### Order Section (2nd Column from the Left)
+							- #### Order Section (2nd Column from the Left)
 								- Shows the customer information, payment, status and the order details
 								- if agent value is "online", it means the order was made with online button enabled (manager's use only)
 		- order has versions
