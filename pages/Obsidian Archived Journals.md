@@ -59,12 +59,14 @@
 	- ## Send SMS to Confirm Address
 		- Done changes. For validation by sir JZ
 - # Standup 102621
+  collapsed:: true
 	- ## Send SMS to Confirm Address
 		- Created pull request
 	- ## Large Log Files in user-config-server
 		- Checking issue
 - # Standup 102721
   id:: 32017461-c46f-424b-a8dd-4ff2768e5ba5
+  collapsed:: true
 	- ## Meetings
 		- Attended a meeting regarding the call restriction
 	- ## Send SMS to Confirm Address
@@ -73,10 +75,11 @@
 		- Checking issue
 - # Standup 102821
   id:: b02f192e-36ff-4675-8b6e-22b88b7c8ca6
+  collapsed:: true
 	- ## Meetings
 		- Matrix/Nexus ways of working
 	- ## SKT-7001 Enhance SMS Address Confirmation
 		- Have an issue regarding on promoting the sms-customer-client project to QA, coordinated with Kenny and he said he is fixing the script now
 	- ## SKT-7065 Disk Usage of userconfigserver for logs
-	- have submitted findings and recommendations to jz, testing it on local environment
+		- Have submitted findings and recommendations to JZ, testing it on local environment
 - # Standup 102921
