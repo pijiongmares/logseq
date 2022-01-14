@@ -110,16 +110,14 @@
 								- White are saved orders or orders made from sesame.menu (osaved)
 								- Green are today's orders
 								- Red are voided
-		- ###### call list relative (not link to orders)
-		- used to review orders of the customer
-		- calls are not linked to any orders. it is used to review the orders using the call or calls
-		- ###### call section (right)
-		- shows the orders and call history (inbound and outbound) of the agent for the selected restaurant
-		- call : customer/client number or any number. also shows the saved contact information for the restaurant
-		- recorded time follows the restaurant's local time
-		- disable calls (for selected agents only) : option to redirect call to restaurant or the restaurant is close
-		  
-		  ---
+							- #### Call List Relative (No Link to Orders)
+								- used to review orders of the customer
+								- calls are not linked to any orders. it is used to review the orders using the call or calls
+								- ###### call section (right)
+								- shows the orders and call history (inbound and outbound) of the agent for the selected restaurant
+								- call : customer/client number or any number. also shows the saved contact information for the restaurant
+								- recorded time follows the restaurant's local time
+								- disable calls (for selected agents only) : option to redirect call to restaurant or the restaurant is close
 		- #### customer information and order list section (left sidebar)
 		- phone number
 		- name
