@@ -175,4 +175,10 @@
 		- Promoted to QA env
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Continue working on this
--
+- # Standup 111521
+	- c
+	- # Standup 111521
+- # Standup 111621
+- # Standup 111721
+- # Standup 111821
+- # Standup 111921
