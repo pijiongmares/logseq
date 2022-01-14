@@ -154,6 +154,7 @@
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
 		- Now currently in production (to verify the logs if will be compressed)
 - # Standup 111021
+  collapsed:: true
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Studying the content-config-server
 	- ## SKT-6982 Slow Query on restaurantcustomeraddress
@@ -163,12 +164,15 @@
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
 		- Now currently in production (to verify the logs if will be compressed)
 - # Standup 111121
+  collapsed:: true
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
 		- Was accidentally reverted by the other team. taken this chance to change the compression type to gzip
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Continue working on this
 - # Standup 111221
+  collapsed:: true
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
-		- promoted to QA env
-	- # SKT-7120 Add cloning restaurant category/dishes in restaurant editor
-	- continue working on
+		- Promoted to QA env
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
+		- Continue working on this
+-
