@@ -27,18 +27,19 @@
 		- Still reviewing the codes of the projects involved
 		- And have identified some places where the changes might apply
 - # Standup 101821
+  collapsed:: true
 	- ## Onboarding
 		- Reading ways of working in engineering and the team
 	- ## Send SMS to Confirm Address
-		- setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
+		- Setting up the kjt-sms-connect-service applcation to my local machine which is the backend Service for the sms sending feature
 - # Standup 101921
   collapsed:: true
-	- ## onboarding
-		- reading ways of working in engineering and the team
-	- ## send sms to confirm address
-		- setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
+	- ## Onboarding
+		- Reading ways of working in engineering and the team
+	- ## Send SMS to Confirm Address
+		- Setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
 - # Standup 102021
-	- ## send sms to confirm address
+	- ## Send SMS to Confirm Address
 		- located the api for sending sms, waiting for final specification
 	- ## code familiarization
 		- reading the kjt-pos-core project
