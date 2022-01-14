@@ -100,17 +100,18 @@
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
 		- Will verify if the archived logs are compressed from INT to PROD
 - # Standup 110321
+  collapsed:: true
 	- ## Meetings
 		- Attending a meeting with JZ and Jegger regarding with the assessment of the backend services whether it can handle the expected large number of onboarding restaurants
 		- Will attend the feature demo of SKT-7001 later at 2pm
 	- ## Study
 		- Liquibase
 		- Familiarizing the backend projects and database
-	- # Pending for testing
-	- ## SKT-7001 enhance sms address confirmation
-	- ready for qa testing
-	- ## SKT-7065 disk usage of userconfigserver for logs
-	- will verify if the archived logs are compressed from int to prod
+	- ## Pending for testing
+		- ### SKT-7001 Enhance SMS Address Confirmation
+			- Ready for QA testing
+		- ### SKT-7065 Disk Usage of userconfigserver for Logs
+			- Will verify if the archived logs are compressed from INT to PROD
 - # Standup 110421
 - # Standup 110521
 -
