@@ -52,10 +52,10 @@
 					- Mistake reports
 				- ### News
 					- New restaurants and features (processes) bulletin
-		- ### queue
-		- current queued calls for the agent
-		  
-		  ---
+				- ### Queue
+					- Current queued calls for the agent
+					  
+					  ---
 		- ### call history
 		- call summary of the agent
 		- clicking on the records will show a popup for playing the recorded call
