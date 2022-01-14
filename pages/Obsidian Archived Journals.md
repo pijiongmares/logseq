@@ -19,14 +19,18 @@
 - # Standup 101521
   collapsed:: true
 	- ## onboarding
-	- ### aws
-	- api gateway - routing (sesame.menu and mobile only)
-	- s3 - file storage server
-	- ec2 - elastic compute cloud (servers)
+		- ### aws
+			- api gateway - routing (sesame.menu and mobile only)
+			- s3 - file storage server
+			- ec2 - elastic compute cloud (servers)
 	- ## send sms to confirm address
-	- still reviewing the codes of the projects involved
-	- and have identified some places where the changes might apply
+		- still reviewing the codes of the projects involved
+		- and have identified some places where the changes might apply
 - # Standup 101821
+	- ## onboarding
+		- reading ways of working in engineering and the team
+	- ## send sms to confirm address
+		- setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
 - # Standup 101921
 - # Standup 102021
 - # Standup 102121
