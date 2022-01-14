@@ -43,19 +43,15 @@
 					- AHT (Talk + Work)
 				- ### Call Statistics Report
 					- Agent & restaurant call stats (customers (customers of the restaurants) & clients(restaurants))
-					  
-					  ---
-		- ### my schedule
-		- #### my schedule
-		- shows the schedule of the agent
-		- #### my activity
-		- timekeeping record (for time in/out select wonders in aux, wait for 2 mins, then select logout)
-		  
-		  ---
-		- ### mistakes & coaching
-		- mistake reports
-		- ### news
-		- new restaurants and features (processes) bulletin
+				- ### My Schedule
+					- #### My Schedule
+						- Shows the schedule of the agent
+					- #### My Activity
+						- Timekeeping record (for time in/out select wonders in aux, wait for 2 mins, then select logout)
+				- ### Mistakes & Coaching
+					- Mistake reports
+				- ### News
+					- New restaurants and features (processes) bulletin
 		- ### queue
 		- current queued calls for the agent
 		  
