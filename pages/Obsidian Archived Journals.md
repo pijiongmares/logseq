@@ -228,5 +228,7 @@
 	- ## Tickets Done
 		- [SKT-7297](https://wondersco.atlassian.net/browse/SKT-7297) When Copy a Restaurant, "cancel order in mobile app" Should be Copied as well
 		- [SKT-7227](https://wondersco.atlassian.net/browse/SKT-7227) Enable the Cancel Order in App Configuration for All Restaurants via a Query
-		- [SKT-7473](https://wondersco.atlassian.net/browse/SKT-7473) MMT- allowsubsize is Not Working- All sites
+		- [SKT-7473](https://wondersco.atlassian.net/browse/SKT-7473) MMT- allowsubsize is Not Working- All Sites
+		- [SKT-7443](https://wondersco.atlassian.net/browse/SKT-7443) Restaurant Editor -  "cancel order in mobile app" Set to Checked by Default for Copy Restaurant
+		-
 -
