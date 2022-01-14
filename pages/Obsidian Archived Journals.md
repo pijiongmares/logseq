@@ -113,14 +113,23 @@
 		- ### SKT-7065 Disk Usage of userconfigserver for Logs
 			- Will verify if the archived logs are compressed from INT to PROD
 - # Standup 110421
+  collapsed:: true
 	- ## SKT-6982 Slow Query on restaurantcustomeraddress
-	- Working on it
+		- Working on it
+	- ## Pending for testing (11/08/21)
+		- ### SKT-7001 Enhance SMS Address Confirmation
+			- Ready for QA testing
+		- ### SKT-7065 Disk Usage of userconfigserver for Logs
+			- Will verify if the archived logs are compressed from INT to PROD
+- # Standup 110521
+	- # SKT-6982 slow query on restaurantcustomeraddress
+	- Waiting for the code review approval
+	- # Preparing for the possible next task (improve unit testing coverage for the backend services)
 	  
 	  ---
-	- ## Pending for testing (11/08/21)
-	- ### SKT-7001 Enhance SMS Address Confirmation
-		- Ready for QA testing
-	- ### SKT-7065 Disk Usage of userconfigserver for Logs
-		- Will verify if the archived logs are compressed from INT to prod
-- # Standup 110521
+	- # Pending for testing (11/08/21)
+	- ## SKT-7001 enhance sms address confirmation
+	- Ready for qa testing
+	- ## SKT-7065 disk usage of userconfigserver for logs
+	- Will verify if the archived logs are compressed from int to prod
 -
