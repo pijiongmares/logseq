@@ -27,13 +27,14 @@
 				- hostname : training-db.letsdochinese.com
 			- ## dev/staging
 				- hostname : dev-db.letsdochinese.com
-		- ## prod
-		- hostname : Server F - 192.168.1.160, Foxtrot - foxtrot.letsdochinese.com, MNL-DB mnl-db.letsdochinese.com
-		  ___
-		- # pos (phone order system) introduction and overview
-		  
-		  ___
-		- ## pos home screen
+			- ## prod
+				- hostname :
+					- Server F - 192.168.1.160
+					- Foxtrot - foxtrot.letsdochinese.com
+					- MNL-DB mnl-db.letsdochinese.com
+					  ___
+		- # POS (Phone Order System) Introduction and Overview
+			- ## pos home screen
 		- ### aux statistics report
 		- agents performance/time stats
 		- ### Inbound Contacts
