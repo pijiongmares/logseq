@@ -104,12 +104,12 @@
 									- 5. **rush** - rush order. provide reason
 							- #### Order Filters
 								- Today, delivery, pickup, saved, online, and date (select date of order)
-							- #### order list
-								- shows the list of orders sent
-								- gray colored orders means it is from the previous days
-								- white are saved orders or orders made from sesame.menu (osaved)
-								- green are today's orders
-								- red are voided
+							- #### Order List
+								- Shows the list of orders sent
+								- Gray colored orders means it is from the previous days
+								- White are saved orders or orders made from sesame.menu (osaved)
+								- Green are today's orders
+								- Red are voided
 		- ###### call list relative (not link to orders)
 		- used to review orders of the customer
 		- calls are not linked to any orders. it is used to review the orders using the call or calls
