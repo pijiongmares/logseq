@@ -8,28 +8,28 @@
 		- Not a nodejs project
 		- Google map api
 - # Standup 101421
+  collapsed:: true
 	- ## Onboarding
 		- Rollbar - log monitoring tool
 		- Grafana - application performance monitoring tool
 		- Kibana - log viewer/visualization
 	- ## Send SMS to Confirm Address
 		- Still studying the google map api
-		- will also review the projects involve in the process
+		- Will also review the projects involve in the process
 - # Standup 101521
   collapsed:: true
-	- ## onboarding
-		- ### aws
-			- api gateway - routing (sesame.menu and mobile only)
-			- s3 - file storage server
-			- ec2 - elastic compute cloud (servers)
-	- ## send sms to confirm address
-		- still reviewing the codes of the projects involved
-		- and have identified some places where the changes might apply
+	- ## Onboarding
+		- ### AWS
+			- API gateway - routing (sesame.menu and mobile only)
+			- S3 - file storage server
+			- EC2 - elastic compute cloud (servers)
+	- ## Send SMS to Confirm Address
+		- Still reviewing the codes of the projects involved
+		- And have identified some places where the changes might apply
 - # Standup 101821
-  collapsed:: true
-	- ## onboarding
-		- reading ways of working in engineering and the team
-	- ## send sms to confirm address
+	- ## Onboarding
+		- Reading ways of working in engineering and the team
+	- ## Send SMS to Confirm Address
 		- setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
 - # Standup 101921
   collapsed:: true
