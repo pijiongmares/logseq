@@ -181,6 +181,11 @@
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Continue working on this
 - # Standup 111621
+	- ## SKT-7123 Order Time Editor Sync Capabilities
+		- Earlier had a meeting regarding with this, continue investigating the backend API if it still supports the latest discussions of these tickets
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
+		- Earlier had a meeting regarding with this, continue investigating the backend api if it still supports the latest dicussions of the tickets
+	- # Setting up the issued laptop to me
 - # Standup 111721
 - # Standup 111821
 - # Standup 111921
