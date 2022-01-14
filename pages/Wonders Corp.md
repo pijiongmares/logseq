@@ -8,25 +8,25 @@
 			- ## training
 				- Training environment (pre-prod)
 			- ## dev/staging
-				- First phase of deployment (staging area/clone copy of PROD)
+				- First phase of deployment (Staging area/clone copy of PROD)
 				- Content team (the ones updating the records of the restaurant including visiting the clients)
 				- Content team uses editor in this environment
 			- ## prod
-				- no editor
+				- No editor
 				  
 				  ___
-		- # database
-		- no editors/configs in dev/prod so changes to the restaurant or users (configs/editors), need to push (general/restaurant/agent). Usually done off hours.
-		- ## int-ph
-		- hostname : xavier.celkkcvywdgq.ap-southeast-1.rds.amazonaws.com
-		- ## int
-		- hostname : magneto.cskuefg0dln0.us-east-1.rds.amazonaws.com
-		- ## qa
-		- hostname : juggernaut.cskuefg0dln0.us-east-1.rds.amazonaws.com
-		- ## training
-		- hostname : training-db.letsdochinese.com
-		- ## dev/staging
-		- hostname : dev-db.letsdochinese.com
+		- # Database
+			- No editors/configs in DEV/PROD so changes to the restaurant or users (configs/editors), need to push (general/restaurant/agent). Usually done off hours.
+			- ## int-ph
+				- hostname : xavier.celkkcvywdgq.ap-southeast-1.rds.amazonaws.com
+			- ## int
+				- hostname : magneto.cskuefg0dln0.us-east-1.rds.amazonaws.com
+			- ## qa
+				- hostname : juggernaut.cskuefg0dln0.us-east-1.rds.amazonaws.com
+			- ## training
+				- hostname : training-db.letsdochinese.com
+			- ## dev/staging
+				- hostname : dev-db.letsdochinese.com
 		- ## prod
 		- hostname : Server F - 192.168.1.160, Foxtrot - foxtrot.letsdochinese.com, MNL-DB mnl-db.letsdochinese.com
 		  ___
