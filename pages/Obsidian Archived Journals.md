@@ -55,7 +55,14 @@
 	- ## Send SMS to Confirm Address
 		- Start development
 - # Standup 102521
+  collapsed:: true
+	- ## Send SMS to Confirm Address
+		- Done changes. For validation by sir JZ
 - # Standup 102621
+	- ## Send SMS to Confirm address
+	- created pull request
+	- # large log files in user-config-server
+	- checking issue
 - # Standup 102721
 - # Standup 102821
 - # Standup 102921
