@@ -37,14 +37,14 @@
 			- ## POS Home Screen
 				- ### AUX Statistics Report
 					- Agents performance/time stats
-		- ### Inbound Contacts
-		- ATT (average talk time)
-		- AWT (average work time)
-		- AHT (talk + work)
-		- ### call statistics report
-		- agent & restaurant call stats (customers (customers of the restaurants) & clients(restaurants))
-		  
-		  ---
+				- ### Inbound Contacts
+					- ATT (average talk time)
+					- AWT (average work time)
+					- AHT (talk + work)
+				- ### Call Statistics Report
+					- Agent & restaurant call stats (customers (customers of the restaurants) & clients(restaurants))
+					  
+					  ---
 		- ### my schedule
 		- #### my schedule
 		- shows the schedule of the agent
