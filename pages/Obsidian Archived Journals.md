@@ -10,12 +10,12 @@
 - # Standup 101421
   collapsed:: true
 	- ## onboarding
-	- rollbar - log monitoring tool
-	- grafana - application performance monitoring tool
-	- kibana - log viewer/visualization
+		- rollbar - log monitoring tool
+		- grafana - application performance monitoring tool
+		- kibana - log viewer/visualization
 	- ## send sms to confirm address
-	- still studying the google map api
-	- will also review the projects involve in the process
+		- still studying the google map api
+		- will also review the projects involve in the process
 - # Standup 101521
   collapsed:: true
 	- ## onboarding
@@ -27,6 +27,7 @@
 		- still reviewing the codes of the projects involved
 		- and have identified some places where the changes might apply
 - # Standup 101821
+  collapsed:: true
 	- ## onboarding
 		- reading ways of working in engineering and the team
 	- ## send sms to confirm address
