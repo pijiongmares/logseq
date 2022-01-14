@@ -54,11 +54,9 @@
 					- New restaurants and features (processes) bulletin
 				- ### Queue
 					- Current queued calls for the agent
-					  
-					  ---
-		- ### call history
-		- call summary of the agent
-		- clicking on the records will show a popup for playing the recorded call
+				- ### Call History
+					- Call summary of the agent
+					- Clicking on the records will show a popup for playing the recorded call
 		- #### clients
 		- clients/restaurant owners call
 		- #### outbounds
