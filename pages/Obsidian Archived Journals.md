@@ -222,10 +222,10 @@
 - # Standup 112421
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Promoted to QA environment
-	- ## SKT-7297 When Copy a Restaurant, "cancel order in mobile app" Should be Copied as Well
+	- ## SKT-7297 When Copy a Restaurant, "cancel order in mobile app" Should be Copied as well
 		- Field "hasCancelOrder" is not in the "insert" query in the restaurant myBatis mapper xml file
 - # Standup 112521 to 011522
 	- ## Tickets Done
-		- ### [SKT-7297](https://wondersco.atlassian.net/browse/SKT-7297) When Copy a Restaurant, "cancel order in mobile app" should be copied as well
-	-
+		- [SKT-7297](https://wondersco.atlassian.net/browse/SKT-7297) When Copy a Restaurant, "cancel order in mobile app" Should be Copied as well
+		- SKT-7
 -
