@@ -75,8 +75,8 @@
   id:: b02f192e-36ff-4675-8b6e-22b88b7c8ca6
 	- ## Meetings
 		- Matrix/Nexus ways of working
-	- ## SKT-7001 Enhance SMS address confirmation
-	- have an issue regarding on promoting the sms-customer-client project to qa, coordinated with sir kenny and he said he is fixing the script now
-	- # skt-7065 disk usage of userconfigserver for logs
+	- ## SKT-7001 Enhance SMS Address Confirmation
+		- Have an issue regarding on promoting the sms-customer-client project to QA, coordinated with Kenny and he said he is fixing the script now
+	- ## SKT-7065 Disk Usage of userconfigserver for logs
 	- have submitted findings and recommendations to jz, testing it on local environment
 - # Standup 102921
