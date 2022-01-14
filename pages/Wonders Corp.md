@@ -128,20 +128,20 @@
 							- Split order : separate order, payment, and receipt (sub orders)
 							- #### Add and Minus Button
 								- Increment or decrement quantity
-		- #### save
-		- used when customers are undecided and wish to call later then save the order
-		- ##### home
-		- go back to home screen
-		- ##### credit card
-		- Visa, Mastercard, Discover (min $12)
-		- credit card charge, cash charge, tip (can split payment to cash and card)
-		- card number
-		- expiration date (month and year)
-		- cvv
-		- billing zip code
-		- call recording stops when entering credit card details
-		- propay credit card are external that are sent to the restaurant for processing
-		- can also be updated for sent orders
+							- #### Save
+								- Used when customers are undecided and wish to call later then save the order
+							- #### Home
+								- Go back to home screen
+							- #### Credit Card
+								- Visa, Mastercard, Discover (min $12)
+								- Credit card charge, cash charge, tip (can split payment to cash and card)
+								- card number
+								- expiration date (month and year)
+								- cvv
+								- billing zip code
+								- call recording stops when entering credit card details
+								- propay credit card are external that are sent to the restaurant for processing
+								- can also be updated for sent orders
 		- ##### send
 		- pay cash
 		- sent orders for the current date can still be modifed
