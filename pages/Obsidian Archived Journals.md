@@ -83,3 +83,5 @@
 	- ## SKT-7065 Disk Usage of userconfigserver for logs
 		- Have submitted findings and recommendations to JZ, testing it on local environment
 - # Standup 102921
+  collapsed:: true
+	- ## No meeting
