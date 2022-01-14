@@ -1,3 +1,5 @@
+title:: Obsidian Archived Wonders Journals
+
 - # Standup 101321
   id:: 61dcb4e2-a252-4abd-ad4a-242ab080208a
   collapsed:: true
