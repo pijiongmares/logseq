@@ -113,7 +113,7 @@
 							- #### Call List Relative (No Direct Link to Orders)
 								- Used to review orders of the customer
 								- Calls are not linked to any orders. It is used to review the orders using the call or calls
-							- ### Call Section (Right)
+							- #### Call Section (Right)
 								- Shows the orders and call history (inbound and outbound) of the agent for the selected restaurant
 								- Call : customer/client number or any number. also shows the saved contact information for the restaurant
 								- Recorded time follows the restaurant's local time
