@@ -88,12 +88,12 @@
 							- Address is optional
 						- #### Delivery
 							- Can be selected with online (order made online) or not online (order made via phone)
-						- ##### online (managers use only)
-		- toggle button. used together with pick-up or delivery option
-		- ##### more button option
-		- ###### order section (2nd column from the left)
-		- shows the customer information, payment, status and the order details
-		- if agent value is "online", it means the order was made with online button enabled (manager's use only)
+						- #### Online (Managers Use Only)
+							- Toggle button. used together with pick-up or delivery option
+						- #### More Button Option
+							- ##### Order Section (2nd Column from the Left)
+								- Shows the customer information, payment, status and the order details
+								- if agent value is "online", it means the order was made with online button enabled (manager's use only)
 		- order has versions
 		  
 		  1. **mistake** - create a report for a mistake with an order (either an agent mistake, qa, coaching, or a possible bug in the system)
