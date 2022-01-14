@@ -232,5 +232,7 @@
 		- [SKT-7443](https://wondersco.atlassian.net/browse/SKT-7443) Restaurant Editor -  "cancel order in mobile app" Set to Checked by Default for Copy Restaurant
 		- [SKT-7476](https://wondersco.atlassian.net/browse/SKT-7476) User Configuration Extraction
 		- [SKT-7493](https://wondersco.atlassian.net/browse/SKT-7493) Request to Set the disableCallPriority is NULL value to 127 in Restaurant Table
+		- [SKT-7582](https://wondersco.atlassian.net/browse/SKT-7582) Address Logging vulnerability issue
+		- [SKT-7624](https://wondersco.atlassian.net/browse/SKT-7624) Restructure synckjtdb
 		-
 -
