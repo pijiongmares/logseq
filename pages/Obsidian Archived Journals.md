@@ -225,4 +225,7 @@
 	- ## SKT-7297 When Copy a Restaurant, "cancel order in mobile app" Should be Copied as Well
 		- Field "hasCancelOrder" is not in the "insert" query in the restaurant myBatis mapper xml file
 - # Standup 112521 to 011522
+	- ## Tickets Done
+		-
+		  ###
 -
