@@ -241,5 +241,5 @@
 		- [SKT-7174](https://wondersco.atlassian.net/browse/SKT-7174) Validation for the R Number to be Unique is no Longer Displayed - **Testing in QA**
 		- [SKT-7550](https://wondersco.atlassian.net/browse/SKT-7550) Default Value for disableCallPriority - **Testing in QA**
 		- [SKT-7749](https://wondersco.atlassian.net/browse/SKT-7749) SMS Address Enhancements - Block and Address Segmentation - **In Progress**
-		- SKT-
+		- [SKT-7308](https://wondersco.atlassian.net/browse/SKT-7308) POS Identity and Access Management Solution - **Done Creating Login Sequence Diagram**
 -
