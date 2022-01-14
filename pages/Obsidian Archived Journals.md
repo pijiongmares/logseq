@@ -176,19 +176,21 @@
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Continue working on this
 - # Standup 111521
+  collapsed:: true
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
 		- Promoted to Staging and PROD
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Continue working on this
 - # Standup 111621
+  collapsed:: true
 	- ## SKT-7123 Order Time Editor Sync Capabilities
 		- Earlier had a meeting regarding with this, continue investigating the backend API if it still supports the latest discussions of these tickets
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Continue working on this
 	- # Setting Up the Issued Laptop to Me
 - # Standup 111721
-	- # SKT-7123 order time editor sync capabilities
-	  Working on backend api
-	- # SKT-7120 Add cloning restaurant category/dishes in restaurant editor
+	- ## SKT-7123 Order Time Editor Sync Capabilities
+		- Working on backend API
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 - # Standup 111821
 - # Standup 111921
