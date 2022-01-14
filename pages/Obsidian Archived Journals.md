@@ -54,3 +54,8 @@
   collapsed:: true
 	- ## Send SMS to Confirm Address
 		- Start development
+- # Standup 102521
+- # Standup 102621
+- # Standup 102721
+- # Standup 102821
+- # Standup 102921
