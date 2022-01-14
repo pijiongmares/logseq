@@ -34,9 +34,9 @@
 					- MNL-DB mnl-db.letsdochinese.com
 					  ___
 		- # POS (Phone Order System) Introduction and Overview
-			- ## pos home screen
-		- ### aux statistics report
-		- agents performance/time stats
+			- ## POS Home Screen
+				- ### AUX Statistics Report
+					- Agents performance/time stats
 		- ### Inbound Contacts
 		- ATT (average talk time)
 		- AWT (average work time)
