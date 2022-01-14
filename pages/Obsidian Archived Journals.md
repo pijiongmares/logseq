@@ -39,9 +39,10 @@
 	- ## Send SMS to Confirm Address
 		- Setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
 - # Standup 102021
+  collapsed:: true
 	- ## Send SMS to Confirm Address
-		- located the api for sending sms, waiting for final specification
-	- ## code familiarization
-		- reading the kjt-pos-core project
-- # Standup 102121
+		- Located the api for sending sms, waiting for final specification
+	- ## Code Familiarization
+		- Reading the kjt-pos-core project
+- # Stacndup 102121
 - # Standup 102221
