@@ -50,7 +50,7 @@
 		- Gave a list on how to execute the changes for the skt-7001. Will wait final meeting about this, or discuss this tomorrow on the knowledge sharing meeting with Ethan
 	- ## Code Familiarization
 		- Reading the kjt-pos-core project
-- # Stcandup 102221
+- # Standup 102221
   collapsed:: true
 	- ## Send SMS to Confirm Address
 		- Start development
@@ -59,10 +59,17 @@
 	- ## Send SMS to Confirm Address
 		- Done changes. For validation by sir JZ
 - # Standup 102621
-	- ## Send SMS to Confirm address
-	- created pull request
+	- ## Send SMS to Confirm Address
+		- Created pull request
+	- ## Large Log Files in user-config-server
+		- Checking issue
+- # Standup 102721
+  id:: 32017461-c46f-424b-a8dd-4ff2768e5ba5
+	- ## Meetings
+		- Attended a meeting regarding the call restriction
+	- ## Send SMS to Confirm Address
+	- fixing nginx routing in int server
 	- # large log files in user-config-server
 	- checking issue
-- # Standup 102721
 - # Standup 102821
 - # Standup 102921
