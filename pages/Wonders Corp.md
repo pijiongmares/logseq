@@ -118,14 +118,14 @@
 									- Call : customer/client number or any number. also shows the saved contact information for the restaurant
 									- Recorded time follows the restaurant's local time
 									- Disable calls (for selected agents only) : option to redirect call to restaurant or the restaurant is close
-							- #### Customer Information and Order List Section (Left Sidebar)
-							- phone number
-							- name
-							- address (street, apt/house/biz no., city) with distance in miles between the customer and the client
-							- order remarks
-							- conf note (customer remarks shows)\
-							- customer language radio button
-							- split order : separate order, payment, and receipt (sub orders)
+								- #### Customer Information and Order List Section (Left Sidebar)
+									- Phone number
+									- Name
+									- Address (street, apt/house/biz no., city) with distance in miles between the customer and the client
+									- Order remarks
+									- Conf note (customer remarks shows)\
+									- Customer language radio button
+									- Split order : separate order, payment, and receipt (sub orders)
 		- ##### add and minus button
 		- increment or decrement quantity
 		- ##### save
