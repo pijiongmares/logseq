@@ -50,7 +50,7 @@
 		- Gave a list on how to execute the changes for the skt-7001. Will wait final meeting about this, or discuss this tomorrow on the knowledge sharing meeting with Ethan
 	- ## Code Familiarization
 		- Reading the kjt-pos-core project
-- # Standup 102221
+- # Stcandup 102221
   collapsed:: true
 	- ## Send SMS to Confirm Address
 		- Start development
