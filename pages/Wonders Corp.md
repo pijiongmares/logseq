@@ -57,21 +57,21 @@
 				- ### Call History
 					- Call summary of the agent
 					- Clicking on the records will show a popup for playing the recorded call
-		- #### clients
-		- clients/restaurant owners call
-		- #### outbounds
-		- outbound calls
-		- #### inbounds
-		- inbound calls
-		- #### finished
-		- finished calls
-		- #### abandoned
-		- abandoned calls
-		- no one received the call
-		- #### calendar
-		- select date to view
-		  
-		  ---
+					- #### Clients
+						- Clients/restaurant owners call
+					- #### Outbounds
+						- Outbound calls
+					- #### Inbounds
+						- Inbound calls
+					- #### Finished
+						- Finished calls
+					- #### Abandoned
+						- Abandoned calls
+						- No one received the call
+					- #### Calendar
+						- Select date to view
+						  
+						  ---
 		- ### aux
 		- agent status (ready, mgmt, callback, wonders, coaching, sbs, meeting, restroom, other, logout)
 		- agent must be ready in order to be able to take a call
