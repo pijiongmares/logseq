@@ -7,3 +7,5 @@
 	- ## Send SMS to Confirm Address
 	- not a nodejs project
 	- google map api
+- # Standup 101431
+-
