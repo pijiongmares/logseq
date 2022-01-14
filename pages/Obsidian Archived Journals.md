@@ -85,3 +85,5 @@
 - # Standup 102921
   collapsed:: true
 	- ## No meeting
+- # Standup 110121
+-
