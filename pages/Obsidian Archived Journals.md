@@ -220,7 +220,6 @@
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Fixed the INT environment caching problem in the routing for category and dishes cloning API. Set the caching settings same as in the QA environment
 - # Standup 112421
-  collapsed:: true
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Promoted to QA environment
 	- ## SKT-7297 When Copy a Restaurant, "cancel order in mobile app" Should be Copied as Well
