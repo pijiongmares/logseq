@@ -144,14 +144,23 @@
 		- ### SKT-7065 Disk Usage of userconfigserver for Logs
 			- Will verify if the archived logs are compressed from INT to PROD
 - # Standup 110921
+  collapsed:: true
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 		- Studying the content-config-server
 	- ## SKT-6982 Slow Query on restaurantcustomeraddress
 		- Issues were found, need to discuss these further
 	- ## SKT-7001 Enhance SMS Address Confirmation
+		- Will deploy the sms-customer-client manually to Tango & Tango-2 servers
+	- ## SKT-7065 Disk Usage of userconfigserver for Logs
+		- Now currently in production (to verify the logs if will be compressed)
+- # Standup 111021
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
+		- Studying the content-config-server
+	- ## SKT-6982 Slow Query on restaurantcustomeraddress
+		- Issues were found, need to discuss these further
+	- # SKT-7001 enhance sms address confirmation
 	- Will deploy the sms-customer-client manually to Tango & Tango-2 servers
 	- # SKT-7065 disk usage of userconfigserver for logs
 	- Now currently in production (to verify the logs if will be compressed)
-- # Standup 111021
 - # Standup 111121
 - # Standup 111221
