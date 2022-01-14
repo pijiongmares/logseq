@@ -2,11 +2,11 @@
   id:: 61dcb4e2-a252-4abd-ad4a-242ab080208a
   collapsed:: true
 	- ## Onboarding
-	- ### prod cronicle server
-	- how pushing of changes in data are executed (dev server to redis)
+		- ### prod cronicle server
+		- how pushing of changes in data are executed (dev server to redis)
 	- ## Send SMS to Confirm Address
-	- not a nodejs project
-	- google map api
+		- not a nodejs project
+		- google map api
 - # Standup 101421
   collapsed:: true
 	- ## onboarding
@@ -33,6 +33,15 @@
 	- ## send sms to confirm address
 		- setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
 - # Standup 101921
+  collapsed:: true
+	- ## onboarding
+		- reading ways of working in engineering and the team
+	- ## send sms to confirm address
+		- setting up the kjt-sms-connect-service applcation to my local machine which is the backend service for the sms sending feature
 - # Standup 102021
+	- ## send sms to confirm address
+		- located the api for sending sms, waiting for final specification
+	- ## code familiarization
+		- reading the kjt-pos-core project
 - # Standup 102121
 - # Standup 102221
