@@ -38,9 +38,9 @@
 				- ### AUX Statistics Report
 					- Agents performance/time stats
 				- ### Inbound Contacts
-					- ATT (average talk time)
-					- AWT (average work time)
-					- AHT (talk + work)
+					- ATT (Average Talk Time)
+					- AWT (Average Work Time)
+					- AHT (Talk + Work)
 				- ### Call Statistics Report
 					- Agent & restaurant call stats (customers (customers of the restaurants) & clients(restaurants))
 					  
