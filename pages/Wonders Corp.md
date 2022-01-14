@@ -97,11 +97,11 @@
 								- Order has versions
 									- 1. **Mistake** - create a report for a mistake with an order (either an agent mistake, qa, coaching, or a possible bug in the system)
 									- 2. **Modify** - use to modify current date sent orders
-									- 3. **void** - void the order
-									- 4. **reminder** - used to warn or give a message to an agent for that order
+									- 3. **Void** - void the order
+									- 4. **Reminder** - used to warn or give a message to an agent for that order
 										- run out of specific dish
 										- can set time occurence
-									- 5. **rush** - rush order. provide reason
+									- 5. **Rush** - rush order. provide reason
 							- #### Order Filters
 								- Today, delivery, pickup, saved, online, and date (select date of order)
 							- #### Order List
@@ -118,14 +118,14 @@
 									- Call : customer/client number or any number. also shows the saved contact information for the restaurant
 									- Recorded time follows the restaurant's local time
 									- Disable calls (for selected agents only) : option to redirect call to restaurant or the restaurant is close
-		- #### customer information and order list section (left sidebar)
-		- phone number
-		- name
-		- address (street, apt/house/biz no., city) with distance in miles between the customer and the client
-		- order remarks
-		- conf note (customer remarks shows)\
-		- customer language radio button
-		- split order : separate order, payment, and receipt (sub orders)
+							- #### Customer Information and Order List Section (Left Sidebar)
+							- phone number
+							- name
+							- address (street, apt/house/biz no., city) with distance in miles between the customer and the client
+							- order remarks
+							- conf note (customer remarks shows)\
+							- customer language radio button
+							- split order : separate order, payment, and receipt (sub orders)
 		- ##### add and minus button
 		- increment or decrement quantity
 		- ##### save
