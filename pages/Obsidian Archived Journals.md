@@ -7,7 +7,7 @@
 	- ## Send SMS to Confirm Address
 	- not a nodejs project
 	- google map api
-- # Standup 101431
+- # Standup 101421
   collapsed:: true
 	- ## onboarding
 	- rollbar - log monitoring tool
@@ -16,13 +16,17 @@
 	- ## send sms to confirm address
 	- still studying the google map api
 	- will also review the projects involve in the process
-- # Standup 101531
-	- # onboarding
-	- ## aws
+- # Standup 101521
+  collapsed:: true
+	- ## onboarding
+	- ### aws
 	- api gateway - routing (sesame.menu and mobile only)
 	- s3 - file storage server
 	- ec2 - elastic compute cloud (servers)
-	- # send sms to confirm address
+	- ## send sms to confirm address
 	- still reviewing the codes of the projects involved
 	- and have identified some places where the changes might apply
--
+- # Standup 101821
+- # Standup 101921
+- # Standup 102021
+# Standup 101821
