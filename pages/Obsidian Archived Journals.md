@@ -193,8 +193,16 @@
 		- Working on backend API
 	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 - # Standup 111821
-	- ## Earlier had a Meeting Regarding with the SKT-7123 and SKT-7120
+	- ## Meeting
+		- Regarding with the SKT-7123 and SKT-7120
 	- ## SKT-7123 Order Time Editor Sync Capabilities
 		- We created subtasks. Working on backend API
-	- ## SKT-7120 Add Cloning Restaurant Category/dishes in restaurant editor
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
 - # Standup 111921
+	- ## Meeting
+	- Attended the knowledge sharing of Marley for the Push Notification
+	- # SKT-7123 order time editor sync capabilities
+	- Have done changes on the database and apis, but was put on hold because there will be design changes for it
+	- # SKT-7120 Add cloning restaurant category/dishes in restaurant editor
+	- Will be working on
+-
