@@ -122,9 +122,9 @@
 		- ### SKT-7065 Disk Usage of userconfigserver for Logs
 			- Will verify if the archived logs are compressed from INT to PROD
 - # Standup 110521
-	- # SKT-6982 slow query on restaurantcustomeraddress
-	- Waiting for the code review approval
-	- # Preparing for the possible next task (improve unit testing coverage for the backend services)
+	- ## SKT-6982 Slow Query on restaurantcustomeraddress
+		- Waiting for the code review approval
+	- ## Preparing for the Possible Next Task (Improve Unit Testing Coverage for the Backend Services)
 	  
 	  ---
 	- # Pending for testing (11/08/21)
