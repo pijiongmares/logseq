@@ -68,8 +68,8 @@
 	- ## Meetings
 		- Attended a meeting regarding the call restriction
 	- ## Send SMS to Confirm Address
-	- fixing nginx routing in int server
-	- # large log files in user-config-server
-	- checking issue
+		- Fixing nginx routing in INT server
+	- # Large Log Files in user-config-server
+		- Checking issue
 - # Standup 102821
 - # Standup 102921
