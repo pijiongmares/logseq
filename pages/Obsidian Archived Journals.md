@@ -235,6 +235,7 @@
 		- [SKT-7582](https://wondersco.atlassian.net/browse/SKT-7582) Address Logging vulnerability issue
 		- [SKT-7624](https://wondersco.atlassian.net/browse/SKT-7624) Restructure synckjtdb
 	- ## Tickets Cancelled
-		- [SKT-7619](https://wondersco.atlavvvvvvvvvvssian.net/browse/SKT-7619) query to add a category reminder in PARTY ORDER for ALL restaurants
+		- [SKT-7619](https://wondersco.atlassian.net/browse/SKT-7619) Query to Add a Category Reminder in PARTY ORDER for ALL Restaurants
+	-
 		-
 -
