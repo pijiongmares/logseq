@@ -27,6 +27,8 @@
 	- still reviewing the codes of the projects involved
 	- and have identified some places where the changes might apply
 - # Standup 101821
+	- # Standup 101821
 - # Standup 101921
 - # Standup 102021
-# Standup 101821
+- # Standup 102121
+- # Standup 102221
