@@ -44,5 +44,9 @@
 		- Located the api for sending sms, waiting for final specification
 	- ## Code Familiarization
 		- Reading the kjt-pos-core project
-- # Stacndup 102121
+- # Standup 102121
+	- # Send SMS to Confirm Address
+	- Gave a list on how to execute the changes for the skt-7001. Will wait final meeting about this, or discuss this tomorrow on the knowledge sharing meeting with Ethan
+	- # Code Familiarization
+		- Reading the kjt-pos-core project
 - # Standup 102221
