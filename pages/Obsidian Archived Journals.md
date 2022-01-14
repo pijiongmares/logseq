@@ -230,5 +230,7 @@
 		- [SKT-7227](https://wondersco.atlassian.net/browse/SKT-7227) Enable the Cancel Order in App Configuration for All Restaurants via a Query
 		- [SKT-7473](https://wondersco.atlassian.net/browse/SKT-7473) MMT- allowsubsize is Not Working- All Sites
 		- [SKT-7443](https://wondersco.atlassian.net/browse/SKT-7443) Restaurant Editor -  "cancel order in mobile app" Set to Checked by Default for Copy Restaurant
+		- [SKT-7476](https://wondersco.atlassian.net/browse/SKT-7476) User Configuration Extraction
+		- [SKT-7493](https://wondersco.atlassian.net/browse/SKT-7493) Request to Set the disableCallPriority is NULL value to 127 in Restaurant Table
 		-
 -
