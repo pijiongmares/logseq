@@ -72,4 +72,11 @@
 	- # Large Log Files in user-config-server
 		- Checking issue
 - # Standup 102821
+  id:: b02f192e-36ff-4675-8b6e-22b88b7c8ca6
+	- ## Meetings
+		- Matrix/Nexus ways of working
+	- ## SKT-7001 Enhance SMS address confirmation
+	- have an issue regarding on promoting the sms-customer-client project to qa, coordinated with sir kenny and he said he is fixing the script now
+	- # skt-7065 disk usage of userconfigserver for logs
+	- have submitted findings and recommendations to jz, testing it on local environment
 - # Standup 102921
