@@ -113,5 +113,14 @@
 		- ### SKT-7065 Disk Usage of userconfigserver for Logs
 			- Will verify if the archived logs are compressed from INT to PROD
 - # Standup 110421
+	- ## SKT-6982 Slow Query on restaurantcustomeraddress
+	- Working on it
+	  
+	  ---
+	- ## Pending for testing (11/08/21)
+	- ### SKT-7001 Enhance SMS Address Confirmation
+		- Ready for QA testing
+	- ### SKT-7065 Disk Usage of userconfigserver for Logs
+		- Will verify if the archived logs are compressed from INT to prod
 - # Standup 110521
 -
