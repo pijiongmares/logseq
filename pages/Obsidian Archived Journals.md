@@ -163,4 +163,8 @@
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
 		- Now currently in production (to verify the logs if will be compressed)
 - # Standup 111121
+	- ## SKT-7065 Disk Usage of userconfigserver for Logs
+		- Was accidentally reverted by the other team. taken this chance to change the compression type to gzip
+	- ## SKT-7120 Add Cloning Restaurant Category/dishes in restaurant editor
+	- continue working on
 - # Standup 111221
