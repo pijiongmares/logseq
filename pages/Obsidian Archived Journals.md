@@ -86,6 +86,7 @@
   collapsed:: true
 	- ## No meeting
 - # Standup 110121
+  collapsed:: true
 	- ## SKT-7001 Enhance SMS Address Confirmation
 		- Kenny just finished earlier the issue regarding with promoting the sms-customer-client to QA env, will update the nginx routing
 	- ## SKT-7065 Disk Usage of userconfigserver for Logs
@@ -93,6 +94,10 @@
 	- ## content-config-server
 		- Checked the service log in QA env
 - # Standup 110221
+	- ## SKT-7001 Enhance SMS Address Confirmation
+		- Ready for QA testing
+	- ## SKT-7065 Disk Usage of userconfigserver for Logs
+		- Will verify if the archived logs are compressed from int to prod
 - # Standup 110321
 - # Standup 110421
 - # Standup 110521
