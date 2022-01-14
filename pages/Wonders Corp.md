@@ -70,16 +70,14 @@
 						- No one received the call
 					- #### Calendar
 						- Select date to view
-						  
-						  ---
-		- ### aux
-		- agent status (ready, mgmt, callback, wonders, coaching, sbs, meeting, restroom, other, logout)
-		- agent must be ready in order to be able to take a call
-		- ### restaurant color coding
-		- blue : active
-		- yellow : onboarding
-		- red : offboarding
-		- white : for testing
+					- ### AUX
+						- Agent status (ready, mgmt, callback, wonders, coaching, sbs, meeting, restroom, other, logout)
+						- Agent must be ready in order to be able to take a call
+					- ### Restaurant Color Coding
+						- Blue : active
+						- Yellow : onboarding
+						- Red : offboarding
+						- White : for testing
 		- ## restaurant order screen
 		- automatically shows when the agent receives a call from the customer ordering to a specific restaurant
 		- can also be accessed by clicking the restaurant from the home screen
