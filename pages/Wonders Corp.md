@@ -1,20 +1,20 @@
 - # Onboarding
 	- # Onboarding Notes
 		- # Application Environments
-		- ## int/int-ph
-		- Where devs test the codes (INT is base in new-york and INT-PH is in singapore)
-		- ## qa
-		- regression/feature testing (dev also test in this environment)
-		- ## training
-		- training environment (pre-prod)
-		- ## dev/staging
-		- first phase of deployment (staging area/clone copy of prod)
-		- content team (the ones updating the records of the restaurant including visiting the clients)
-		- content team uses editor in this environment
-		- ## prod
-		- no editor
-		  
-		  ___
+			- ## int/int-ph
+				- Where devs test the codes (INT is base in New York and INT-PH is in Singapore)
+			- ## qa
+				- Regression/feature testing (dev also test in this environment)
+			- ## training
+				- Training environment (pre-prod)
+			- ## dev/staging
+				- First phase of deployment (staging area/clone copy of PROD)
+				- Content team (the ones updating the records of the restaurant including visiting the clients)
+				- Content team uses editor in this environment
+			- ## prod
+				- no editor
+				  
+				  ___
 		- # database
 		- no editors/configs in dev/prod so changes to the restaurant or users (configs/editors), need to push (general/restaurant/agent). Usually done off hours.
 		- ## int-ph
