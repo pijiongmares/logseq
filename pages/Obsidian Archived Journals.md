@@ -212,7 +212,15 @@
 		- Will be working on this
 	-
 - # Standup 112221
-	- ## SKT-7120 Add Cloning Restaurant Category/dishes in restaurant editor
-	- Fixed the myBatis error due to CategeryMapper was set as BATCH operation. Just set the Dish, DishProperties, and ComboAppCategory mappers to BATCH also
+  collapsed:: true
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
+		- Fixed the myBatis error due to CategeryMapper was set as BATCH operation. Just set the Dish, DishProperties, and ComboAppCategory mappers to BATCH also
 - # Standup 112321
+  collapsed:: true
+	- ## SKT-7120 Add Cloning Restaurant Category/Dishes in Restaurant Editor
+		- Fixed the INT environment caching problem in the routing for category and dishes cloning API. Set the caching settings same as in the QA environment
 - # Standup 112421
+	- ## SKT-7120 Add Cloning Restaurant category/dishes in restaurant editor
+	- Promoted to QA environment
+	- # SKT-7297 When copy a restaurant, "cancel order in mobile app" should be copied as well
+	- Field "hasCancelOrder" is not in the "insert" query in the restaurant myBatis mapper xml file
