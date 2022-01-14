@@ -78,15 +78,15 @@
 						- Yellow : onboarding
 						- Red : offboarding
 						- White : for testing
-		- ## restaurant order screen
-		- automatically shows when the agent receives a call from the customer ordering to a specific restaurant
-		- can also be accessed by clicking the restaurant from the home screen
-		- #### order types
-		- ##### pick-up
-		- can be selected with online (order made online) or not online (order made via phone)
-		- address is optional
-		- ##### delivery
-		- can be selected with online (order made online) or not online (order made via phone)
+				- ## Restaurant Order Screen
+					- Automatically shows when the agent receives a call from the customer ordering to a specific restaurant
+					- Can also be accessed by clicking the restaurant from the home screen
+						- ### Order Types
+							- #### Pick-Up
+								- Can be selected with online (order made online) or not online (order made via phone)
+								- Address is optional
+							- #### Delivery
+								- Can be selected with online (order made online) or not online (order made via phone)
 		- ##### online (managers use only)
 		- toggle button. used together with pick-up or delivery option
 		- ##### more button option
