@@ -238,5 +238,6 @@
 		- [SKT-7619](https://wondersco.atlassian.net/browse/SKT-7619) Query to Add a Category Reminder in PARTY ORDER for ALL Restaurants
 	- ## Ongoing Tickets
 		- [SKT-7120](https://wondersco.atlassian.net/browse/SKT-7120) Add Cloning Restaurant Category/Dishes in Restaurant Editor - **Testing in QA**
-		- [SKT-7174](https://wondersco.atlassian.net/browse/SKT-7174) Validation for Rhe R Number to be unique is no longer displayed
+		- [SKT-7174](https://wondersco.atlassian.net/browse/SKT-7174) Validation for the R Number to be Unique is no Longer Displayed - **Testing in QA**
+		- [SKT-7550](https://wondersco.atlassian.net/browse/SKT-7550) Default Value for dis
 -
