@@ -1,5 +1,14 @@
 - # List Of Requirements
-	- * [ ] Updated copy of resume
+	- TODO Updated copy of resume
+	  :LOGBOOK:
+	  CLOCK: [2022-01-16 Sun 00:46:12]--[2022-01-16 Sun 00:46:13] =>  00:00:01
+	  CLOCK: [2022-01-16 Sun 00:46:13]--[2022-01-16 Sun 00:46:13] =>  00:00:00
+	  CLOCK: [2022-01-16 Sun 00:46:17]--[2022-01-16 Sun 00:46:18] =>  00:00:01
+	  CLOCK: [2022-01-16 Sun 00:46:19]--[2022-01-16 Sun 00:46:20] =>  00:00:01
+	  CLOCK: [2022-01-16 Sun 00:46:22]--[2022-01-16 Sun 00:46:25] =>  00:00:03
+	  CLOCK: [2022-01-16 Sun 00:46:26]--[2022-01-16 Sun 00:46:29] =>  00:00:03
+	  CLOCK: [2022-01-16 Sun 00:46:30]
+	  :END:
 	- [x] 1x1 ID pic
 	- [x] Photocopy of 2 valid IDs
 	- [x] Proof of SSS number
