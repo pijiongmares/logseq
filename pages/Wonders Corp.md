@@ -612,7 +612,6 @@
 		- do not commit changes in :
 		-
 		- 1. application-local.yml
-		- 2. pom.xml
 		- ``` yml
 		  	# username and password changed
 		  	application: 
@@ -622,12 +621,9 @@
 		  	username: root
 		  	password: p@ssw0rd
 		  ```
-		  
-		  
-		  
-		  
-		  
-		  ``` xml
+		-
+		- 2. pom.xml
+		- ``` xml
 		  	<!--jabylon repo commented-->
 		  <repositories>
 		   <!-- jhipster-needle-maven-repository -->
