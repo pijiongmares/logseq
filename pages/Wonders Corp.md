@@ -1,3 +1,61 @@
+- # Orientation
+	- Founded 2012, Long Island, NYC
+	  
+	  1st Captive Inhouse BPO, fastest growing BPO in Dumaguete
+	  
+	  2019 started in Rockwell Business Center Manila
+	  2020 started in Dumaguete
+	  
+	  Product / Service : Online technologies solution, restaurant clients (Marjority are chinese)
+	  
+	  Mission : To provide a virtuous ecosystem of tools and services to restaurant operations to help them be more successful
+	  
+	  Vision : We are the leading technology and customer service partner for restaurants everywhere
+	  
+	  Core values :
+	- client-focused
+	- people-centric
+	- relentlessly high standard
+	- deliver measurable results
+	- be creative
+	- work hard and have fun
+	- be efficient
+	  
+	  Attendance : 
+	  Notification Process
+		- Respond to the google form for unplanned absence/tardiness notification form atleast 2 hours prior to shift
+		  Critical Workday (CWD Declaration)
+		- Philippine Holidays - Legal and special non-working days
+		- Day before and after PH holidays
+		- Day before and after rest days or approved leaves
+		- Payroll payout dates, day before and after payout dates
+		  
+		  Payroll Legal Deductions :
+		- No work, no pay
+		- Loans
+		  
+		  Payouts is every other friday, which will be a total of 26 payouts in a year rather than the normal 24 payouts / year
+		  
+		  Company-Provided Benefits :
+		- Leave benefits - 1st year 15, 1st anniv 20
+			- Mine is 26
+		- Forfeiture - leaves are carried over to the next year,
+			- Mine can be converted to cash
+		- HMO Benefits - Intellicare, 150,000 per illnes per year
+			- Mine can add 4 dependents
+		- Life Insurance - 300,000
+		  
+		  House Rules And Security Guidelines
+		- Claygo - clean as you go
+		- Always keep the doors close
+		- Wear company Id all the time
+		- With lockers
+		  
+		  Health Declaration Form every day when going onsite
+		  
+		  ![[payroll computation.png]]
+		  
+		  ![[payroll computation sample.png]]
 - # Onboarding
   collapsed:: true
 	- # Onboarding Notes
@@ -332,6 +390,7 @@
 		- # Queue Display
 			- UI to display calls that are in queue
 - # Onboarding With JZ
+  collapsed:: true
 	- # Entities
 	  Client 
 	  Customer
@@ -393,6 +452,6 @@
 		- UAT Training
 		- QA Sign Off
 		- PROD
-	- ## Metrics
-		- For measuring the effectiveness of the change/additional feature
-		- Possible of multiple phases if requirements are not met
+		- ## Metrics
+			- For measuring the effectiveness of the change/additional feature
+			- Possible of multiple phases if requirements are not met
