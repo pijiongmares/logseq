@@ -11,8 +11,8 @@
 	  Mission : To provide a virtuous ecosystem of tools and services to restaurant operations to help them be more successful
 	  
 	  Vision : We are the leading technology and customer service partner for restaurants everywhere
-	  
-	  **Core values :**
+	-
+	- ## Core values :
 	- client-focused
 	- people-centric
 	- relentlessly high standard
@@ -20,7 +20,6 @@
 	- be creative
 	- work hard and have fun
 	- be efficient
-		-
 	- ## Attendance :
 		- Notification Process
 		- Respond to the google form for unplanned absence/tardiness notification form at least 2 hours prior to shift
@@ -32,9 +31,9 @@
 	- ## Payroll Legal Deductions :
 		- No work, no pay
 	- ## Loans
-	- Payouts are every other Friday (Biweekly), which will be a total of 26 payouts in a year rather than the normal 24 payouts / year
-	  
-	  Company-Provided Benefits :
+	- ## Payouts
+		- Will be every other Friday (Biweekly), which will be a total of 26 payouts in a year rather than the normal 24 payouts / year
+	- ## Company-Provided Benefits :
 		- Leave benefits - 1st year 15, 1st anniv 20
 			- Mine is 26
 		- Forfeiture - leaves are carried over to the next year,
