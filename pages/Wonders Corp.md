@@ -970,15 +970,15 @@
 		- ## Notes To Consider
 			- In the map.html, the request being sent includes smsnumber, username, and restaurant id. maybe just add the address set by the agent
 			- The CustomerLocationSMS model class is in the kjt-pos-comm which is part of a core library. Maybe restaurant id property is used in other projects so do not remove it, maybe just add the address property that was set by the agent in the property of the class?
-			- There are 2 places where the validation of expired linked are done. 
-			  	1. When the customer access the url in his/her browser, then it will send a request to redirect api resource (redis directory is SMS:ManagedURL) 
-			  	2. When the customer send the location, it will send a request to the confirm api resource (redis directory is SMS:CustomerLocationSMS)
-			- Restaurant info was retrieved from the kjt.core.api.restaurant.byrid:/api/restaurant/rid/{rid}} api resource
-			- Can we retrieve the call status and order status from an existing api resource? or direct jpa db?
-			- Send SMS
-			- New customer/new address when send button clicked
-			- Existing customer/new address send message when send button clicked
-			-
+			- There are 2 places where the validation of expired linked are done.
+			- 1. When the customer access the url in his/her browser, then it will send a request to redirect api resource (redis directory is SMS:ManagedURL)
+				- 2. When the customer send the location, it will send a request to the confirm api resource (redis directory is SMS:CustomerLocationSMS)
+				- Restaurant info was retrieved from the kjt.core.api.restaurant.byrid:/api/restaurant/rid/{rid}} api resource
+				- Can we retrieve the call status and order status from an existing api resource? or direct jpa db?
+				- Send SMS
+				- New customer/new address when send button clicked
+				- Existing customer/new address send message when send button clicked
+				-
 		- ## Revised Specs 10/20/21
 			- 1. Bring out send sms  (bring out the send sms button from map.html beside the address input box)
 			- 2. Map cleaner  (remove pins of commercial/other places)
