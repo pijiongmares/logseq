@@ -608,6 +608,7 @@
 		  	3.  user-config-server
 		- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
 - # Applications Setup Changes (For Local Only)
+  collapsed:: true
 	- ## content-config-service
 		- ### appication-local.yml
 			- ``` yml
