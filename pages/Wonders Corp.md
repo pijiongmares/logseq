@@ -114,15 +114,12 @@
 			- Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
 			- Vision : We are the leading techonology and customer service partner for restaurants everywhere
 			- Order processing, credit card payments, delivery fulfillment
-			- Steve (ceo) and Dennis Lin, Bobby VP,  sys arch, sherwin vp ph country head
-			  
-			  matt ops directory, karen t
-			  
-			  arman - engineering manager
-			  jegger - team lead
-			  jz - backend dev supervisor
-			  nico - it ops
-			  joseph nicko - hr business partner for engineering
+			- Steve (ceo) and Dennis Lin, Bobby VP, BJ Sys Arch, Sherwin VP PH Country Head
+			- Arman - engineering manager
+			- Jegger - team lead
+			  JZ - backend dev supervisor
+			  Nico - IT Ops
+			  Joseph Nicko - HR business partner for engineering
 - # Onboarding
   collapsed:: true
 	- # Onboarding Notes
