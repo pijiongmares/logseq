@@ -1,5 +1,4 @@
 - # List Of Requirements
-  collapsed:: true
 	- DONE Updated copy of resume
 	  :LOGBOOK:
 	  CLOCK: [2022-01-16 Sun 00:46:12]--[2022-01-16 Sun 00:46:13] =>  00:00:01
