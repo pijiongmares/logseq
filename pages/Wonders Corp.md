@@ -1,4 +1,5 @@
 - # Orientation
+  collapsed:: true
 	- Founded 2012, Long Island, NYC
 	  
 	  1st Captive Inhouse BPO, fastest growing BPO in Dumaguete
@@ -38,18 +39,12 @@
 		- Forfeiture - leaves are carried over to the next year (Mine can be converted to cash)
 		- HMO Benefits - Intellicare, 150,000 per illness per year (Mine can add 4 dependents)
 		- Life Insurance - 300,000
-		-
 	- ## House Rules And Security Guidelines
 		- Claygo - clean as you go
 		- Always keep the doors close
 		- Wear company Id all the time
 		- With lockers
-		  
-		  Health Declaration Form every day when going onsite
-		  
-		  ![[payroll computation.png]]
-		  
-		  ![[payroll computation sample.png]]
+		- Health Declaration Form every day when going onsite
 - # Onboarding
   collapsed:: true
 	- # Onboarding Notes
@@ -449,3 +444,36 @@
 		- ## Metrics
 			- For measuring the effectiveness of the change/additional feature
 			- Possible of multiple phases if requirements are not met
+- # Ways Of Working
+	- # pull request format
+	  
+	  \<Epic\> - \<User story/bug ticket\> - \<User story/bug ticket title\>
+	  SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
+	- approver: to approve/code review only the PR
+	- reviewer: is the one who will merge the change
+	- for bug, create new bug tickets and link to the user story
+	- for UI change, attach the screenshot in the PR
+	- after merging, delete the branch
+	- # commit notes
+	  
+	  SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
+	- don't use: git commit -m ""
+	- use instead: git commit 
+	  
+	  First line: SKT-6497-SKT-6761-\<message\>
+	  \<space\>
+	  Succeeding lines: \<changes made\>
+	- # pull request notes
+	  
+	  First line: Epic: \<link\>
+	  Second line: Story: \<link\>
+	  \<space\>
+	  \<changes made\>
+	- # merge options
+	- Squash and merge: will squash your multiple commits before merging your change to master
+	- Rebase and merge: rebase first your branch with master branch
+	- Create a merge commit: create new commit with merging your change to master
+	- ## when squashing commits
+	- remove "SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal" in each commits
+	- retain changes
+-
