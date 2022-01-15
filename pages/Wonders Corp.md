@@ -768,6 +768,7 @@
 			  
 			  ```
 	- ## sms-customer-client/customerlocationsms.html
+		-
 		- ``` js
 		  	 const getBaseUrl = () => {
 		  		 const currentUrl = window.location.href;
@@ -783,6 +784,11 @@
 		  	 };
 		  ```
 	- ## user-config-server
+		- ### application-local.yml
+		-
+		  ###
+		-
+		-
 	-
 	-
 -
