@@ -342,34 +342,34 @@
 	- # Ticket Flow
 	  Users -> WIT - Support Ticket (for IT Ops) -> IT Support Team -> SKT Ticket (Jira)
 	- # NGINX & Webservices Setup
-	- ## QA & DEV env
-	- 1 Server for Docker App
-	- 1 Server for NGINX
+		- ## QA & DEV env
+			- 1 Server for Docker App
+			- 1 Server for NGINX
+		-
+		- ## Learn Liquibase
+		-
+		- **.core nginx for (PUT, POST, DELETE)**
+		- **.content-pusher-pool NGINX for (GET)**
+		-
+		- UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> Backend Service/Server
+		-
+		- Backend -> Backend
+		- .core nginx
+		-
+		- Public -> Backend Service/Server
+		- .edge
 	-
-	- Learn Liquibase
-	-
-	- **.core nginx for (PUT, POST, DELETE)**
-	- **.content-pusher-pool NGINX for (GET)**
-	-
-	- UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> Backend Service/Server
-	-
-	- Backend -> Backend
-	- .core nginx
-	-
-	- Public -> Backend Service/Server
-	- .edge
-	-
-	- # Cronicle
-	  push changes using cronicle
-	- push by rid (changes in staging db compare to prod by restaurant id )
-	- Synckjtdb (all changes in staging db compare to prod)
-	  
-	  synckjtdb - 2AM (1hr)
-	  synckjtdb_upgrade - 4AM (20min)
-	  if synckjtdb was run manually, also run synckjtdb_upgrade
-	  
-	  cronicle (pictor and ursa servers)
-	- cron job manager
+		- # Cronicle
+			- Push changes using Cronicle
+			- Push by rid (changes in Staging DB compare to PROD by restaurant id )
+			- Synckjtdb (all changes in Staging DB compare to PRD)
+			  
+			  synckjtdb - 2AM (1hr)
+			  synckjtdb_upgrade - 4AM (20min)
+			  if synckjtdb was run manually, also run synckjtdb_upgrade
+			  
+			  cronicle (pictor and ursa servers)
+			- cron job manager
 	- # monitoring tools
 	  rollbar - log monitoring tool
 	  grafana - application performance monitoring tool
