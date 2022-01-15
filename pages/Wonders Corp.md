@@ -333,18 +333,18 @@
 			- UI to display calls that are in queue
 - # Onboarding With JZ
 	- # Entities
-	  client 
-	  customer
-	  internal
-		- agents
-		- training team
-		- content team
-	- # ticket flow
-	  users -> wit - support ticket (for it ops) -> it support team -> skt ticket (jira)
-	- # nginx & webservices setup
-	  qa & dev env
-	  1 server for docker app
-	  1 server for nginx
+	  Client 
+	  Customer
+	  Internal
+		- Agents
+		- Training team
+		- Content team
+	- # Ticket Flow
+	  Users -> WIT - Support Ticket (for IT Ops) -> IT Support Team -> SKT Ticket (Jira)
+	- # NGINX & Webservices Setup
+	  QA & DEV env
+	  1 Server for docker app
+	  1 Server for nginx
 	  
 	  learn liquibase
 	  
