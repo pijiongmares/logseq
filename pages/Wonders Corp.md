@@ -6,13 +6,13 @@
 	  2019 started in Rockwell Business Center Manila
 	  2020 started in Dumaguete
 	  
-	  Product / Service : Online technologies solution, restaurant clients (Marjority are chinese)
+	  Product / Service : Online technologies solution, restaurant clients (Majority are Chinese)
 	  
 	  Mission : To provide a virtuous ecosystem of tools and services to restaurant operations to help them be more successful
 	  
 	  Vision : We are the leading technology and customer service partner for restaurants everywhere
 	  
-	  Core values :
+	  **Core values :**
 	- client-focused
 	- people-centric
 	- relentlessly high standard
@@ -20,17 +20,17 @@
 	- be creative
 	- work hard and have fun
 	- be efficient
-	  
-	  Attendance : 
-	  Notification Process
-		- Respond to the google form for unplanned absence/tardiness notification form atleast 2 hours prior to shift
+		-
+	- **Attendance :**
+		- Notification Process
+		- Respond to the google form for unplanned absence/tardiness notification form at least 2 hours prior to shift
 		  Critical Workday (CWD Declaration)
 		- Philippine Holidays - Legal and special non-working days
 		- Day before and after PH holidays
 		- Day before and after rest days or approved leaves
-		- Payroll payout dates, day before and after payout dates
-		  
-		  Payroll Legal Deductions :
+	- Payroll payout dates, day before and after payout dates
+	  
+	  Payroll Legal Deductions :
 		- No work, no pay
 		- Loans
 		  
