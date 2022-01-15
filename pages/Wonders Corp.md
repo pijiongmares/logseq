@@ -143,8 +143,8 @@
 								- propay credit card are external that are sent to the restaurant for processing
 								- can also be updated for sent orders
 							- #### Send
-								- pay cash
-								- sent orders for the current date can still be modifed
+								- Pay cash
+								- Sent orders for the current date can still be modifed
 							- #### Price Section
 								- discounts
 								- subtotal (discount applied)
@@ -156,12 +156,12 @@
 								- #### Purple : modifications of the dish
 									- special order : dishes that do not exist maybe added
 									- menu : displays the softversion of the menu
-							- #### Blue/category
-		- ##### category note
-		- ##### green/dishes per category
-		- clicking the dish will show the ask & click popup depending on the condition
-		- some dish has time conditions and when there are conditions that are set to "ask", ask & click popup will show
-		- combo size will also show ask & click
+								- #### Blue/Category
+								- #### Category Note
+								- #### Green/Dishes per Category
+									- clicking the dish will show the ask & click popup depending on the condition
+									- some dish has time conditions and when there are conditions that are set to "ask", ask & click popup will show
+									- combo size will also show ask & click
 		- ###### ask & click
 		- top section shows the current condition that can be applied to the selected dish
 		- option to select the side dish for the main dish selected
