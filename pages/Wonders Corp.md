@@ -383,15 +383,15 @@
 			- File storage server
 		- ## EC2
 			- Elastic compute cloud (servers)
-	- # pain points 
-	  1. users (customer, client, content team)
-	  2. investigate by ba
-	  3. ba sign off (jira tickets)
-	  4. develop (dev to dev, always coordinate)
-	  6.  any changes will be updated in jira tickets
-	  7.  qa testing
-	  8.  uat - training
-	  9.  qa sign off
-	  10.  prod
+	- # Pain Points
+		- Users (customer, client, content team)
+		- Investigate by BA
+		- BA sign off (Jira tickets)
+		- Develop (Dev to Dev, always coordinate)
+		- Any changes will be updated in Jira tickets
+		- qa testing
+		  8.  uat - training
+		  9.  qa sign off
+		  10.  prod
 	- metrics - for measuring the effectiveness of the change/addntl feature
 	- possible of multiple phases if requirements are not met
