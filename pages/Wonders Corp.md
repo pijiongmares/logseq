@@ -181,14 +181,12 @@
 							- #### Transfer : transfer call to manager, Spanish, party order, Chinese, and external transfers (restaurant order & online order)
 								- External transfers are orders that where processed using the clients portal/order system, not with POS
 							- #### Help : ask for help and chinese assistant
-		- # online order system (sesame.menu)
-		  
-		  ___
-		- like the pos but users are not the agent, instead this is for the customers
-		- no dish modifications, instead enter remarks
-		- online orders are via credit card. cash may lead to scams
-		- orders sent are viewed in the pos as a saved order with order number (osaved)
-		- customers who registers or create an account, they are saved as an aws user
+		- ## Online Order System (sesame.menu)
+			- Like the POS but users are not the agent, instead this is for the customers
+			- no dish modifications, instead enter remarks
+			- online orders are via credit card. cash may lead to scams
+			- orders sent are viewed in the pos as a saved order with order number (osaved)
+			- customers who registers or create an account, they are saved as an aws user
 		- ## mobile
 		- for client/restaurant use only
 		- # pos dashboard
