@@ -34,15 +34,12 @@
 	- ## Payouts
 		- Will be every other Friday (Biweekly), which will be a total of 26 payouts in a year rather than the normal 24 payouts / year
 	- ## Company-Provided Benefits :
-		- Leave benefits - 1st year 15, 1st anniv 20
-			- Mine is 26
-		- Forfeiture - leaves are carried over to the next year,
-			- Mine can be converted to cash
-		- HMO Benefits - Intellicare, 150,000 per illnes per year
-			- Mine can add 4 dependents
+		- Leave benefits - 1st year 15, 1st anniv 20 (Mine is 26)
+		- Forfeiture - leaves are carried over to the next year (Mine can be converted to cash)
+		- HMO Benefits - Intellicare, 150,000 per illness per year (Mine can add 4 dependents)
 		- Life Insurance - 300,000
-		  
-		  House Rules And Security Guidelines
+		-
+	- ## House Rules And Security Guidelines
 		- Claygo - clean as you go
 		- Always keep the doors close
 		- Wear company Id all the time
