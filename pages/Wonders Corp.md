@@ -681,5 +681,91 @@
 			  ```
 		-
 	- # kjt-sms-connect-service
-	-
+		- ## pom.xml
+			- ``` xml
+			  		<!--added local profiles-->	
+			  		 <profiles>
+			  			 <profile>
+			  				 <id>local</id>
+			  				 <activation>
+			  					<activeByDefault>true</activeByDefault>
+			  				 </activation>
+			  				 <build>
+			  					 <plugins>
+			  						 <plugin>
+			  							 <groupId>org.springframework.boot</groupId>
+			  							 <artifactId>spring-boot-maven-plugin</artifactId>
+			  							 <configuration>
+			  								 <profiles>
+			  									<profile>local</profile>
+			  								 </profiles>
+			  							 </configuration>
+			  						 </plugin>
+			  					 </plugins>
+			  				 </build>
+			  			 </profile>
+			  		 </profiles>
+			  
+			  ```
+		- ## redis-config.xml
+			- ``` xml
+			  		<!--commented the variable ${master.name}-->
+			  		 <bean id="redisSentinelConfigurationWithMaster" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			  			 <property name="targetObject" ref="redisSentinelConfiguration" />
+			  			 <property name="targetMethod" value="master" />
+			  			 <!-- <property name="arguments" value="${master.name}" /> -->
+			  			 <property name="arguments" value="redis-master" />
+			  		 </bean>
+			  
+			  		<!--commented the variable sentinel.host and sentinel.port-->
+			  		<bean id="redisSentinelConfigurationWithMasterAndFirstSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			  			 <property name="targetObject" ref="redisSentinelConfigurationWithMaster" />
+			  			 <property name="targetMethod" value="sentinel" />
+			  			 <property name="arguments">
+			  				 <list>
+			  					 <!-- <value>${first.sentinel.host}</value>
+			  					 <value>${first.sentinel.port}</value> -->
+			  					 <value>localhost</value>
+			  					 <value>26379</value>
+			  				 </list>
+			  			 </property>
+			  		 </bean>
+			  
+			  		 <bean id="redisSentinelConfigurationWithMasterAndSecondSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			  			 <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndFirstSentinel" />
+			  			 <property name="targetMethod" value="sentinel" />
+			  			 <property name="arguments">
+			  				 <list>
+			  					 <!-- <value>${second.sentinel.host}</value>
+			  					 <value>${second.sentinel.port}</value> -->
+			  					 <value>localhost</value>
+			  					 <value>26379</value>
+			  				 </list>
+			  			 </property>
+			  		 </bean>
+			  
+			  		 <bean id="redisSentinelConfigurationWithMasterAndThirdSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			  			 <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndSecondSentinel" />
+			  			 <property name="targetMethod" value="sentinel" />
+			  			 <property name="arguments">
+			  				 <list>
+			  					 <!-- <value>${third.sentinel.host}</value>
+			  					 <value>${third.sentinel.port}</value> -->
+			  					 <value>localhost</value>
+			  					 <value>26379</value>
+			  				 </list>
+			  			 </property>
+			  		 </bean>
+			  
+			  		<!--commented to change the password and database variable-->
+			  		 <!-- <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+			  		 p:use-pool="true" p:password="${redis.password}" p:database="${redis.dbindex}">
+			  		 <constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
+			  		 </bean> -->
+			  		 <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+			  		 p:use-pool="true" p:password="" p:database="0">
+			  			<constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
+			  		 </bean>
+			  
+			  ```
 -
