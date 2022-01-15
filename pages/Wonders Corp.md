@@ -343,15 +343,15 @@
 	  Users -> WIT - Support Ticket (for IT Ops) -> IT Support Team -> SKT Ticket (Jira)
 	- # NGINX & Webservices Setup
 	  QA & DEV env
-	  1 Server for docker app
-	  1 Server for nginx
+	  1 Server for Docker App
+	  1 Server for NGINX
 	  
-	  learn liquibase
+	  Learn Liquibase
 	  
 	  .core nginx for (PUT, POST, DELETE)
-	  .content-pusher-pool nginx for (GET)
+	  .content-pusher-pool NGINX for (GET)
 	  
-	  UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> backend service/server
+	  UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> Backend Service/Server
 	  
 	  backend -> backend
 	  .core nginx
