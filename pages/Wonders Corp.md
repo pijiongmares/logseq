@@ -909,5 +909,102 @@
 			  ```
 	-
 - # Tasks
-	-
+	- ## 101121 Enhance SMS Address Confirmation
+		- ### Send SMS Improvement Feature Notes:
+		- ## current:
+		  
+		  Hi, this is CHEF KWO SKT. Please click the link below to share with us your location for delivery. [https://sesame.menu/sms/api/location/redirect/gI61xp](https://sesame.menu/sms/api/location/redirect/gI61xp)
+		- ## permission:
+		- if allow - show the customer's address in the map
+		- if deny - show the restaurant's address in the map
+		- ## requirements:
+		- allow the customer to change the address (even multiple times) during the session only
+		- after the call, expire the update link
+		- when viewing the link - send the customer address set in POS with condition of:
+		- allow permission:
+		- if valid - confirm
+		- if not - allow to change then confirm
+		- if not allow:
+		- send restaurant address
+		- ~~update the SMS sent to customer?~~  - Not needed, current message is enough.
+		- ## to check:
+		- na sa-save ba yung new address sa next call?
+		- sa receipt kaya na lalagay yung address ng customer? - YES
+		- implementation:
+		- approach 1 - kung pwede i-expire yung link after ng call
+		- approach 2 - allow 1 time update after mag end yung call
+		- to check - na u-update ba yung receipt sa restaurant kapag nag palit ng address?
+		- ## other question:
+		- pwede ba mag update after ng call?
+		- mas preferred na hindi
+		- note - may expiry yung link
+		- currently [sesame.menu](file:///S://sesame.menu) yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
+		- ## github repository
+		- [https://github.com/kjt01/sms-customer-client](https://github.com/kjt01/sms-customer-client)
+		  
+		  [Text Message to Confirm Address - BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/pages/1241153572/Text+Message+to+Confirm+Address)
+		  
+		  [](https://smsreceivefree.com/info/13479675336/?__cf_chl_captcha_tk__=pmd_3hbkuug7pOXVnKpurqBjXAoxjulqp7k2j7Wk4U3O6Jc-1629821478-0-gqNtZGzNAvujcnBszQh9)
+		- # code findings
+		- ## map.html
+		- in map.html, send sms function does not include the address set by the agent in the request to the kjt-sms-connect-service backend (only sms number,  username, and restaurant id are being sent)
+		- ## kjt-sms-connect-service (receive the request for sending sms from map.html)
+		- the map.html sends request to /sms/api/location/customer in the GeolocationController class. it accepts a payload of CustomerLocationSMS model class which has the properties smsNumber, rid, and username
+		- transaction id and time created are also generated in the GeolocationController
+		- GeolocationController has algorithms that fits to be in a service, refactor?
+		- in the GeolocationController, generates a geolocation long url that consist of the customerlocationsms.html page (location in the sms-customer-client project), smsNumber, transaction id, and the address of the restaurant
+		- create a CustLocReqURL model class that consist of the long url, time created of the custom location url model, and the restaurant id
+		- generate a shorten url (replace the long url with a generated unique id) and save the CustLocReqURL model in the directory SMS:ManagedUrl in redis
+		- construct the complete url with the shorten/temp url
+		- create instance of SendSMSGeoLocationRequest to send the url via sms
+		- ## kjt-sms-connect-service (receive the request for redirecting to address confirmation ui (customerlocationsms.html) from the url send via sms)
+		- customer loads the url into the browser, request sent to /map/api/location/redirect/{shorten url}
+		- method retrieves the long url saved in redis using the shorten url (id referencing to the record)
+		- compare the time created of the long url (the time the request receives from map.html) vs the expiration duration in the application.properties (geoExpiration) in minutes (default if 600 minutes)
+		- if the long url is expired, redirect to cuslocsmssessionexpired.html location in the sms-customer-client project
+		- if valid, redirect to customerlocationsms.html (also in sms-customer-client project)
+		- ## customerlocationsms.html
+		- the page parses the query string which are the sms number, transaction id, and the restaurant address
+		- uses navigator.geolocation which gets the current location of the customer
+		- permission will be asked to allow getting the location. if true, set the current location of the customer. and if false, set the restaurant address from the query string in the url
+		- confirm location and send to /sms/api/location/customer/confirm in the kjt-sms-connect-service project
+		- ## kjt-sms-connect-service (receive the request for confirming the address from the customerlocationsms.location)
+		- receives the confirmed address and send it back to the pos order screen via web socket (changing the address in the screen of the agent in real time)
+		- # notes to consider
+		- in the map.html, the request being sent includes smsnumber, username, and restaurant id. maybe just add the address set by the agent
+		- the CustomerLocationSMS model class is in the kjt-pos-comm which is part of a core library. Maybe restaurant id property is used in other projects so do not remove it, maybe just add the address property that was set by the agent in the property of the class?
+		- there are 2 places where the validation of expired linked are done. 
+		  	1. when the customer access the url in his/her browser, then it will send a request to redirect api resource (redis directory is SMS:ManagedURL) 
+		  	2. when the customer send the location, it will send a request to the confirm api resource (redis directory is SMS:CustomerLocationSMS)
+		- restaurant info was retrieved from the kjt.core.api.restaurant.byrid:/api/restaurant/rid/{rid}} api resource
+		- can we retrieve the call status and order status from an existing api resource? or direct jpa db?
+		  
+		  send sms
+		  new customer/new address when send button clicked
+		  existing customer/new address send message when send button clicked
+		  
+		  **revised specs 10/20/21**
+		  
+		  1. bring out send sms  (bring out the send sms button from map.html beside the address input box)
+		  2. map cleaner  (remove pins of commercial/other places)
+		  3. make input field double size  (make textarea)
+		  4. input feature gives the address  (already doing this)
+		  5. confirmation alert after selecting an address (edited)
+		- # execution plan
+		  1. create a button with a message icon beside the address text field, copy the script from the send button in map.html (the modal html element that has an input box for the mobile number and the buttons). the script, using ajax, includes the request to the kjt-sms-connect-service confirm endpoint that sends the address back to the pos.html using websocket
+		  2. update the customerlocationsms.html google api implementation and just add the options to remove the pinned commercial places
+		  3. change the input element to textarea (google map api searchbox accepts textarea element)
+		  4. google map api already shows the places while typing in the search box (autocomplete)
+		  5. show an alert element (popup/anywhere in the main page) that the location was sent back to the agent
+		- # venom.letsdochinese.com nginx.conf
+		  ``` nginx
+		  # added line in int.letsdochinese.com server
+		  location /KJTCore/resources/map {
+		  	alias /var/www/sms/location/;
+		  	try_files $uri $uri.html $uri/;
+		  	autoindex off;
+		  	expires -1;
+		  }
+		  ```
+		  ```
 -
