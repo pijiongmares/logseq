@@ -377,11 +377,12 @@
 		- ## Kibana
 			- Log viewer/visualization
 	- # AWS
-	- ## API Gateway
-		- Routing (sesame.menu and mobile only)
-	- ## S3
-	- file storage server
-	- ec2 - elastic compute cloud (servers)
+		- ## API Gateway
+			- Routing (sesame.menu and mobile only)
+		- ## S3
+			- File storage server
+		- ## EC2
+			- Elastic compute cloud (servers)
 	- # pain points 
 	  1. users (customer, client, content team)
 	  2. investigate by ba
@@ -393,4 +394,4 @@
 	  9.  qa sign off
 	  10.  prod
 	- metrics - for measuring the effectiveness of the change/addntl feature
-	- possible of multiple phases if requirements are not me
+	- possible of multiple phases if requirements are not met
