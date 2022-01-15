@@ -622,11 +622,9 @@
 		  	password: p@ssw0rd
 		  
 		  ```
-		  
-		  
 		  2. pom.xml
 		  
-		  	``` xml
+		  ``` xml
 		  
 		  	<!--jabylon repo commented-->
 		  <repositories>
