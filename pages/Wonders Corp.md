@@ -1,6 +1,5 @@
 - # List Of Requirements
-	-
-	- [x] Updated copy of resume
+	- - [x] Updated copy of resume
 	- [x] 1x1 ID pic
 	- [x] Photocopy of 2 valid IDs
 	- [x] Proof of SSS number
