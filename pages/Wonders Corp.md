@@ -954,15 +954,15 @@
 				- Generate a shorten url (replace the long url with a generated unique id) and save the CustLocReqURL model in the directory SMS:ManagedUrl in redis
 				- Construct the complete url with the shorten/temp url
 				- Create instance of SendSMSGeoLocationRequest to send the url via sms
-		- ## kjt-sms-connect-service (receive the request for redirecting to address confirmation ui (customerlocationsms.html) from the url send via sms)
-		- customer loads the url into the browser, request sent to /map/api/location/redirect/{shorten url}
-		- method retrieves the long url saved in redis using the shorten url (id referencing to the record)
-		- compare the time created of the long url (the time the request receives from map.html) vs the expiration duration in the application.properties (geoExpiration) in minutes (default if 600 minutes)
-		- if the long url is expired, redirect to cuslocsmssessionexpired.html location in the sms-customer-client project
-		- if valid, redirect to customerlocationsms.html (also in sms-customer-client project)
-		- ## customerlocationsms.html
-		- the page parses the query string which are the sms number, transaction id, and the restaurant address
-		- uses navigator.geolocation which gets the current location of the customer
+			- ### kjt-sms-connect-service (receive the request for redirecting to address confirmation ui (customerlocationsms.html) from the url send via sms)
+				- Customer loads the url into the browser, request sent to /map/api/location/redirect/{shorten url}
+				- Method retrieves the long url saved in redis using the shorten url (id referencing to the record)
+				- Compare the time created of the long url (the time the request receives from map.html) vs the expiration duration in the application.properties (geoExpiration) in minutes (default if 600 minutes)
+				- If the long url is expired, redirect to cuslocsmssessionexpired.html location in the sms-customer-client project
+				- If valid, redirect to customerlocationsms.html (also in sms-customer-client project)
+			- ### Customerlocationsms.html
+				- The page parses the query string which are the sms number, transaction id, and the restaurant address
+				- Uses navigator.geolocation which gets the current location of the customer
 		- permission will be asked to allow getting the location. if true, set the current location of the customer. and if false, set the restaurant address from the query string in the url
 		- confirm location and send to /sms/api/location/customer/confirm in the kjt-sms-connect-service project
 		- ## kjt-sms-connect-service (receive the request for confirming the address from the customerlocationsms.location)
