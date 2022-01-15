@@ -479,13 +479,13 @@
 	- # MySQL Workstation
 		- Download both the kjt and kjtcallctr script files in [kjtcallctr database copy](https://drive.google.com/drive/u/2/folders/1ubCcGcHjmdNmw4KxE1QveSmrU41qoY3x) (use wonders google account) and run in it the local mysql database
 		- ## Local Creds
-		- windows service name : MySQL57
-		- port : 3306
-		- root password : p@ssw0rd
-		- username : userapp, password : p@ssw0rd
-	- ## Database VPN Access
-	  [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn 
-	  [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
+			- Windows service name : MySQL57
+			- Port : 3306
+			- Username : appuser
+			- Password : p@ssw0rd
+			- ## Database VPN Access
+			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn
+			- [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
 	- # Luiquibase ChangeLogs for kjt and kjtcallctr
 	- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
 	- clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
