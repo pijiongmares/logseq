@@ -971,13 +971,14 @@
 			- In the map.html, the request being sent includes smsnumber, username, and restaurant id. maybe just add the address set by the agent
 			- The CustomerLocationSMS model class is in the kjt-pos-comm which is part of a core library. Maybe restaurant id property is used in other projects so do not remove it, maybe just add the address property that was set by the agent in the property of the class?
 			- There are 2 places where the validation of expired linked are done.
-			- 1. When the customer access the url in his/her browser, then it will send a request to redirect api resource (redis directory is SMS:ManagedURL)
+				- 1. When the customer access the url in his/her browser, then it will send a request to redirect api resource (redis directory is SMS:ManagedURL)
 				- 2. When the customer send the location, it will send a request to the confirm api resource (redis directory is SMS:CustomerLocationSMS)
-				- Restaurant info was retrieved from the kjt.core.api.restaurant.byrid:/api/restaurant/rid/{rid}} api resource
-				- Can we retrieve the call status and order status from an existing api resource? or direct jpa db?
-				- Send SMS
-				- New customer/new address when send button clicked
-				- Existing customer/new address send message when send button clicked
+			- Restaurant info was retrieved from the kjt.core.api.restaurant.byrid:/api/restaurant/rid/{rid}} api resource
+			- Can we retrieve the call status and order status from an existing api resource? or direct jpa db?
+			-
+			- Send SMS
+			- New customer/new address when send button clicked
+			- Existing customer/new address send message when send button clicked
 				-
 		- ## Revised Specs 10/20/21
 			- 1. Bring out send sms  (bring out the send sms button from map.html beside the address input box)
@@ -985,9 +986,9 @@
 			- 3. Make input field double size  (make textarea)
 			- 4. Input feature gives the address  (already doing this)
 			- 5. Confirmation alert after selecting an address (edited)
-		- # execution plan
-		  1. create a button with a message icon beside the address text field, copy the script from the send button in map.html (the modal html element that has an input box for the mobile number and the buttons). the script, using ajax, includes the request to the kjt-sms-connect-service confirm endpoint that sends the address back to the pos.html using websocket
-		  2. update the customerlocationsms.html google api implementation and just add the options to remove the pinned commercial places
+		- ## Execution Plan
+		- 1. Create a button with a message icon beside the address text field, copy the script from the send button in map.html (the modal html element that has an input box for the mobile number and the buttons). the script, using ajax, includes the request to the kjt-sms-connect-service confirm endpoint that sends the address back to the pos.html using websocket
+		- 2. pdate the customerlocationsms.html google api implementation and just add the options to remove the pinned commercial places
 		  3. change the input element to textarea (google map api searchbox accepts textarea element)
 		  4. google map api already shows the places while typing in the search box (autocomplete)
 		  5. show an alert element (popup/anywhere in the main page) that the location was sent back to the agent
