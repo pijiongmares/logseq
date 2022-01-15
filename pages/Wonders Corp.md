@@ -934,16 +934,14 @@
 				- Approach 2 - allow 1 time update after mag end yung call
 				- To check - na u-update ba yung receipt sa restaurant kapag nag palit ng address?
 			- ### Other question:
-				- pwede ba mag update after ng call?
-				- mas preferred na hindi
-				- note - may expiry yung link
-				- currently [sesame.menu](file:///S://sesame.menu) yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
-		- ## github repository
-		- [https://github.com/kjt01/sms-customer-client](https://github.com/kjt01/sms-customer-client)
-		  
-		  [Text Message to Confirm Address - BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/pages/1241153572/Text+Message+to+Confirm+Address)
-		  
-		  [](https://smsreceivefree.com/info/13479675336/?__cf_chl_captcha_tk__=pmd_3hbkuug7pOXVnKpurqBjXAoxjulqp7k2j7Wk4U3O6Jc-1629821478-0-gqNtZGzNAvujcnBszQh9)
+				- Pwede ba mag update after ng call?
+				- Mas preferred na hindi
+				- Note - may expiry yung link
+				- Currently [sesame.menu](file:///S://sesame.menu) yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
+			- ### Github Repository
+				- [https://github.com/kjt01/sms-customer-client](https://github.com/kjt01/sms-customer-client)
+				- [Text Message to Confirm Address - BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/pages/1241153572/Text+Message+to+Confirm+Address)
+				- [receive sms free](https://smsreceivefree.com/info/13479675336/?__cf_chl_captcha_tk__=pmd_3hbkuug7pOXVnKpurqBjXAoxjulqp7k2j7Wk4U3O6Jc-1629821478-0-gqNtZGzNAvujcnBszQh9)
 		- # code findings
 		- ## map.html
 		- in map.html, send sms function does not include the address set by the agent in the request to the kjt-sms-connect-service backend (only sms number,  username, and restaurant id are being sent)
