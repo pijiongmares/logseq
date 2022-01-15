@@ -389,9 +389,10 @@
 		- BA sign off (Jira tickets)
 		- Develop (Dev to Dev, always coordinate)
 		- Any changes will be updated in Jira tickets
-		- qa testing
-		  8.  uat - training
-		  9.  qa sign off
-		  10.  prod
-	- metrics - for measuring the effectiveness of the change/addntl feature
-	- possible of multiple phases if requirements are not met
+		- QA Testing
+		- UAT Training
+		- QA Sign Off
+		- PROD
+	- ## Metrics
+		- For measuring the effectiveness of the change/additional feature
+		- Possible of multiple phases if requirements are not met
