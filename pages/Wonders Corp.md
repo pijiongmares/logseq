@@ -152,32 +152,32 @@
 								- Total price
 								- ETA to finish
 						- ### Restaurant Note (Top Middle)
-							- ### Menu
-								- #### Purple : modifications of the dish
-									- Special order : dishes that do not exist maybe added
-									- Menu : displays the soft version of the menu
-								- #### Blue/Category
-								- #### Category Note
-								- #### Green/Dishes per Category
-									- Clicking the dish will show the ask & click popup depending on the condition
-									- Some dish has time conditions and when there are conditions that are set to "ask", ask & click popup will show
-									- Combo size will also show ask & click
-								- #### Ask & Click
-									- Top section shows the current condition that can be applied to the selected dish
-									- Option to select the side dish for the main dish selected
-								- #### After the Ask & Click Popup
-									- Reminder popup : ask the message displayed
-									- After selecting the type of dish in ask & click, the dish options will be enabled in the located at the middle left
-								- #### Size Info Note
-								- #### Brown : sizes
-									- L : Lunch
-									- Qt/Quart : Large
-									- md : Median
-									- Pt/Pint : Small
-									- C : Combo
-		- ###### blue : rice substitutes
-		- ###### green : regular dish substitutes
-		- #### transfer call (right sidebar)
+						- ### Menu
+							- #### Purple : modifications of the dish
+								- Special order : dishes that do not exist maybe added
+								- Menu : displays the soft version of the menu
+							- #### Blue/Category
+							- #### Category Note
+							- #### Green/Dishes per Category
+								- Clicking the dish will show the ask & click popup depending on the condition
+								- Some dish has time conditions and when there are conditions that are set to "ask", ask & click popup will show
+								- Combo size will also show ask & click
+							- #### Ask & Click
+								- Top section shows the current condition that can be applied to the selected dish
+								- Option to select the side dish for the main dish selected
+							- #### After the Ask & Click Popup
+								- Reminder popup : ask the message displayed
+								- After selecting the type of dish in ask & click, the dish options will be enabled in the located at the middle left
+							- #### Size Info Note
+							- #### Brown : sizes
+								- L : Lunch
+								- Qt/Quart : Large
+								- md : Median
+								- Pt/Pint : Small
+								- C : Combo
+							- #### Blue : rice substitutes
+							- #### Green : regular dish substitutes
+						- ### Transfer Call (Right Sidebar)
 		- ##### transfer : transfer call to manager, spanish, party order, chinese, and external transfers (restaurant order & online order)
 		- external transfers are orders that where processed using the clients portal/order system, not with pos
 		- ##### help : ask for help and chinese assistant
