@@ -607,9 +607,9 @@
 		  	2.  order-processing-service
 		  	3.  user-config-server
 		- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
-- # Backend Applications Setup Changes (For Local Only)
-	- # content-config-service
-		- ## appication-local.yml
+- # Applications Setup Changes (For Local Only)
+	- ## content-config-service
+		- ### appication-local.yml
 			- ``` yml
 			  	
 			  	# username and password changed
@@ -621,7 +621,7 @@
 			  			password: p@ssw0rd
 			  	
 			  	```
-		- ## pom.xml
+		- ### pom.xml
 			- ```xml
 			  	<!--jabylon repo commented-->
 			  	 <repositories>
@@ -679,8 +679,8 @@
 			  		 </properties>
 			  	 </profile>
 			  ```
-	- # kjt-sms-connect-service
-		- ## pom.xml
+	- ## kjt-sms-connect-service
+		- ### pom.xml
 			- ``` xml
 			  		<!--added local profiles-->	
 			  		 <profiles>
@@ -706,7 +706,7 @@
 			  		 </profiles>
 			  
 			  ```
-		- ## redis-config.xml
+		- ### redis-config.xml
 			- ``` xml
 			  		<!--commented the variable ${master.name}-->
 			  		 <bean id="redisSentinelConfigurationWithMaster" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
@@ -767,7 +767,7 @@
 			  		 </bean>
 			  
 			  ```
-	- # sms-customer-client/customerlocationsms.html
+	- ## sms-customer-client/customerlocationsms.html
 		- ``` js
 		  	 const getBaseUrl = () => {
 		  		 const currentUrl = window.location.href;
@@ -782,4 +782,5 @@
 		  		 }
 		  	 };
 		  ```
+	-
 -
