@@ -268,15 +268,12 @@
 						- #### Restaurant Selector
 						- #### Delivery Address Editor
 					- ### Delivery Fee
-		- #### Restaurant Selector
-		- ##### delivery fee editor
-		- ###### distance
-		- fee base on minimum distance and delivery
-		- ###### city
-		- fee base on city
-		  
-		  
-		  ___
+						- #### Restaurant Selector
+						- #### Delivery Fee Editor
+							- #### Distance
+								- Fee base on minimum distance and delivery
+							- #### City
+								- Fee base on city
 		- #### printer editor
 		- printers and receipt templates
 		- ##### restaurant selector
