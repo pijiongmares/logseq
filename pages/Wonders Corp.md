@@ -342,21 +342,21 @@
 	- # Ticket Flow
 	  Users -> WIT - Support Ticket (for IT Ops) -> IT Support Team -> SKT Ticket (Jira)
 	- # NGINX & Webservices Setup
-	  QA & DEV env
-	  1 Server for Docker App
-	  1 Server for NGINX
+	- ## QA & DEV env
+	- 1 Server for Docker App
+	- 1 Server for NGINX
 	  
 	  Learn Liquibase
 	  
-	  .core nginx for (PUT, POST, DELETE)
-	  .content-pusher-pool NGINX for (GET)
+	  **.core nginx for (PUT, POST, DELETE)**
+	  **.content-pusher-pool NGINX for (GET)**
 	  
 	  UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> Backend Service/Server
 	  
-	  backend -> backend
+	  Backend -> Backend
 	  .core nginx
 	  
-	  public -> backend service/server
+	  Public -> Backend Service/Server
 	  .edge
 	- # cronicle
 	  push changes using cronicle
