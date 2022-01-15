@@ -15,27 +15,30 @@
 	- DONE SSS Statement of Account (SOA) (if with an existing loan) _Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
 	- DONE Proof of Philhealth number
 	- DONE Philhealth Member Registration Form (PMRF)
-	- TODO Proof of Pag-ibig number
-	- TODO Member's Change of Information Form (MCIF)
-	- TODO Pag-ibig Statement of Account (SOA) - (if with an existing loan)_Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
-	- TODO Proof of Tax Identification Number (TIN)\
-	- TODO BIR form 1905
+	- DONE Proof of Pag-ibig number
+	- DONE Member's Change of Information Form (MCIF)
+	- DONE Pag-ibig Statement of Account (SOA) - (if with an existing loan)_Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
+	- DONE Proof of Tax Identification Number (TIN)\
+	  :LOGBOOK:
+	  CLOCK: [2022-01-16 Sun 00:47:40]--[2022-01-16 Sun 00:47:41] =>  00:00:01
+	  :END:
+	- DONE BIR form 1905
 	- N/A BIR form 1902 (without TIN)
-	- TODO NBI Clearance
-	- TODO NSO Birth Certificate
-	- TODO NSO Birth Certificate of dependent/s
-	- TODO Wonders ID form
-	- TODO NSO Marriage Certificate (if married)
-	- TODO Latest BIR 2316
-	- [ ] Certificate of Employment
-	- TODO TOR/ Diploma
-	- TODO SSS, Philhealth, and Pag-ibig contributions
-	- TODO Pag-ibig letter of Authorization
-	- TODO 2021 Cedula
-	- TODO Signed Job offer
-	- TODO Signed contract (per page)
-	- TODO Signed Annex A
-	- TODO 2021 BIR Waiver (attached)
+	- DONE NBI Clearance
+	- DONE NSO Birth Certificate
+	- DONE NSO Birth Certificate of dependent/s
+	- DONE Wonders ID form
+	- DONE NSO Marriage Certificate (if married)
+	- DONE Latest BIR 2316
+	- TODO  Certificate of Employment
+	- DONE TOR/ Diploma
+	- DONE SSS, Philhealth, and Pag-ibig contributions
+	- DONE Pag-ibig letter of Authorization
+	- DONE 2021 Cedula
+	- DONE Signed Job offer
+	- DONE Signed contract (per page)
+	- DONE Signed Annex A
+	- DONE 2021 BIR Waiver (attached)
 - # Orientation
   collapsed:: true
 	- Founded 2012, Long Island, NYC
