@@ -277,9 +277,8 @@
 					- Printers and receipt templates
 					- #### Restaurant Selector
 					- #### Printer Editor
-				- ### Credit Cards
-					- #### Credit Card Note
-		- ##### restaurant list
+				- ### Credit Card Note
+		- #### Restaurant list
 		- ##### credit card note editor
 		- accepted credit cards, required credit card info stripe info, propay info, and the editor
 		  ___
