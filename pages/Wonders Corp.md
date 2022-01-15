@@ -483,24 +483,24 @@
 			- Port : 3306
 			- Username : appuser
 			- Password : p@ssw0rd
-			- ## Database VPN Access
+		- ## Database VPN Access
 			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn
 			- [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
-	- # Luiquibase ChangeLogs for kjt and kjtcallctr
+	- # Liquibase ChangeLogs for kjt and kjtcallctr
 	- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
-	- clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
-	- clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
+		- Clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
+		- Clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
 	- ## Liquibase Maven commands
-	- mvn liquibase:status -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
-	- mvn liquibase:update -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
-	- mvn liquibase:rollback -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master Dliquibase.username=appuser -Dliquibase.password=123 -Dliquibase.rollbackCount=1
+		- mvn liquibase:status -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
+		- mvn liquibase:update -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
+		- mvn liquibase:rollback -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master Dliquibase.username=appuser -Dliquibase.password=123 -Dliquibase.rollbackCount=1
 	- # Redis
-	- download [sentinel_26379.conf](https://drive.google.com/file/d/1CFOT6nfyIVK9L4VcRPGOSP9uF9YDlNfO/view?usp=sharing) and move it to the redis directory
-	- download [redis desktop manager](https://drive.google.com/open?id=1dezAKxn9dufo7RwMpuyXee_x0V7kKyjI)
-	- ## Local
-	- port : 6379
+		- Download [sentinel_26379.conf](https://drive.google.com/file/d/1CFOT6nfyIVK9L4VcRPGOSP9uF9YDlNfO/view?usp=sharing) and move it to the redis directory
+		- Download [redis desktop manager](https://drive.google.com/open?id=1dezAKxn9dufo7RwMpuyXee_x0V7kKyjI)
+		- ## Local
+			- Port : 6379
 	- # Core Projects
-	- ## clone [kjt-pos-comm](https://github.com/kjt01/kjt-pos-comm)
+	- ## Clone [kjt-pos-comm](https://github.com/kjt01/kjt-pos-comm)
 	- Build mvn clean install -U -DskipTests=true
 	- ## clone [kjt-redis-comm](https://github.com/kjt01/kjt-redis-comm.git)
 	- Build mvn clean install -U -DskipTests=true
