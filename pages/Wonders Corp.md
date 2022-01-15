@@ -223,24 +223,21 @@
 						- After selecting the coupon category
 						- #### Restaurant List
 						- #### Coupon Editor
-						  
-						  
-						  ___
-		- #### restaurant time
-		- ##### restaurant selector
-		- ##### restaurant time list
-		- ##### restaurant time editor
-		- ###### type
-		- lunch
-		- combo (dinner)
-		- closed
-		- size4
-		- off
-		- on
-		- open
-		  
-		  
-		  ___
+					- ### Restaurant Time
+						- #### Restaurant Selector
+						- #### Restaurant Time List
+						- #### Restaurant Time Editor
+						- #### Type
+							- Lunch
+							- Combo (dinner)
+							- Closed
+							- Size4
+							- Off
+							- On
+							- Open
+							  
+							  
+							  ___
 		- #### order time
 		- ##### restaurant selector
 		- ##### order time editor
