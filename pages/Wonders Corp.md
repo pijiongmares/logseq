@@ -247,27 +247,21 @@
 					- ### Dish Size Text
 						- #### Restaurant Selector
 						- #### Dish Size Text Editor
-						- base on category.
-						- size1 : usually small
-						- size2 : usually large
-						- lunch
-						- dinner : usually combo
-						- size3 : usually medium or median
-							- size4 : usually family size 
-							  
-							  
-							  ___
-		- #### restaurant
-		- ##### restaurant list
-		- ##### restaurant editor
-		- restaurant information
-		  
-		  
-		  ___
-		- #### matrix
-		- ##### restaurant list
-		- ##### category list
-		- ##### matrix editor
+							- Base on category.
+							- Size1 : usually small
+							- Size2 : usually large
+							- Lunch
+							- Dinner : usually combo
+							- Size3 : usually medium or median
+							- Size4 : usually family size
+					- ### Restaurant
+						- #### Restaurant List
+						- #### Restaurant Editor
+							- Restaurant information
+					- ### Matrix
+						- #### Restaurant List
+						- #### Category List
+		- #### Matrix editor
 		- import/download excel file containing the matrix
 		  
 		  
