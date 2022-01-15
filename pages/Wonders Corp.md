@@ -767,5 +767,19 @@
 			  		 </bean>
 			  
 			  ```
-	-
+	- # sms-customer-client/customerlocationsms.html
+		- ``` js
+		  	 const getBaseUrl = () => {
+		  		 const currentUrl = window.location.href;
+		  		 if (currentUrl.indexOf("localhost") > -1) {
+		  			return "http://localhost";
+		  		 } else if (currentUrl.indexOf("int.sesame") > -1) {
+		  			return "https://int.sesame.menu";
+		  		 } else if (currentUrl.indexOf("qa.sesame") > -1) {
+		  			return "https://qa.sesame.menu";
+		  		 } else {
+		  			return "http://sesame.menu";
+		  		 }
+		  	 };
+		  ```
 -
