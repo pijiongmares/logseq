@@ -261,20 +261,14 @@
 					- ### Matrix
 						- #### Restaurant List
 						- #### Category List
-		- #### Matrix editor
-		- import/download excel file containing the matrix
-		  
-		  
-		  ___
-		- #### delivery address
-		- notes base on customer address for delivery
-		- ##### restaurant selector
-		- ##### delivery address editor
-		  
-		  
-		  ___
-		- #### delivery fee
-		- ##### restaurant selector
+						- #### Matrix Editor
+							- Import/download excel file containing the matrix
+					- ### Delivery Address
+						- Notes base on customer address for delivery
+						- #### Restaurant Selector
+						- #### Delivery Address Editor
+					- ### Delivery Fee
+		- #### Restaurant Selector
 		- ##### delivery fee editor
 		- ###### distance
 		- fee base on minimum distance and delivery
