@@ -194,92 +194,91 @@
 			- ## Menu Management (mmt)
 				- Editor data viewer and updater
 			- ## Editors Menu
-				- ### Restaurant/Dishes/Delivery/Printer
 				- ### Restaurant Note
 					- #### Restaurant List (Left Sidebar)
 					- #### Restaurant Note Editor
 						- After clicking the restaurant in the list
 						- Editor for restaurant note (located at the top of the restaurant screen in the POS, top middle)
 						- Attached file for the restaurant menu
-					- ### Category
-						- Category note after selecting a category
-						- #### Category List (Left 2nd Column)
-						- #### Category Editor
-						  
-						  
-						  ___
-					- ### Size Info Editor
-						- Located at the dish size section
-						- #### Restaurant
-							- Restaurant size info note are shown by default
-						- #### Category
-							- If set, the size info will show after selecting the category
-					- ### Dish Note
-						- Note after selecting a dish
-						- #### Restaurant
-						- #### Dish List (3rd Column)
-						- #### Dish Editor
-					- ### Coupon Note
-						- After selecting the coupon category
-						- #### Restaurant List
-						- #### Coupon Editor
-					- ### Restaurant Time
-						- #### Restaurant Selector
-						- #### Restaurant Time List
-						- #### Restaurant Time Editor
-						- #### Type
-							- Lunch
-							- Combo (dinner)
-							- Closed
-							- Size4
-							- Off
-							- On
-							- Open
-					- ### Order Time
-						- #### Restaurant Selector
-						- #### Order Time Editor
-							- #### Base Time
-								- Restaurant pickup and delivery estimated order time base on time
-							- #### Order Total
-								- Estimated order time base on price?
-							- #### Distance Estimate
-								- Estimated order time base on distance of the customer address from the restaurant's location
-					- ### Dish Size Text
-						- #### Restaurant Selector
-						- #### Dish Size Text Editor
-							- Base on category.
-							- Size1 : usually small
-							- Size2 : usually large
-							- Lunch
-							- Dinner : usually combo
-							- Size3 : usually medium or median
-							- Size4 : usually family size
-					- ### Restaurant
-						- #### Restaurant List
-						- #### Restaurant Editor
-							- Restaurant information
-					- ### Matrix
-						- #### Restaurant List
-						- #### Category List
-						- #### Matrix Editor
-							- Import/download excel file containing the matrix
-					- ### Delivery Address
-						- Notes base on customer address for delivery
-						- #### Restaurant Selector
-						- #### Delivery Address Editor
-					- ### Delivery Fee
-						- #### Restaurant Selector
-						- #### Delivery Fee Editor
-							- #### Distance
-								- Fee base on minimum distance and delivery
-							- #### City
-								- Fee base on city
-					- ### Printer
-						- Printers and receipt templates
-						- #### Restaurant Selector
-						- #### Printer Editor
-		- ### credit cards
-		- #### credit card note
+				- ### Category
+					- Category note after selecting a category
+					- #### Category List (Left 2nd Column)
+					- #### Category Editor
+					  
+					  
+					  ___
+				- ### Size Info Editor
+					- Located at the dish size section
+					- #### Restaurant
+						- Restaurant size info note are shown by default
+					- #### Category
+						- If set, the size info will show after selecting the category
+				- ### Dish Note
+					- Note after selecting a dish
+					- #### Restaurant
+					- #### Dish List (3rd Column)
+					- #### Dish Editor
+				- ### Coupon Note
+					- After selecting the coupon category
+					- #### Restaurant List
+					- #### Coupon Editor
+				- ### Restaurant Time
+					- #### Restaurant Selector
+					- #### Restaurant Time List
+					- #### Restaurant Time Editor
+					- #### Type
+						- Lunch
+						- Combo (dinner)
+						- Closed
+						- Size4
+						- Off
+						- On
+						- Open
+				- ### Order Time
+					- #### Restaurant Selector
+					- #### Order Time Editor
+						- #### Base Time
+							- Restaurant pickup and delivery estimated order time base on time
+						- #### Order Total
+							- Estimated order time base on price?
+						- #### Distance Estimate
+							- Estimated order time base on distance of the customer address from the restaurant's location
+				- ### Dish Size Text
+					- #### Restaurant Selector
+					- #### Dish Size Text Editor
+						- Base on category.
+						- Size1 : usually small
+						- Size2 : usually large
+						- Lunch
+						- Dinner : usually combo
+						- Size3 : usually medium or median
+						- Size4 : usually family size
+				- ### Restaurant
+					- #### Restaurant List
+					- #### Restaurant Editor
+						- Restaurant information
+				- ### Matrix
+					- #### Restaurant List
+					- #### Category List
+					- #### Matrix Editor
+						- Import/download excel file containing the matrix
+				- ### Delivery Address
+					- Notes base on customer address for delivery
+					- #### Restaurant Selector
+					- #### Delivery Address Editor
+				- ### Delivery Fee
+					- #### Restaurant Selector
+					- #### Delivery Fee Editor
+						- #### Distance
+							- Fee base on minimum distance and delivery
+						- #### City
+							- Fee base on city
+				- ### Printer
+					- Printers and receipt templates
+					- #### Restaurant Selector
+					- #### Printer Editor
+				- ### Credit Cards
+					- #### Credit Card Note
 		- ##### restaurant list
 		- ##### credit card note editor
 		- accepted credit cards, required credit card info stripe info, propay info, and the editor
