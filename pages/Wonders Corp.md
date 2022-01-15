@@ -455,20 +455,19 @@
 		- For UI change, attach the screenshot in the PR
 		- After merging, delete the branch
 	- # Commit Notes
-	- SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
-	- Don't use: git commit -m ""
-	- Use instead: git commit 
-	  
-	  First line: SKT-6497-SKT-6761-\<message\>
-	  \<space\>
-	  Succeeding lines: \<changes made\>
-	- # pull request notes
-	  
-	  First line: Epic: \<link\>
-	  Second line: Story: \<link\>
-	  \<space\>
-	  \<changes made\>
-	- # merge options
+		- SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
+		- Don't use: git commit -m ""
+		- Use instead: git commit
+		-
+		- First line: SKT-6497-SKT-6761-\<message\>
+		  \<space\>
+		- Succeeding lines: \<changes made\>
+	- # Pull Request Notes
+		- First line: Epic: \<link\>
+		- Second line: Story: \<link\>
+		- \<space\>
+		- \<changes made\>
+	- # Merge Options
 	- Squash and merge: will squash your multiple commits before merging your change to master
 	- Rebase and merge: rebase first your branch with master branch
 	- Create a merge commit: create new commit with merging your change to master
