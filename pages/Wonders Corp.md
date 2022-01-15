@@ -952,8 +952,8 @@
 				- In the GeolocationController, generates a geolocation long url that consist of the customerlocationsms.html page (location in the sms-customer-client project), smsNumber, transaction id, and the address of the restaurant
 				- Create a CustLocReqURL model class that consist of the long url, time created of the custom location url model, and the restaurant id
 				- Generate a shorten url (replace the long url with a generated unique id) and save the CustLocReqURL model in the directory SMS:ManagedUrl in redis
-		- Construct the complete url with the shorten/temp url
-			- Create instance of SendSMSGeoLocationRequest to send the url via sms
+				- Construct the complete url with the shorten/temp url
+				- Create instance of SendSMSGeoLocationRequest to send the url via sms
 		- ## kjt-sms-connect-service (receive the request for redirecting to address confirmation ui (customerlocationsms.html) from the url send via sms)
 		- customer loads the url into the browser, request sent to /map/api/location/redirect/{shorten url}
 		- method retrieves the long url saved in redis using the shorten url (id referencing to the record)
