@@ -468,10 +468,10 @@
 		- \<space\>
 		- \<changes made\>
 	- # Merge Options
-	- Squash and merge: will squash your multiple commits before merging your change to master
-	- Rebase and merge: rebase first your branch with master branch
-	- Create a merge commit: create new commit with merging your change to master
-	- ## when squashing commits
-	- remove "SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal" in each commits
-	- retain changes
+		- Squash and merge: will squash your multiple commits before merging your change to master
+		- Rebase and merge: rebase first your branch with master branch
+		- Create a merge commit: create new commit with merging your change to master
+	- ## When Squashing Commits
+		- Remove "SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal" in each commits
+		- Retain changes
 -
