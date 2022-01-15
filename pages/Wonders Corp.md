@@ -345,20 +345,21 @@
 	- ## QA & DEV env
 	- 1 Server for Docker App
 	- 1 Server for NGINX
-	  
-	  Learn Liquibase
-	  
-	  **.core nginx for (PUT, POST, DELETE)**
-	  **.content-pusher-pool NGINX for (GET)**
-	  
-	  UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> Backend Service/Server
-	  
-	  Backend -> Backend
-	  .core nginx
-	  
-	  Public -> Backend Service/Server
-	  .edge
-	- # cronicle
+	-
+	- Learn Liquibase
+	-
+	- **.core nginx for (PUT, POST, DELETE)**
+	- **.content-pusher-pool NGINX for (GET)**
+	-
+	- UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> Backend Service/Server
+	-
+	- Backend -> Backend
+	- .core nginx
+	-
+	- Public -> Backend Service/Server
+	- .edge
+	-
+	- # Cronicle
 	  push changes using cronicle
 	- push by rid (changes in staging db compare to prod by restaurant id )
 	- Synckjtdb (all changes in staging db compare to prod)
