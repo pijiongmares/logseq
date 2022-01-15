@@ -105,27 +105,24 @@
 				- Deliver ease to use and efficient applications for our internal users
 			- Team performance and culture
 				- Create a culture of scalability, continuous progression, and fosterin trust
-				- ## Filing of Leave
-				- PTO (personal time off) approval
-				  Email pto and wait for approval
-				  Google calendar set pto sched
-				  NICE : add activity for the pto sched
-	- # onboarding with sir nicko
-	  Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
-	  
-	  Vision : We are the leading techonology and customer service partner for restaurants everywhere
-	  
-	  order processing, credit card payments, delivery fulfillment
-	  
-	  steve (ceo) and dennis lin, bobby vp, bj sys arch, sherwin vp ph country head
-	  
-	  matt ops directory, karen t
-	  
-	  arman - engineering manager
-	  jegger - team lead
-	  jz - backend dev supervisor
-	  nico - it ops
-	  joseph nicko - hr business partner for engineering
+		- ## Filing of Leave
+			- PTO (personal time off) approval
+			- Email PTO and wait for approval
+			- Google calendar set PTO sched
+			- NICE : add activity for the PTO sched
+		- # Onboarding with Sir Nicko
+			- Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
+			- Vision : We are the leading techonology and customer service partner for restaurants everywhere
+			- Order processing, credit card payments, delivery fulfillment
+			- Steve (ceo) and Dennis Lin, Bobby VP,  sys arch, sherwin vp ph country head
+			  
+			  matt ops directory, karen t
+			  
+			  arman - engineering manager
+			  jegger - team lead
+			  jz - backend dev supervisor
+			  nico - it ops
+			  joseph nicko - hr business partner for engineering
 - # Onboarding
   collapsed:: true
 	- # Onboarding Notes
