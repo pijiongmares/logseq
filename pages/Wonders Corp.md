@@ -199,18 +199,15 @@
 					- #### Restaurant List (Left Sidebar)
 					- #### Restaurant Note Editor
 						- After clicking the restaurant in the list
-						- Editor for restaurant note (located at the top of the restaurant screen in the pos, top middle)
+						- Editor for restaurant note (located at the top of the restaurant screen in the POS, top middle)
 						- Attached file for the restaurant menu
+					- ### Category
+						- Category note after selecting a category
+						- #### Category List (Left 2nd Column)
+						- #### Category Editor
 						  
 						  
 						  ___
-		- #### category
-		- category note after selecting a category
-		- ##### category list (left 2nd column)
-		- ##### category editor
-		  
-		  
-		  ___
 		- #### size info editor
 		- located at the dish size section
 		- ##### restaurant
