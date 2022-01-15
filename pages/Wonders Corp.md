@@ -318,12 +318,10 @@
 						- Select branch address
 						- Set map coordinates scope
 				- ### Announcement Editor
-		- #### sms
-		- ##### restaurant list
-		- ##### pickup/delivery sms text template
-		  
-		  ___
-		- ### phone/mobile app
+				- ### SMS
+					- #### Restaurant List
+					- #### Pickup/Delivery SMS Text Template
+		- ### Phone/mobile app
 		- #### restaurant phone
 		- ##### restaurant selector
 		- ##### restaurant phone editor
