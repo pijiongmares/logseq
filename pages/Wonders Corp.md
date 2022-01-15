@@ -187,8 +187,8 @@
 			- Online orders are via credit card. cash may lead to scams
 			- Orders sent are viewed in the POS as a saved order with order number (osaved)
 			- Customers who registers or create an account, they are saved as an aws user
-		- ## Mobile
-		- For client/restaurant use only
+		- # Mobile
+			- For client/restaurant use only
 		- # POS Dashboard
 		- # POS Editor
 			- ## Menu Management (mmt)
@@ -208,16 +208,13 @@
 						  
 						  
 						  ___
-		- #### size info editor
-		- located at the dish size section
-		- ##### restaurant
-		- restaurant size info note are shown by default
-		- ##### category
-		- if set, the size info will show after selecting the category
-		  
-		  
-		  ___
-		- #### dish note
+					- ### Size Info Editor
+						- Located at the dish size section
+						- #### Restaurant
+							- Restaurant size info note are shown by default
+						- #### Category
+							- If set, the size info will show after selecting the category
+						- ### Dish Note
 		- note after selecting a dish
 		- ##### restaurant
 		- ##### dish list (3rd column)
