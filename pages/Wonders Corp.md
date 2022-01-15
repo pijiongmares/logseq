@@ -311,19 +311,13 @@
 					- Restaurant branches
 					- #### Restaurant Selector
 					- #### Business Address Editor
-					  
-					  ___
-		- #### Geofence
-		- restaurant branches
-		- ##### restaurant selector
-		- ##### geofence editor
-		- select branch address
-		- set map coordinates scope
-		  
-		  ___
-		- #### accouncement editor
-		  
-		  ___
+				- ### Geofence
+					- Restaurant branches
+					- #### Restaurant Selector
+					- #### Geofence Editor
+						- Select branch address
+						- Set map coordinates scope
+				- ### Announcement Editor
 		- #### sms
 		- ##### restaurant list
 		- ##### pickup/delivery sms text template
