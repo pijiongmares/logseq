@@ -295,20 +295,18 @@
 					- ##### Restaurant Selector
 					- ##### Stripe Rate Editor
 						- Stripe rate, per card charge, and daily fee
-		- #### propay account
-		- ##### restaurant selector
-		- ##### propay account editor
-		- personal information
-		- bank account
-		- gross billing
-		- address
-		- beneficial owner information
-		  
-		  ___
-		- #### propay status
-		- ##### restaurant selector
-		- ##### propay status editor
-		- add note
+				- ### Propay Account
+					- #### Restaurant Selector
+					- #### Propay Account Editor
+						- Personal information
+						- Bank account
+						- Gross billing
+						- Address
+						- Beneficial owner information
+		- ### propay status
+		- #### restaurant selector
+		- #### Propay Status Editor
+		- Add note
 		  ___
 		- ### others (business address, geofence, announcements, sms)
 		- #### business address
