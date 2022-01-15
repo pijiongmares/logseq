@@ -151,11 +151,11 @@
 								- dish & delivery tax (not always the same)
 								- total price
 								- eta to finish
-		- #### restaurant note (top middle)
-		- #### menu
-		- ##### purple : modifications of the dish
-		- special order : dishes that do not exist maybe added
-		- menu : displays the softversion of the menu
+						- ### Restaurant Note (Top Middle)
+							- ### Menu
+								- #### Purple : modifications of the dish
+									- special order : dishes that do not exist maybe added
+									- menu : displays the softversion of the menu
 		- ##### blue/category
 		- ##### category note
 		- ##### green/dishes per category
