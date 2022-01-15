@@ -21,22 +21,20 @@
 	- work hard and have fun
 	- be efficient
 		-
-	- **Attendance :**
+	- ## Attendance :
 		- Notification Process
 		- Respond to the google form for unplanned absence/tardiness notification form at least 2 hours prior to shift
 		  Critical Workday (CWD Declaration)
 		- Philippine Holidays - Legal and special non-working days
 		- Day before and after PH holidays
 		- Day before and after rest days or approved leaves
-	- Payroll payout dates, day before and after payout dates
-	  
-	  Payroll Legal Deductions :
+		- Payroll payout dates, day before and after payout dates
+	- ## Payroll Legal Deductions :
 		- No work, no pay
-		- Loans
-		  
-		  Payouts is every other friday, which will be a total of 26 payouts in a year rather than the normal 24 payouts / year
-		  
-		  Company-Provided Benefits :
+	- ## Loans
+	- Payouts are every other Friday (Biweekly), which will be a total of 26 payouts in a year rather than the normal 24 payouts / year
+	  
+	  Company-Provided Benefits :
 		- Leave benefits - 1st year 15, 1st anniv 20
 			- Mine is 26
 		- Forfeiture - leaves are carried over to the next year,
