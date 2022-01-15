@@ -612,6 +612,7 @@
 		- do not commit changes in :
 		-
 		- 1. application-local.yml
+		- 2. pom.xml
 		- ``` yml
 		  	# username and password changed
 		  	application: 
@@ -620,12 +621,13 @@
 		  	jdbc: jdbc:mysql://localhost:3306/kjt?autoReconnect=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true&useSSL=false&serverTimezone=America/New_York
 		  	username: root
 		  	password: p@ssw0rd
-		  
 		  ```
-		  2. pom.xml
+		  
+		  
+		  
+		  
 		  
 		  ``` xml
-		  
 		  	<!--jabylon repo commented-->
 		  <repositories>
 		   <!-- jhipster-needle-maven-repository -->
