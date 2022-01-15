@@ -235,15 +235,12 @@
 							- Off
 							- On
 							- Open
-							  
-							  
-							  ___
-		- #### order time
-		- ##### restaurant selector
-		- ##### order time editor
-		- ###### base time
-		- restaurant pickup and delivery estimated order time base on time
-		- ###### order total
+					- ### Order Time
+						- #### Restaurant Selector
+						- #### Order Time Editor
+							- #### Base Time
+								- Restaurant pickup and delivery estimated order time base on time
+							- #### Order Total
 		- estimated order time base on price?
 		- ###### distance estimate
 		- estimated order time base on distance of the customer address from the restaurant's location
