@@ -445,6 +445,7 @@
 			- For measuring the effectiveness of the change/additional feature
 			- Possible of multiple phases if requirements are not met
 - # Ways Of Working
+  collapsed:: true
 	- # Pull Request Format
 		- \<Epic\> - \<User story/bug ticket\> - \<User story/bug ticket title\>
 		- SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
@@ -474,4 +475,57 @@
 	- ## When Squashing Commits
 		- Remove "SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal" in each commits
 		- Retain changes
--
+- # My Workstation Environment
+	- # MySQL Workstation
+		- Download both the kjt and kjtcallctr script files in [kjtcallctr database copy](https://drive.google.com/drive/u/2/folders/1ubCcGcHjmdNmw4KxE1QveSmrU41qoY3x) (use wonders google account) and run in it the local mysql database
+		- ## Local Creds
+		- windows service name : MySQL57
+		- port : 3306
+		- root password : p@ssw0rd
+		- username : userapp, password : p@ssw0rd
+	- ## Database VPN Access
+	  [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn 
+	  [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
+	- # Luiquibase ChangeLogs for kjt and kjtcallctr
+	- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
+	- clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
+	- clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
+	- ## Liquibase Maven commands
+	- mvn liquibase:status -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
+	- mvn liquibase:update -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
+	- mvn liquibase:rollback -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master Dliquibase.username=appuser -Dliquibase.password=123 -Dliquibase.rollbackCount=1
+	- # Redis
+	- download [sentinel_26379.conf](https://drive.google.com/file/d/1CFOT6nfyIVK9L4VcRPGOSP9uF9YDlNfO/view?usp=sharing) and move it to the redis directory
+	- download [redis desktop manager](https://drive.google.com/open?id=1dezAKxn9dufo7RwMpuyXee_x0V7kKyjI)
+	- ## Local
+	- port : 6379
+	- # Core Projects
+	- ## clone [kjt-pos-comm](https://github.com/kjt01/kjt-pos-comm)
+	- Build mvn clean install -U -DskipTests=true
+	- ## clone [kjt-redis-comm](https://github.com/kjt01/kjt-redis-comm.git)
+	- Build mvn clean install -U -DskipTests=true
+	- ## clone [payment-processing-comm](https://github.com/kjt01/payment-processing-comm)
+	- Build mvn clean install -U -DskipTests=true
+	- ## clone [kjt-ext-prop](https://github.com/kjt01/kjt-ext-prop)
+	- ## clone [kjt-freemarker-templates](https://github.com/kjt01/kjt-freemarker-templates)
+	- ## clone [kjt-pos-core](https://github.com/kjt01/kjt-pos-core)
+	- Build mvn clean install -U -DskipTests=true.
+	- After build, copy the KJTCore.war file from the target folder to the Tomcat webapp folder (rename to KJTCore.war).
+	- At Tomcat conf, update the catalina.properties. Append the resource path of kjt-ext-prop and path of kjt-freemaker-templates in the common.loader key.
+	- At Tomcat conf, update the context.xml. Add the following the change DB account
+	  
+	  ``` xml
+	  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/kjt" password="kjt" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjt?autoReconnect=true&amp;characterEncoding=UTF-8&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
+	  
+	  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxOpenPreparedStatements="100" maxWait="10000" name="jdbc/kjtcallctr" password="kjt" poolPreparedStatements="true" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjtcallctr?autoReconnect=true&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
+	  
+	  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxOpenPreparedStatements="100" maxWait="10000" name="jdbc/kjtcallctrrep" password="kjt" poolPreparedStatements="true" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjtcallctr?autoReconnect=true&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
+	  
+	  ```
+	- At Tomcat conf, update server.xml. Look for port 8080 and change to 8081
+	- Copy the mysql-connector-java from .m2 repository to Tomcat lib folder
+	- kjt-pos-core is currently being divided into smaller services. following are so far the existing projects that are extracted from kjt-pos-core
+	  	1.  content-config-server
+	  	2.  order-processing-service
+	  	3.  user-config-server
+	- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
