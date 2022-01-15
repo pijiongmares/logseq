@@ -241,25 +241,22 @@
 							- #### Base Time
 								- Restaurant pickup and delivery estimated order time base on time
 							- #### Order Total
-		- estimated order time base on price?
-		- ###### distance estimate
-		- estimated order time base on distance of the customer address from the restaurant's location
-		  
-		  
-		  ___
-		- #### dish size text
-		- ##### restaurant selector
-		- ##### dish size text editor
-		- base on category.
-		- size1 : usually small
-		- size2 : usually large
-		- lunch
-		- dinner : usually combo
-		- size3 : usually medium or median
-		- size4 : usually family size 
-		  
-		  
-		  ___
+								- Estimated order time base on price?
+							- #### Distance Estimate
+								- Estimated order time base on distance of the customer address from the restaurant's location
+					- ### Dish Size Text
+						- #### Restaurant Selector
+						- #### Dish Size Text Editor
+						- base on category.
+						- size1 : usually small
+						- size2 : usually large
+						- lunch
+						- dinner : usually combo
+						- size3 : usually medium or median
+							- size4 : usually family size 
+							  
+							  
+							  ___
 		- #### restaurant
 		- ##### restaurant list
 		- ##### restaurant editor
