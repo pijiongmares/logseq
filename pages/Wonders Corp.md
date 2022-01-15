@@ -146,28 +146,28 @@
 								- Pay cash
 								- Sent orders for the current date can still be modifed
 							- #### Price Section
-								- discounts
-								- subtotal (discount applied)
-								- dish & delivery tax (not always the same)
-								- total price
-								- eta to finish
+								- Discounts
+								- Subtotal (discount applied)
+								- Dish & delivery tax (not always the same)
+								- Total price
+								- ETA to finish
 						- ### Restaurant Note (Top Middle)
 							- ### Menu
 								- #### Purple : modifications of the dish
-									- special order : dishes that do not exist maybe added
-									- menu : displays the softversion of the menu
+									- Special order : dishes that do not exist maybe added
+									- Menu : displays the soft version of the menu
 								- #### Blue/Category
 								- #### Category Note
 								- #### Green/Dishes per Category
-									- clicking the dish will show the ask & click popup depending on the condition
-									- some dish has time conditions and when there are conditions that are set to "ask", ask & click popup will show
-									- combo size will also show ask & click
-		- ###### ask & click
-		- top section shows the current condition that can be applied to the selected dish
-		- option to select the side dish for the main dish selected
-		- ##### after the ask & click popup
-		- reminder popup : ask the message displayed
-		- after selecting the type of dish in ask & click, the dish options will be enabled in the  located at the middle left
+									- Clicking the dish will show the ask & click popup depending on the condition
+									- Some dish has time conditions and when there are conditions that are set to "ask", ask & click popup will show
+									- Combo size will also show ask & click
+								- #### Ask & Click
+									- Top section shows the current condition that can be applied to the selected dish
+									- Option to select the side dish for the main dish selected
+								- #### after the ask & click popup
+									- reminder popup : ask the message displayed
+									- after selecting the type of dish in ask & click, the dish options will be enabled in the  located at the middle left
 		- ###### size info note
 		- ###### brown : sizes
 		- L : Lunch
