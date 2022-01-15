@@ -1,4 +1,5 @@
 - # Onboarding
+  collapsed:: true
 	- # Onboarding Notes
 		- # Application Environments
 			- ## int/int-ph
@@ -328,5 +329,63 @@
 					- #### Restaurant Selector
 					- #### Mobile Client Editor
 						- Restaurant account for mobile app
-		- # Queue display
-		- UI to display calls that are in queue
+		- # Queue Display
+			- UI to display calls that are in queue
+- # Onboarding With JZ
+	- # Entities
+	  client 
+	  customer
+	  internal
+		- agents
+		- training team
+		- content team
+	- # ticket flow
+	  users -> wit - support ticket (for it ops) -> it support team -> skt ticket (jira)
+	- # nginx & webservices setup
+	  qa & dev env
+	  1 server for docker app
+	  1 server for nginx
+	  
+	  learn liquibase
+	  
+	  .core nginx for (PUT, POST, DELETE)
+	  .content-pusher-pool nginx for (GET)
+	  
+	  UI -> .lic, .jazz, kmc, etc. nginx -> .core nginx -> backend service/server
+	  
+	  backend -> backend
+	  .core nginx
+	  
+	  public -> backend service/server
+	  .edge
+	- # cronicle
+	  push changes using cronicle
+	- push by rid (changes in staging db compare to prod by restaurant id )
+	- Synckjtdb (all changes in staging db compare to prod)
+	  
+	  synckjtdb - 2AM (1hr)
+	  synckjtdb_upgrade - 4AM (20min)
+	  if synckjtdb was run manually, also run synckjtdb_upgrade
+	  
+	  cronicle (pictor and ursa servers)
+	- cron job manager
+	- # monitoring tools
+	  rollbar - log monitoring tool
+	  grafana - application performance monitoring tool
+	  kibana - log viewer/visualization
+	- # aws
+	- api gateway - routing (sesame.menu and mobile only)
+	- s3 - file storage server
+	- ec2 - elastic compute cloud (servers)
+	- # pain points 
+	  1. users (customer, client, content team)
+	  2. investigate by ba
+	  3. ba sign off (jira tickets)
+	  4. develop (dev to dev, always coordinate)
+	  6.  any changes will be updated in jira tickets
+	  7.  qa testing
+	  8.  uat - training
+	  9.  qa sign off
+	  10.  prod
+	- metrics - for measuring the effectiveness of the change/addntl feature
+	- possible of multiple phases if requirements are not met
