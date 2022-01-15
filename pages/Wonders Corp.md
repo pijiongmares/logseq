@@ -1,5 +1,33 @@
--
-  #
+- # List Of Requirements
+	-
+	- [x] Updated copy of resume
+	- [x] 1x1 ID pic
+	- [x] Photocopy of 2 valid IDs
+	- [x] Proof of SSS number
+	- [x] SSS Statement of Account (SOA) (if with an existing loan) _Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
+	- [x] Proof of Philhealth number
+	- [x] Philhealth Member Registration Form (PMRF)
+	- [x] Proof of Pag-ibig number
+	- [x] Member's Change of Information Form (MCIF)
+	- [x] Pag-ibig Statement of Account (SOA) - (if with an existing loan)_Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
+	- [x] Proof of Tax Identification Number (TIN)\
+	- [x] BIR form 1905
+	- N/A BIR form 1902 (without TIN)
+	- [x] NBI Clearance
+	- [x] NSO Birth Certificate
+	- [x] NSO Birth Certificate of dependent/s
+	- [x] Wonders ID form
+	- [x] NSO Marriage Certificate (if married)
+	- [x] Latest BIR 2316
+	- [ ] Certificate of Employment
+	- [x] TOR/ Diploma
+	- [x] SSS, Philhealth, and Pag-ibig contributions
+	- [x] Pag-ibig letter of Authorization
+	- [x] 2021 Cedula
+	- [x] Signed Job offer
+	- [x] Signed contract (per page)
+	- [x] Signed Annex A
+	- [x] 2021 BIR Waiver (attached)
 - # Orientation
   collapsed:: true
 	- Founded 2012, Long Island, NYC
