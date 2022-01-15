@@ -88,14 +88,14 @@
 		- Health Declaration Form every day when going onsite
 - # Engineering Introduction
 	- # Onboarding with Sir Arman
-	  jira - tasks - [Wonderers - Agile Board - Jira (atlassian.net)](https://wondersco.atlassian.net/secure/RapidBoard.jspa?rapidView=58&projectKey=SKT)
-	  confluence - for documentations - [BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/overview)
-	  wonders service desk portal - for hr/it concerns - [WONDERS SERVICE DESK PORTAL - Jira Service Management (atlassian.net)](https://wondersco.atlassian.net/servicedesk/customer/portals)
-	  pos - phone order system [POS (letsdochinese.com)](https://mnl-api.letsdochinese.com/KJTCore/resources/nonagent.html)
-	  pos - phone order system (for agents) [POS (letsdochinese.com)](https://mnl-api.letsdochinese.com/KJTCore/resources/agentwithmetrics.html)
-	  github wonders - [Wonders Coporation (github.com)](https://github.com/kjt01)
-	- ## probitionary period
-	- employee's feedback
+		- Jira - tasks - [Wonderers - Agile Board - Jira (atlassian.net)](https://wondersco.atlassian.net/secure/RapidBoard.jspa?rapidView=58&projectKey=SKT)
+		- Confluence - for documentations - [BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/overview)
+		- Wonders service desk portal - for hr/it concerns - [WONDERS SERVICE DESK PORTAL - Jira Service Management (atlassian.net)](https://wondersco.atlassian.net/servicedesk/customer/portals)
+		- POS - phone order system [POS (letsdochinese.com)](https://mnl-api.letsdochinese.com/KJTCore/resources/nonagent.html)
+		- POS - phone order system (for agents) [POS (letsdochinese.com)](https://mnl-api.letsdochinese.com/KJTCore/resources/agentwithmetrics.html)
+		- Github wonders - [Wonders Coporation (github.com)](https://github.com/kjt01)
+		- ## Probitionary Period
+			- Employee's feedback
 	- manager's feedback
 	- ## policies : able to adhere required to me (tasks and company policies)
 	- customer service
