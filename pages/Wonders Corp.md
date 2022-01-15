@@ -274,17 +274,10 @@
 								- Fee base on minimum distance and delivery
 							- #### City
 								- Fee base on city
-		- #### printer editor
-		- printers and receipt templates
-		- ##### restaurant selector
-		- ##### printer editor
-		  
-		  
-		  ___
-		  
-		  ___
-		  
-		  ___
+					- ### Printer
+						- Printers and receipt templates
+						- #### Restaurant Selector
+						- #### Printer Editor
 		- ### credit cards
 		- #### credit card note
 		- ##### restaurant list
