@@ -609,5 +609,75 @@
 		- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
 - # Backend Applications Setup Changes (For Local Only)
 	- # content-config-service
-	-
+		- ## appication-local.yml
+			- ``` yml
+			  	
+			  	# username and password changed
+			  	application: 
+			  		datasource: 
+			  			type: com.zaxxer.hikari.HikariDataSource
+			  			jdbc: jdbc:mysql://localhost:3306/kjt?autoReconnect=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true&useSSL=false&serverTimezone=America/New_York
+			  			username: root
+			  			password: p@ssw0rd
+			  	
+			  	```
+		- ## pom.xml
+			- ``` xml
+			  	
+			  	<!--jabylon repo commented-->
+			  	 <repositories>
+			  		 <!-- jhipster-needle-maven-repository -->
+			  		 <!-- <repository>
+			  			 <id>jabylon</id>
+			  			 <url>http://www.jabylon.org/maven/</url>
+			  		 </repository> -->
+			  	 </repositories>
+			  	
+			  	<!--added local profile-->
+			  	<profile>
+			  		 <id>local</id>
+			  		 <dependencies>
+			  			 <dependency>
+			  				 <groupId>org.springframework.boot</groupId>
+			  				 <artifactId>spring-boot-starter-undertow</artifactId>
+			  			 </dependency>
+			  		 </dependencies>
+			  		 <build>
+			  			 <plugins>
+			  				 <plugin>
+			  					 <artifactId>maven-clean-plugin</artifactId>
+			  					 <configuration>
+			  					 <filesets>
+			  					 <fileset>
+			  					 <directory>D:/work/wonders\ corp/projects/content-config-server/src/main/resources/static</directory>
+			  					 </fileset>
+			  					 </filesets>
+			  					 </configuration>
+			  				 </plugin>
+			  					 <plugin>
+			  						 <groupId>org.springframework.boot</groupId>
+			  						 <artifactId>spring-boot-maven-plugin</artifactId>
+			  						 <configuration>
+			  							<mainClass>com.kjt.ccs.ContentConfigServerApp</mainClass>
+			  						 </configuration>
+			  						 <executions>
+			  							 <execution>
+			  								 <goals>
+			  									<goal>build-info</goal>
+			  								 </goals>
+			  							 </execution>
+			  						 </executions>
+			  					 </plugin>
+			  				 <plugin>
+			  					 <groupId>pl.project13.maven</groupId>
+			  					 <artifactId>git-commit-id-plugin</artifactId>
+			  				 </plugin>
+			  			 </plugins>
+			  		 </build>
+			  		 <properties>
+			  			 <!-- default Spring profiles -->
+			  			 <spring.profiles.active>local${profile.swagger}${profile.no-liquibase}</spring.profiles.active>
+			  		 </properties>
+			  	 </profile>
+			- ```
 -
