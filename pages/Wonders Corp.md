@@ -610,10 +610,9 @@
 - # Backend Applications Setup Changes (For Local Only)
 	- # content-config-service
 		- do not commit changes in :
-		  1. application-local.yml
-		  
-		  	``` yml
-		  
+		-
+		- 1. application-local.yml
+		- ``` yml
 		  	# username and password changed
 		  	application: 
 		  datasource: 
@@ -622,7 +621,7 @@
 		  	username: root
 		  	password: p@ssw0rd
 		  
-		  	```
+		  ```
 		  
 		  
 		  2. pom.xml
