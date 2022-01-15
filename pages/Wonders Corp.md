@@ -321,19 +321,12 @@
 				- ### SMS
 					- #### Restaurant List
 					- #### Pickup/Delivery SMS Text Template
-		- ### Restaurant Phone
-		- #### Restaurant Selector
-		- #### Restaurant Phone Editor
-		  
-		  ___
-		- #### mobile client
-		- ##### restaurant selector
-		- ##### mobile client editor
-		- restaurant account for mobile app
-		  
-		  ___
-		  
-		  
-		  ___
-		- # queue display
+				- ### Restaurant Phone
+					- #### Restaurant Selector
+					- #### Restaurant Phone Editor
+				- ### Mobile Client
+					- #### Restaurant Selector
+					- #### Mobile Client Editor
+						- Restaurant account for mobile app
+		- # Queue display
 		- UI to display calls that are in queue
