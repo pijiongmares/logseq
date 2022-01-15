@@ -142,15 +142,15 @@
 								- call recording stops when entering credit card details
 								- propay credit card are external that are sent to the restaurant for processing
 								- can also be updated for sent orders
-								- #### Send
+							- #### Send
 								- pay cash
 								- sent orders for the current date can still be modifed
-		- ##### price section
-		- discounts
-		- subtotal (discount applied)
-		- dish & delivery tax (not always the same)
-		- total price
-		- eta to finish
+							- #### Price Section
+								- discounts
+								- subtotal (discount applied)
+								- dish & delivery tax (not always the same)
+								- total price
+								- eta to finish
 		- #### restaurant note (top middle)
 		- #### menu
 		- ##### purple : modifications of the dish
