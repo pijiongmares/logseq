@@ -86,6 +86,46 @@
 		- Wear company Id all the time
 		- With lockers
 		- Health Declaration Form every day when going onsite
+- # Engineering Introduction
+	- # Onboarding with Sir Arman
+	  jira - tasks - [Wonderers - Agile Board - Jira (atlassian.net)](https://wondersco.atlassian.net/secure/RapidBoard.jspa?rapidView=58&projectKey=SKT)
+	  confluence - for documentations - [BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/overview)
+	  wonders service desk portal - for hr/it concerns - [WONDERS SERVICE DESK PORTAL - Jira Service Management (atlassian.net)](https://wondersco.atlassian.net/servicedesk/customer/portals)
+	  pos - phone order system [POS (letsdochinese.com)](https://mnl-api.letsdochinese.com/KJTCore/resources/nonagent.html)
+	  pos - phone order system (for agents) [POS (letsdochinese.com)](https://mnl-api.letsdochinese.com/KJTCore/resources/agentwithmetrics.html)
+	  github wonders - [Wonders Coporation (github.com)](https://github.com/kjt01)
+	- ## probitionary period
+	- employee's feedback
+	- manager's feedback
+	- ## policies : able to adhere required to me (tasks and company policies)
+	- customer service
+		- improve system stability and availability
+		- add value to customers by developing features and providing end to end support
+	- internal support and services
+		- deliver ease to use and efficient applications for our internal users
+	- team performance and culture
+		- create a culture of scalability, continuous progression, and fosterin trust
+		  
+		  pto (personal time off) approval
+		  email pto and wait for approval
+		  google calendar set pto sched
+		  nice add activity for the pto sched
+	- # onboarding with sir nicko
+	  Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
+	  
+	  Vision : We are the leading techonology and customer service partner for restaurants everywhere
+	  
+	  order processing, credit card payments, delivery fulfillment
+	  
+	  steve (ceo) and dennis lin, bobby vp, bj sys arch, sherwin vp ph country head
+	  
+	  matt ops directory, karen t
+	  
+	  arman - engineering manager
+	  jegger - team lead
+	  jz - backend dev supervisor
+	  nico - it ops
+	  joseph nicko - hr business partner for engineering
 - # Onboarding
   collapsed:: true
 	- # Onboarding Notes
