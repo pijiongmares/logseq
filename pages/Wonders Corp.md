@@ -941,19 +941,19 @@
 			- ### Github Repository
 				- [https://github.com/kjt01/sms-customer-client](https://github.com/kjt01/sms-customer-client)
 				- [Text Message to Confirm Address - BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/pages/1241153572/Text+Message+to+Confirm+Address)
-				- [receive sms free](https://smsreceivefree.com/info/13479675336/?__cf_chl_captcha_tk__=pmd_3hbkuug7pOXVnKpurqBjXAoxjulqp7k2j7Wk4U3O6Jc-1629821478-0-gqNtZGzNAvujcnBszQh9)
-		- # code findings
-		- ## map.html
-		- in map.html, send sms function does not include the address set by the agent in the request to the kjt-sms-connect-service backend (only sms number,  username, and restaurant id are being sent)
-		- ## kjt-sms-connect-service (receive the request for sending sms from map.html)
-		- the map.html sends request to /sms/api/location/customer in the GeolocationController class. it accepts a payload of CustomerLocationSMS model class which has the properties smsNumber, rid, and username
-		- transaction id and time created are also generated in the GeolocationController
-		- GeolocationController has algorithms that fits to be in a service, refactor?
-		- in the GeolocationController, generates a geolocation long url that consist of the customerlocationsms.html page (location in the sms-customer-client project), smsNumber, transaction id, and the address of the restaurant
-		- create a CustLocReqURL model class that consist of the long url, time created of the custom location url model, and the restaurant id
-		- generate a shorten url (replace the long url with a generated unique id) and save the CustLocReqURL model in the directory SMS:ManagedUrl in redis
-		- construct the complete url with the shorten/temp url
-		- create instance of SendSMSGeoLocationRequest to send the url via sms
+				- [Receive sms free](https://smsreceivefree.com/info/13479675336/?__cf_chl_captcha_tk__=pmd_3hbkuug7pOXVnKpurqBjXAoxjulqp7k2j7Wk4U3O6Jc-1629821478-0-gqNtZGzNAvujcnBszQh9)
+		- ## Code Findings
+			- ### map.html
+				- In map.html, send sms function does not include the address set by the agent in the request to the kjt-sms-connect-service backend (only sms number,  username, and restaurant id are being sent)
+			- ### kjt-sms-connect-service (receive the request for sending sms from map.html)
+				- The map.html sends request to /sms/api/location/customer in the GeolocationController class. it accepts a payload of CustomerLocationSMS model class which has the properties smsNumber, rid, and username
+				- Transaction id and time created are also generated in the GeolocationController
+				- GeolocationController has algorithms that fits to be in a service, refactor?
+				- In the GeolocationController, generates a geolocation long url that consist of the customerlocationsms.html page (location in the sms-customer-client project), smsNumber, transaction id, and the address of the restaurant
+				- Create a CustLocReqURL model class that consist of the long url, time created of the custom location url model, and the restaurant id
+				- Generate a shorten url (replace the long url with a generated unique id) and save the CustLocReqURL model in the directory SMS:ManagedUrl in redis
+		- Construct the complete url with the shorten/temp url
+			- Create instance of SendSMSGeoLocationRequest to send the url via sms
 		- ## kjt-sms-connect-service (receive the request for redirecting to address confirmation ui (customerlocationsms.html) from the url send via sms)
 		- customer loads the url into the browser, request sent to /map/api/location/redirect/{shorten url}
 		- method retrieves the long url saved in redis using the shorten url (id referencing to the record)
