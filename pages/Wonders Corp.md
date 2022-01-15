@@ -896,7 +896,7 @@
 				- Pwede ba mag update after ng call?
 				- Mas preferred na hindi
 				- Note - may expiry yung link
-				- Currently [sesame.menu](file:///S://sesame.menu) yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
+				- Currently sesame.menu yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
 			- ### Github Repository
 				- [https://github.com/kjt01/sms-customer-client](https://github.com/kjt01/sms-customer-client)
 				- [Text Message to Confirm Address - BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/pages/1241153572/Text+Message+to+Confirm+Address)
