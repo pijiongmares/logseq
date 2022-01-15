@@ -278,10 +278,9 @@
 					- #### Restaurant Selector
 					- #### Printer Editor
 				- ### Credit Card Note
-		- #### Restaurant list
-		- ##### credit card note editor
-		- accepted credit cards, required credit card info stripe info, propay info, and the editor
-		  ___
+					- #### Restaurant List
+					- #### Credit Card Note Editor
+						- Accepted credit cards, required credit card info stripe info, Propay info, and the editor
 		- #### cc processing fee editor
 		- ##### restaurant selector
 		- ##### credit card note editor
