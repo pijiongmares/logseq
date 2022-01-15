@@ -321,10 +321,9 @@
 				- ### SMS
 					- #### Restaurant List
 					- #### Pickup/Delivery SMS Text Template
-		- ### Phone/mobile app
-		- #### restaurant phone
-		- ##### restaurant selector
-		- ##### restaurant phone editor
+		- ### Restaurant Phone
+		- #### Restaurant Selector
+		- #### Restaurant Phone Editor
 		  
 		  ___
 		- #### mobile client
