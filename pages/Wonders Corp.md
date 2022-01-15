@@ -96,20 +96,20 @@
 		- Github wonders - [Wonders Coporation (github.com)](https://github.com/kjt01)
 		- ## Probitionary Period
 			- Employee's feedback
-	- manager's feedback
-	- ## policies : able to adhere required to me (tasks and company policies)
-	- customer service
-		- improve system stability and availability
-		- add value to customers by developing features and providing end to end support
-	- internal support and services
-		- deliver ease to use and efficient applications for our internal users
-	- team performance and culture
-		- create a culture of scalability, continuous progression, and fosterin trust
-		  
-		  pto (personal time off) approval
-		  email pto and wait for approval
-		  google calendar set pto sched
-		  nice add activity for the pto sched
+			- Manager's feedback
+		- ## Policies : able to adhere required to me (tasks and company policies)
+			- Customer service
+				- Improve system stability and availability
+				- Add value to customers by developing features and providing end to end support
+			- Internal support and services
+				- Deliver ease to use and efficient applications for our internal users
+			- Team performance and culture
+				- Create a culture of scalability, continuous progression, and fosterin trust
+				- ## Filing of Leave
+				- PTO (personal time off) approval
+				  Email pto and wait for approval
+				  Google calendar set pto sched
+				  NICE : add activity for the pto sched
 	- # onboarding with sir nicko
 	  Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
 	  
