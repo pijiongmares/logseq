@@ -12,12 +12,12 @@
 	- DONE 1x1 ID pic
 	- DONE Photocopy of 2 valid IDs
 	- DONE Proof of SSS number
-	- DONE SSS Statement of Account (SOA) (if with an existing loan) _Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
+	- DONE SSS Statement of Account (SOA) (if with an existing loan) _Send your SOA to [aldrin.amante@wondersco.com](aldrin.amante@wondersco.com) and [Hr@wondersco.com](HR@wondersco.com)_
 	- DONE Proof of Philhealth number
 	- DONE Philhealth Member Registration Form (PMRF)
 	- DONE Proof of Pag-ibig number
 	- DONE Member's Change of Information Form (MCIF)
-	- DONE Pag-ibig Statement of Account (SOA) - (if with an existing loan)_Send your SOA to [aldrin.amante@wondersco.com](mailto:aldrin.amante@wondersco.com) and [Hr@wondersco.com](mailto:HR@wondersco.com)_
+	- DONE Pag-ibig Statement of Account (SOA) - (if with an existing loan)_Send your SOA to [aldrin.amante@wondersco.com](aldrin.amante@wondersco.com) and [Hr@wondersco.com](HR@wondersco.com)_
 	- DONE Proof of Tax Identification Number (TIN)\
 	  :LOGBOOK:
 	  CLOCK: [2022-01-16 Sun 00:47:40]--[2022-01-16 Sun 00:47:41] =>  00:00:01
