@@ -911,14 +911,13 @@
 - # Tasks
 	- ## 101121 Enhance SMS Address Confirmation
 		- ### Send SMS Improvement Feature Notes:
-		- ## current:
-		  
-		  Hi, this is CHEF KWO SKT. Please click the link below to share with us your location for delivery. [https://sesame.menu/sms/api/location/redirect/gI61xp](https://sesame.menu/sms/api/location/redirect/gI61xp)
-		- ## permission:
-		- if allow - show the customer's address in the map
-		- if deny - show the restaurant's address in the map
-		- ## requirements:
-		- allow the customer to change the address (even multiple times) during the session only
+			- ### Current:
+				- Hi, this is CHEF KWO SKT. Please click the link below to share with us your location for delivery. [https://sesame.menu/sms/api/location/redirect/gI61xp](https://sesame.menu/sms/api/location/redirect/gI61xp)
+			- ### Permission:
+				- If allow - show the customer's address in the map
+				- If deny - show the restaurant's address in the map
+			- ### Requirements:
+			- allow the customer to change the address (even multiple times) during the session only
 		- after the call, expire the update link
 		- when viewing the link - send the customer address set in POS with condition of:
 		- allow permission:
