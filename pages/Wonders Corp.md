@@ -362,11 +362,10 @@
 		- # Cronicle
 			- Push changes using Cronicle
 			- Push by rid (changes in Staging DB compare to PROD by restaurant id )
-			- Synckjtdb (all changes in Staging DB compare to PRD)
-			  
-			  synckjtdb - 2AM (1hr)
-			  synckjtdb_upgrade - 4AM (20min)
-			  if synckjtdb was run manually, also run synckjtdb_upgrade
+			- Synckjtdb (all changes in Staging DB compare to PROD)
+			- ## synckjtdb - 2AM (1hr)
+			- ## synckjtdb_upgrade - 4AM (20min)
+			- ##if synckjtdb was run manually, also run synckjtdb_upgrade
 			  
 			  cronicle (pictor and ursa servers)
 			- cron job manager
