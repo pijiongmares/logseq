@@ -214,21 +214,18 @@
 							- Restaurant size info note are shown by default
 						- #### Category
 							- If set, the size info will show after selecting the category
-						- ### Dish Note
-		- note after selecting a dish
-		- ##### restaurant
-		- ##### dish list (3rd column)
-		- ##### dish editor
-		  
-		  
-		  ___
-		- #### coupon note
-		- after selecting the coupon category
-		- ##### restaurant list
-		- ##### coupon editor
-		  
-		  
-		  ___
+					- ### Dish Note
+						- Note after selecting a dish
+						- #### Restaurant
+						- #### Dish List (3rd Column)
+						- #### Dish Editor
+					- ### Coupon Note
+						- After selecting the coupon category
+						- #### Restaurant List
+						- #### Coupon Editor
+						  
+						  
+						  ___
 		- #### restaurant time
 		- ##### restaurant selector
 		- ##### restaurant time list
