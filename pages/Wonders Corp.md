@@ -303,19 +303,17 @@
 						- Gross billing
 						- Address
 						- Beneficial owner information
-		- ### propay status
-		- #### restaurant selector
-		- #### Propay Status Editor
-		- Add note
-		  ___
-		- ### others (business address, geofence, announcements, sms)
-		- #### business address
-		- restaurant branches
-		- ##### restaurant selector
-		- ##### business address editor
-		  
-		  ___
-		- #### geofence
+				- ### Propay Status
+					- #### Restaurant Selector
+					- #### Propay Status Editor
+						- Add note
+				- ### Business Address
+					- Restaurant branches
+					- #### Restaurant Selector
+					- #### Business Address Editor
+					  
+					  ___
+		- #### Geofence
 		- restaurant branches
 		- ##### restaurant selector
 		- ##### geofence editor
