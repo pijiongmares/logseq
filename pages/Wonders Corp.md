@@ -285,20 +285,16 @@
 					- #### Restaurant Selector
 					- #### Credit Card Note Editor
 						- Fee base on minimum amount
-		- ### Stripe Account
-		- ##### restaurant selector
-		- ##### stripe account editor
-		- restaurant information
-		- owner information
-		- banking information
-		  
-		  ___
-		- #### stripe rate
-		- ##### restaurant selector
-		- ##### stripe rate editor
-		- stripe rate, per card charge, and daily fee
-		  
-		  ___
+				- ### Stripe Account
+					- #### restaurant selector
+					- #### stripe account editor
+						- Restaurant information
+						- Owner information
+						- Banking information
+				- ### Stripe Rate
+					- ##### Restaurant Selector
+					- ##### Stripe Rate Editor
+						- Stripe rate, per card charge, and daily fee
 		- #### propay account
 		- ##### restaurant selector
 		- ##### propay account editor
