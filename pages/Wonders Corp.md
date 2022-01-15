@@ -142,9 +142,9 @@
 								- call recording stops when entering credit card details
 								- propay credit card are external that are sent to the restaurant for processing
 								- can also be updated for sent orders
-		- ##### send
-		- pay cash
-		- sent orders for the current date can still be modifed
+								- #### Send
+								- pay cash
+								- sent orders for the current date can still be modifed
 		- ##### price section
 		- discounts
 		- subtotal (discount applied)
