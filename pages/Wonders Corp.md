@@ -1,4 +1,5 @@
 - # List Of Requirements
+  collapsed:: true
 	- DONE Updated copy of resume
 	  :LOGBOOK:
 	  CLOCK: [2022-01-16 Sun 00:46:12]--[2022-01-16 Sun 00:46:13] =>  00:00:01
@@ -87,6 +88,7 @@
 		- With lockers
 		- Health Declaration Form every day when going onsite
 - # Engineering Introduction
+  collapsed:: true
 	- # Onboarding with Sir Arman
 		- Jira - tasks - [Wonderers - Agile Board - Jira (atlassian.net)](https://wondersco.atlassian.net/secure/RapidBoard.jspa?rapidView=58&projectKey=SKT)
 		- Confluence - for documentations - [BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/overview)
@@ -110,16 +112,16 @@
 			- Email PTO and wait for approval
 			- Google calendar set PTO sched
 			- NICE : add activity for the PTO sched
-		- # Onboarding with Sir Nicko
-			- Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
-			- Vision : We are the leading techonology and customer service partner for restaurants everywhere
-			- Order processing, credit card payments, delivery fulfillment
-			- Steve (ceo) and Dennis Lin, Bobby VP, BJ Sys Arch, Sherwin VP PH Country Head
-			- Arman - engineering manager
-			- Jegger - team lead
-			  JZ - backend dev supervisor
-			  Nico - IT Ops
-			  Joseph Nicko - HR business partner for engineering
+	- # Onboarding with Sir Nicko
+		- Mission : To provide a virtuous ecosystem of tools and services to retaurant operations to help them be more successful
+		- Vision : We are the leading techonology and customer service partner for restaurants everywhere
+		- Order processing, credit card payments, delivery fulfillment
+		- Steve (ceo) and Dennis Lin, Bobby VP, BJ Sys Arch, Sherwin VP PH Country Head
+		- Arman - engineering manager
+		- Jegger - team lead
+		  JZ - backend dev supervisor
+		  Nico - IT Ops
+		  Joseph Nicko - HR business partner for engineering
 - # Onboarding
   collapsed:: true
 	- # Onboarding Notes
@@ -551,6 +553,7 @@
 		- Remove "SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal" in each commits
 		- Retain changes
 - # My Workstation Environment
+  collapsed:: true
 	- # MySQL Workstation
 		- Download both the kjt and kjtcallctr script files in [kjtcallctr database copy](https://drive.google.com/drive/u/2/folders/1ubCcGcHjmdNmw4KxE1QveSmrU41qoY3x) (use wonders google account) and run in it the local mysql database
 		- ## Local Creds
