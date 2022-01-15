@@ -178,9 +178,9 @@
 							- #### Blue : rice substitutes
 							- #### Green : regular dish substitutes
 						- ### Transfer Call (Right Sidebar)
-		- ##### transfer : transfer call to manager, spanish, party order, chinese, and external transfers (restaurant order & online order)
-		- external transfers are orders that where processed using the clients portal/order system, not with pos
-		- ##### help : ask for help and chinese assistant
+							- #### Transfer : transfer call to manager, Spanish, party order, Chinese, and external transfers (restaurant order & online order)
+								- External transfers are orders that where processed using the clients portal/order system, not with POS
+							- #### Help : ask for help and chinese assistant
 		- # online order system (sesame.menu)
 		  
 		  ___
