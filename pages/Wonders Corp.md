@@ -165,16 +165,16 @@
 								- #### Ask & Click
 									- Top section shows the current condition that can be applied to the selected dish
 									- Option to select the side dish for the main dish selected
-								- #### after the ask & click popup
-									- reminder popup : ask the message displayed
-									- after selecting the type of dish in ask & click, the dish options will be enabled in the  located at the middle left
-		- ###### size info note
-		- ###### brown : sizes
-		- L : Lunch
-		- Qt/Quart : Large
-		- md : Median
-		- Pt/Pint : Small
-		- C : Combo
+								- #### After the Ask & Click Popup
+									- Reminder popup : ask the message displayed
+									- After selecting the type of dish in ask & click, the dish options will be enabled in the located at the middle left
+								- #### Size Info Note
+								- #### Brown : sizes
+									- L : Lunch
+									- Qt/Quart : Large
+									- md : Median
+									- Pt/Pint : Small
+									- C : Combo
 		- ###### blue : rice substitutes
 		- ###### green : regular dish substitutes
 		- #### transfer call (right sidebar)
