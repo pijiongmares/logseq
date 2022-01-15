@@ -94,3 +94,9 @@
 		  ```
 		  ```
 - ## 110921 Add Cloning Of Menu in Restaurant Editor
+  collapsed:: true
+	- ## Tables currently affected by the cloning
+		- kjt.category
+		- kjt.comboappcategory
+		- kjt.dish
+		- kjt.dishproperties
