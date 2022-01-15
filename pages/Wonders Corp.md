@@ -156,7 +156,7 @@
 								- #### Purple : modifications of the dish
 									- special order : dishes that do not exist maybe added
 									- menu : displays the softversion of the menu
-		- ##### blue/category
+							- #### Blue/category
 		- ##### category note
 		- ##### green/dishes per category
 		- clicking the dish will show the ask & click popup depending on the condition
