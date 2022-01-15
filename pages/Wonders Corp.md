@@ -897,6 +897,15 @@
 			  		 </property>
 			  	 </bean>
 			  ```
-	-
+	- ## nginx.conf
+		- ### added **/map** on the uri to make route to customerlocationsms.html work
+			- ``` conf
+			  	 location /KJTCore/resources/map/ {
+			  		 alias "D:/work/wonders corp/projects/sms-customer-client/";
+			  		 try_files $uri $uri.html $uri/;
+			  		 autoindex off;
+			  		 expires -1;
+			  	 }
+			  ```
 	-
 -
