@@ -1,2 +1,4 @@
-- ## My  [[Orientation]]
+- ## [[Orientation]]
 - ## [[My Local Setup]]
+- ## [[My Tasks]]
+-
