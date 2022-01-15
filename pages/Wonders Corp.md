@@ -1,4 +1,5 @@
 - # List Of Requirements
+  collapsed:: true
 	- DONE Updated copy of resume
 	  :LOGBOOK:
 	  CLOCK: [2022-01-16 Sun 00:46:12]--[2022-01-16 Sun 00:46:13] =>  00:00:01
@@ -987,20 +988,20 @@
 			- 4. Input feature gives the address  (already doing this)
 			- 5. Confirmation alert after selecting an address (edited)
 		- ## Execution Plan
-		- 1. Create a button with a message icon beside the address text field, copy the script from the send button in map.html (the modal html element that has an input box for the mobile number and the buttons). the script, using ajax, includes the request to the kjt-sms-connect-service confirm endpoint that sends the address back to the pos.html using websocket
-		- 2. pdate the customerlocationsms.html google api implementation and just add the options to remove the pinned commercial places
-		  3. change the input element to textarea (google map api searchbox accepts textarea element)
-		  4. google map api already shows the places while typing in the search box (autocomplete)
-		  5. show an alert element (popup/anywhere in the main page) that the location was sent back to the agent
-		- # venom.letsdochinese.com nginx.conf
-		  ``` nginx
-		  # added line in int.letsdochinese.com server
-		  location /KJTCore/resources/map {
-		  	alias /var/www/sms/location/;
-		  	try_files $uri $uri.html $uri/;
-		  	autoindex off;
-		  	expires -1;
-		  }
-		  ```
-		  ```
+			- 1. Create a button with a message icon beside the address text field, copy the script from the send button in map.html (the modal html element that has an input box for the mobile number and the buttons). The script, using ajax, includes the request to the kjt-sms-connect-service confirm endpoint that sends the address back to the pos.html using websocket
+			- 2. Update the customerlocationsms.html google api implementation and just add the options to remove the pinned commercial places
+			- 3. Change the input element to textarea (google map api searchbox accepts textarea element)
+			- 4. Google map api already shows the places while typing in the search box (autocomplete)
+			- 5. Show an alert element (popup/anywhere in the main page) that the location was sent back to the agent
+		- ## venom.letsdochinese.com nginx.conf
+			- ``` nginx
+			  # added line in int.letsdochinese.com server
+			  location /KJTCore/resources/map {
+			  	alias /var/www/sms/location/;
+			  	try_files $uri $uri.html $uri/;
+			  	autoindex off;
+			  	expires -1;
+			  }
+			  ```
+			  ```
 -
