@@ -917,27 +917,27 @@
 				- If allow - show the customer's address in the map
 				- If deny - show the restaurant's address in the map
 			- ### Requirements:
-			- allow the customer to change the address (even multiple times) during the session only
-		- after the call, expire the update link
-		- when viewing the link - send the customer address set in POS with condition of:
-		- allow permission:
-		- if valid - confirm
-		- if not - allow to change then confirm
-		- if not allow:
-		- send restaurant address
-		- ~~update the SMS sent to customer?~~  - Not needed, current message is enough.
-		- ## to check:
-		- na sa-save ba yung new address sa next call?
-		- sa receipt kaya na lalagay yung address ng customer? - YES
-		- implementation:
-		- approach 1 - kung pwede i-expire yung link after ng call
-		- approach 2 - allow 1 time update after mag end yung call
-		- to check - na u-update ba yung receipt sa restaurant kapag nag palit ng address?
-		- ## other question:
-		- pwede ba mag update after ng call?
-		- mas preferred na hindi
-		- note - may expiry yung link
-		- currently [sesame.menu](file:///S://sesame.menu) yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
+				- Allow the customer to change the address (even multiple times) during the session only
+				- After the call, expire the update link
+				- When viewing the link - send the customer address set in POS with condition of:
+				- Allow permission:
+				- If valid - confirm
+				- If not - allow to change then confirm
+				- If not allow:
+				- Send restaurant address
+				- ~~Update the SMS sent to customer?~~  - Not needed, current message is enough.
+			- ### To check:
+				- Na sa-save ba yung new address sa next call?
+				- Sa receipt kaya na lalagay yung address ng customer? - YES
+				- Implementation:
+				- Approach 1 - kung pwede i-expire yung link after ng call
+				- Approach 2 - allow 1 time update after mag end yung call
+				- To check - na u-update ba yung receipt sa restaurant kapag nag palit ng address?
+			- ### Other question:
+				- pwede ba mag update after ng call?
+				- mas preferred na hindi
+				- note - may expiry yung link
+				- currently [sesame.menu](file:///S://sesame.menu) yung nasa domain na sini-send sa sms. ok lang ba to sa future? since possible mawala sa future yung sesame.menu - Ok lang, via nginx yung change sa future
 		- ## github repository
 		- [https://github.com/kjt01/sms-customer-client](https://github.com/kjt01/sms-customer-client)
 		  
