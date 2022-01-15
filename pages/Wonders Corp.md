@@ -281,13 +281,11 @@
 					- #### Restaurant List
 					- #### Credit Card Note Editor
 						- Accepted credit cards, required credit card info stripe info, Propay info, and the editor
-		- #### cc processing fee editor
-		- ##### restaurant selector
-		- ##### credit card note editor
-		- fee base on minimum amount
-		  
-		  ___
-		- #### stripe account
+				- ### CC Processing Fee
+					- #### Restaurant Selector
+					- #### Credit Card Note Editor
+						- Fee base on minimum amount
+		- ### Stripe Account
 		- ##### restaurant selector
 		- ##### stripe account editor
 		- restaurant information
