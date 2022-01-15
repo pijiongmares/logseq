@@ -445,20 +445,19 @@
 			- For measuring the effectiveness of the change/additional feature
 			- Possible of multiple phases if requirements are not met
 - # Ways Of Working
-	- # pull request format
-	  
-	  \<Epic\> - \<User story/bug ticket\> - \<User story/bug ticket title\>
-	  SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
-	- approver: to approve/code review only the PR
-	- reviewer: is the one who will merge the change
-	- for bug, create new bug tickets and link to the user story
-	- for UI change, attach the screenshot in the PR
-	- after merging, delete the branch
-	- # commit notes
-	  
-	  SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
-	- don't use: git commit -m ""
-	- use instead: git commit 
+	- # Pull Request Format
+		- \<Epic\> - \<User story/bug ticket\> - \<User story/bug ticket title\>
+		- SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
+		-
+		- Approver: to approve/code review only the PR
+		- Reviewer: is the one who will merge the change
+		- For bug, create new bug tickets and link to the user story
+		- For UI change, attach the screenshot in the PR
+		- After merging, delete the branch
+	- # Commit Notes
+	- SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
+	- Don't use: git commit -m ""
+	- Use instead: git commit 
 	  
 	  First line: SKT-6497-SKT-6761-\<message\>
 	  \<space\>
