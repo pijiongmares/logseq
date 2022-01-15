@@ -1,3 +1,5 @@
+-
+  #
 - # Orientation
   collapsed:: true
 	- Founded 2012, Long Island, NYC
@@ -500,32 +502,32 @@
 		- ## Local
 			- Port : 6379
 	- # Core Projects
-	- ## Clone [kjt-pos-comm](https://github.com/kjt01/kjt-pos-comm)
-	- Build mvn clean install -U -DskipTests=true
-	- ## clone [kjt-redis-comm](https://github.com/kjt01/kjt-redis-comm.git)
-	- Build mvn clean install -U -DskipTests=true
-	- ## clone [payment-processing-comm](https://github.com/kjt01/payment-processing-comm)
-	- Build mvn clean install -U -DskipTests=true
-	- ## clone [kjt-ext-prop](https://github.com/kjt01/kjt-ext-prop)
-	- ## clone [kjt-freemarker-templates](https://github.com/kjt01/kjt-freemarker-templates)
-	- ## clone [kjt-pos-core](https://github.com/kjt01/kjt-pos-core)
-	- Build mvn clean install -U -DskipTests=true.
-	- After build, copy the KJTCore.war file from the target folder to the Tomcat webapp folder (rename to KJTCore.war).
-	- At Tomcat conf, update the catalina.properties. Append the resource path of kjt-ext-prop and path of kjt-freemaker-templates in the common.loader key.
-	- At Tomcat conf, update the context.xml. Add the following the change DB account
-	  
-	  ``` xml
-	  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/kjt" password="kjt" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjt?autoReconnect=true&amp;characterEncoding=UTF-8&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
-	  
-	  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxOpenPreparedStatements="100" maxWait="10000" name="jdbc/kjtcallctr" password="kjt" poolPreparedStatements="true" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjtcallctr?autoReconnect=true&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
-	  
-	  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxOpenPreparedStatements="100" maxWait="10000" name="jdbc/kjtcallctrrep" password="kjt" poolPreparedStatements="true" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjtcallctr?autoReconnect=true&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
-	  
-	  ```
-	- At Tomcat conf, update server.xml. Look for port 8080 and change to 8081
-	- Copy the mysql-connector-java from .m2 repository to Tomcat lib folder
-	- kjt-pos-core is currently being divided into smaller services. following are so far the existing projects that are extracted from kjt-pos-core
-	  	1.  content-config-server
-	  	2.  order-processing-service
-	  	3.  user-config-server
-	- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
+		- ## Clone [kjt-pos-comm](https://github.com/kjt01/kjt-pos-comm)
+			- Build mvn clean install -U -DskipTests=true
+		- ## Clone [kjt-redis-comm](https://github.com/kjt01/kjt-redis-comm.git)
+			- Build mvn clean install -U -DskipTests=true
+		- ## Clone [payment-processing-comm](https://github.com/kjt01/payment-processing-comm)
+			- Build mvn clean install -U -DskipTests=true
+		- ## Clone [kjt-ext-prop](https://github.com/kjt01/kjt-ext-prop)
+		- ## Clone [kjt-freemarker-templates](https://github.com/kjt01/kjt-freemarker-templates)
+		- ## Clone [kjt-pos-core](https://github.com/kjt01/kjt-pos-core)
+		- Build mvn clean install -U -DskipTests=true.
+		- After build, copy the KJTCore.war file from the target folder to the Tomcat webapp folder (rename to KJTCore.war).
+		- At Tomcat conf, update the catalina.properties. Append the resource path of kjt-ext-prop and path of kjt-freemaker-templates in the common.loader key.
+		- At Tomcat conf, update the context.xml. Add the following the change DB account
+		  
+		  ``` xml
+		  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/kjt" password="kjt" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjt?autoReconnect=true&amp;characterEncoding=UTF-8&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
+		  
+		  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxOpenPreparedStatements="100" maxWait="10000" name="jdbc/kjtcallctr" password="kjt" poolPreparedStatements="true" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjtcallctr?autoReconnect=true&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
+		  
+		  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" logAbandoned="true" maxActive="100" maxIdle="30" maxOpenPreparedStatements="100" maxWait="10000" name="jdbc/kjtcallctrrep" password="kjt" poolPreparedStatements="true" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/kjtcallctr?autoReconnect=true&amp;noAccessToProcedureBodies=true" username="root" validationQuery="select 1"/>
+		  
+		  ```
+		- At Tomcat conf, update server.xml. Look for port 8080 and change to 8081
+		- Copy the mysql-connector-java from .m2 repository to Tomcat lib folder
+		- kjt-pos-core is currently being divided into smaller services. following are so far the existing projects that are extracted from kjt-pos-core
+		  	1.  content-config-server
+		  	2.  order-processing-service
+		  	3.  user-config-server
+		- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
