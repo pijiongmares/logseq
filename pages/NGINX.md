@@ -78,14 +78,14 @@
 		- systemctl start nginx (start nginx)
 		- systemctl reload nginx (reload conf files without restart the whole service)
 	- ### Manage NGINX Process
-- cd /etc/nginx (nginx directory, contains confs)
-- sudo vi nginx.conf (open nginx conf)
-- sudo vi conf.d/default.conf (open default conf file for the defaul nginx page, server block, conf per web app)
-## reverse proxy
-- setup first the host to proxy to (nodejs, docker, snap package, java app, or a web host)
-- cd /etc/nginx/conf.d
-- sudo vi <conf_name>.conf (setup the conf, location.proxy_pass is used to set the proxy)
-- sudo mv default.conf default.conf.disabled (rename default.conf to disable)
-- nginx -t (test confs)
-- nginx -s reload (reload confs)
-## load balancer
+		- cd /etc/nginx (nginx directory, contains confs)
+		- sudo vi nginx.conf (open nginx conf)
+		- sudo vi conf.d/default.conf (open default conf file for the defaul nginx page, server block, conf per web app)
+	- ### Reverse Proxy
+		- setup first the host to proxy to (nodejs, docker, snap package, java app, or a web host)
+		- cd /etc/nginx/conf.d
+		- sudo vi <conf_name>.conf (setup the conf, location.proxy_pass is used to set the proxy)
+		- sudo mv default.conf default.conf.disabled (rename default.conf to disable)
+		- nginx -t (test confs)
+		- nginx -s reload (reload confs)
+	- ### Load Balancer
