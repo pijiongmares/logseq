@@ -211,43 +211,42 @@
 		  
 		  
 		  ```
-	- ### \__proto__ inheritance
-	  
-	  ``` js 
-	  	function Car(maxSpeed, driver){
-	  this.maxSpeed= maxSpeed;
-	  this.driver = driver;
-	  this.parked = false;
-	  	};
-	  
-	  	Car.prototype.park = function(){
-	  this.parked = true;
-	  	}
-	  
-	  	Car.prototype.drive = function(speed, time){
-	  console.log(speed * time);
-	  	}
-	  
-	  	// array of parameters
-	  	function FamiliyCar(...args){
-	  // apply method of prototype is used to invoke the function (in this case a constructor function), as every function is an object and has a prototype object. The parameters are the object invoker (this or any object reference) and the array of arguments.
-	  
-	  User.apply(this, args); 
-	  this.role = "super admin";''
-	  	}
-	  
-	  	// additional method for familiy car
-	  
-	  	FamilyCar.prototype.slowDown = function(){
-	  
-	  	}
-	  
-	  	// methods are not automatically inherited. the following inherits the methods from car.
-	  
-	  	FamilyCar.prototype = Object.create(Car.prototype);
-	  
-	  	//or
-	  
-	  	Object.setPrototypeOf(FamilyCar.prototype, Car.prototype);
-	  
-	  ```
+	- ### \__proto__ Inheritance
+		- ``` js 
+		  	function Car(maxSpeed, driver){
+		  this.maxSpeed= maxSpeed;
+		  this.driver = driver;
+		  this.parked = false;
+		  	};
+		  
+		  	Car.prototype.park = function(){
+		  this.parked = true;
+		  	}
+		  
+		  	Car.prototype.drive = function(speed, time){
+		  console.log(speed * time);
+		  	}
+		  
+		  	// array of parameters
+		  	function FamiliyCar(...args){
+		  // apply method of prototype is used to invoke the function (in this case a constructor function), as every function is an object and has a prototype object. The parameters are the object invoker (this or any object reference) and the array of arguments.
+		  
+		  User.apply(this, args); 
+		  this.role = "super admin";''
+		  	}
+		  
+		  	// additional method for familiy car
+		  
+		  	FamilyCar.prototype.slowDown = function(){
+		  
+		  	}
+		  
+		  	// methods are not automatically inherited. the following inherits the methods from car.
+		  
+		  	FamilyCar.prototype = Object.create(Car.prototype);
+		  
+		  	//or
+		  
+		  	Object.setPrototypeOf(FamilyCar.prototype, Car.prototype);
+		  
+		  ```
