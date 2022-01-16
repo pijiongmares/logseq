@@ -253,31 +253,31 @@
 	- An application programming interface
 	- Use the dom when interacting with web pages
 	- Add, delete, or change the content on a html document
-- objects are elements, every html element in the doucment is an object
-- document.getElementsByClassName("") used to retrieve all element objects that have the given class name, returns an array
-- document.getElementsByTagName("") used to retrieve all element objects of the given tag name
-- document.getElementById("") get element object by id
-# changing content using the dom
-- select the element object
-- .innerHTML set/get the html value of the selected element
-- .textContent set/get the text value of the selected element
-# changing element attributes
-- select the element object
-- .getAttribute("") get the value of the given attribute
-- .setAttribute(attributeName, value) set the value of the given attribute
-- .className set/get the class of an element object
-- .href get the url of the link
-- .style get the css style object
-# changing style
-- select the element object
-- .setAttribute("style", styleValue) set the value for the style attribute, replaces the whole value
-- .style.\<css property\> set style value explicitly
-# adding elements to dom
-- select the element object
-- .createElement("") add the element to the selected element object
-- .appendChild("") append the new element
-- .insertBefore(elementToAdd, beforeElement) insert before an element
-# removing from the dom
+	- Objects are elements, every html element in the doucment is an object
+	- document.getElementsByClassName("") used to retrieve all element objects that have the given class name, returns an array
+	- document.getElementsByTagName("") used to retrieve all element objects of the given tag name
+	- document.getElementById("") get element object by id
+- ## Changing Content Using The DOM
+	- Select the element object
+	- .innerHTML set/get the html value of the selected element
+	- .textContent set/get the text value of the selected element
+- ## Changing Element Attributes
+	- Select the element object
+	- .getAttribute("") get the value of the given attribute
+	- .setAttribute(attributeName, value) set the value of the given attribute
+	- .className set/get the class of an element object
+	- .href get the url of the link
+	- .style get the css style object
+- ## Changing Style
+	- Select the element object
+	- .setAttribute("style", styleValue) set the value for the style attribute, replaces the whole value
+	- .style.\<css property\> set style value explicitly
+- ## Adding Elements To DOM
+	- Select the element object
+	- .createElement("") add the element to the selected element object
+	- .appendChild("") append the new element
+	- .insertBefore(elementToAdd, beforeElement) insert before an element
+- ## Removing From The dom
 - select the element object
 - .removeChild(selectedChild) removes the selected child element in the selected parent element
 # javascript events
