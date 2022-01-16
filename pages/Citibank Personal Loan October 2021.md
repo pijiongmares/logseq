@@ -1,4 +1,4 @@
-- #BANK #PERSONAL
+- #Bank #Personal
 - Description : Personal loan in Citibank made October 2021
 -
 - ## Loan Details

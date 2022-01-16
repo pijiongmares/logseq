@@ -1,4 +1,4 @@
-- #WORK #WONDERS
+- #Work #Wonders-Corp
 - Description : My local setup and configurations for Wonders Corporation
 -
 - # My Workstation Environment
