@@ -5,7 +5,7 @@
 - Waterfall method suits for monolith application
 - Waterfall is not applicable when there are changes almost everyday
   
-  	![[waterfall model.png]]
+  ![waterfall model.png](../assets/waterfall_model_1642338036670_0.png)
 # what is agile
 
 ![[agile model.jpg]]
