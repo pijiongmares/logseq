@@ -65,11 +65,11 @@
 			- Daily meeting
 		- #### Sprint Review
 			- End of the user story. each and every user story usually ends in 2 weeks
-### sprint retrospective
-## eXtreme programming
-## LEAN
-## KANBAN
-
-![[kanban system.jpg]]
+		- #### Sprint Retrospective
+	- ### EXtreme Programming
+	- ### LEAN
+	- ### KANBAN
+-
+	-
 - continuous implementation. no sprint
 ## CRYSTAL
