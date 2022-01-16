@@ -6,9 +6,8 @@
 - Waterfall is not applicable when there are changes almost everyday
   
   ![waterfall model.png](../assets/waterfall_model_1642338036670_0.png)
-# what is agile
-
-![[agile model.jpg]]
+-
+- ## What Is Agile
 - rapidly deploy an application in a much organize way
 - small change to shift to the client
 - constant feedback as soon as possible
