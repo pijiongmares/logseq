@@ -4,15 +4,13 @@
 - ## Loan Details
 	- Loan amount : 150000
 	- Terms : 24 months
-	- Sales rep : April
+	- Sales representative : April
 - ## Check Details
-- pay to the order of : CITIBANK NA 7841723807
-  CITIBANK NA 7841723807
-  
-  first check
-  due date : Nov. 6, 2021
-  amount : 9970.35
-  
-  Dec 6, 2021 - Oct 6, 2023 check
-  amount : 7707.85
-- german shepherd
+	- Pay to the order of : CITIBANK NA 7841723807
+	- CITIBANK NA 7841723807
+	- ### First Check
+		- Due date : Nov. 6, 2021
+		- Amount : 9970.35
+	- ### Succeeding Check
+		- Dec 6, 2021 - Oct 6, 2023 check
+		- Amount : 7707.85
