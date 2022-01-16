@@ -1,4 +1,4 @@
-- #DEV-NOTES #JAVASCRIPT
+- #Dev-Notes #Javascript
 - Description : Google Map API notes
 -
 - ## Setting Up The Map

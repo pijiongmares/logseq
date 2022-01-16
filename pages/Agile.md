@@ -1,4 +1,4 @@
-- #DEV-NOTES
+- #Dev-Notes
 - Description : All about Agile methodology
 -
 - ## Why Do We Need Agile
