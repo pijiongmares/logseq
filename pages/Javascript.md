@@ -211,50 +211,48 @@
 	  	};
 	  	car.test(); //prints the car instance object
 	  ```
-# constructor function
-- variable name is in upper case
-  ``` js 
-  	var Car = function(maxSpeed, driver){
-  this.maxSpeed= maxSpeed;
-  this.driver = driver;
-  drive: function(speed, time){
-  	console.log(speed * time);
-  }
-  	};
-  
-  	var car = new Car(100, "Philip");
-  	car.drive(50, 3); //prints 150
-  ```
-- or 
-  
-  ``` js 
-  	function Car(maxSpeed, driver){
-  this.maxSpeed= maxSpeed;
-  this.driver = driver;
-  drive: function(speed, time){
-  	console.log(speed * time);
-  }
-  	};
-  
-  	var car = new Car(100, "Philip");
-  	car.drive(50, 3); //prints 150
-  ```
-# date object
-
-``` js 
-	var today = new Date();
-	console.log(today); //prints the current date and time
-```
-- can also set date manually
-  
-  ``` js 
-  	var myBirthday = new Date(1988, 03, 12);
-  	console.log(myBirthday); //prints the date and time set
-  ```
-# dom object
-- an application programming interface
-- use the dom when interacting with web pages
-- add, delete, or change the content on a html document
+- ## constructor function
+	- Variable name is in upper case
+	- ``` js 
+	  	var Car = function(maxSpeed, driver){
+	  this.maxSpeed= maxSpeed;
+	  this.driver = driver;
+	  drive: function(speed, time){
+	  	console.log(speed * time);
+	  }
+	  	};
+	  
+	  	var car = new Car(100, "Philip");
+	  	car.drive(50, 3); //prints 150
+	  ```
+	- Or
+	- ``` js 
+	  	function Car(maxSpeed, driver){
+	  this.maxSpeed= maxSpeed;
+	  this.driver = driver;
+	  drive: function(speed, time){
+	  	console.log(speed * time);
+	  }
+	  	};
+	  
+	  	var car = new Car(100, "Philip");
+	  	car.drive(50, 3); //prints 150
+	  ```
+- ## Date Object
+	- ``` js 
+	  	var today = new Date();
+	  	console.log(today); //prints the current date and time
+	  ```
+	- Can also set date manually
+	  
+	  ``` js 
+	  	var myBirthday = new Date(1988, 03, 12);
+	  	console.log(myBirthday); //prints the date and time set
+	  ```
+- ## DOM Object
+	- An application programming interface
+	- Use the dom when interacting with web pages
+	- Add, delete, or change the content on a html document
 - objects are elements, every html element in the doucment is an object
 - document.getElementsByClassName("") used to retrieve all element objects that have the given class name, returns an array
 - document.getElementsByTagName("") used to retrieve all element objects of the given tag name
