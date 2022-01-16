@@ -69,7 +69,6 @@
 	- ### EXtreme Programming
 	- ### LEAN
 	- ### KANBAN
--
-	-
-- continuous implementation. no sprint
-## CRYSTAL
+		- ![kanban system.jpg](../assets/kanban_system_1642339494061_0.jpg)
+		- Continuous implementation. no sprint
+	- ### CRYSTAL
