@@ -1,4 +1,4 @@
-- # List Of Requirements
+- description : Orientation notes in Wonders Corporation
   collapsed:: true
 	- DONE Updated copy of resume
 	  :LOGBOOK:
@@ -40,6 +40,8 @@
 	- DONE Signed contract (per page)
 	- DONE Signed Annex A
 	- DONE 2021 BIR Waiver (attached)
+- Tags : #wonders
+- # List Of Requirements
 - # Orientation
   collapsed:: true
 	- Founded 2012, Long Island, NYC
