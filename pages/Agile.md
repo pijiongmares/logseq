@@ -8,10 +8,12 @@
   ![waterfall model.png](../assets/waterfall_model_1642338036670_0.png)
 -
 - ## What Is Agile
-- rapidly deploy an application in a much organize way
-- small change to shift to the client
-- constant feedback as soon as possible
-- iterations
+  
+  ![agile model.jpg](../assets/agile_model_1642338113943_0.jpg)
+- Rapidly deploy an application in a much organize way
+- Small change to shift to the client
+- Constant feedback as soon as possible
+- Iterations
 # key terms of agile
 ## values of agile
 - people over processes and tools
