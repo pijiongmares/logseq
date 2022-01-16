@@ -124,10 +124,9 @@
 	- ### Constructor Function Objects
 		- The ***prototype*** that is an object (called as prototype object) has a ***constructor*** property by default
 		- The ***constructor*** property points back to the function object on which the ***prototype*** object is a property
-		  
-		  ![[prototype object.png]]
-- ***prototype*** property points to the Prototype object of the function
-- use \<function name\>.prototype to access the function's prototype property
+		- ![prototype object.png](../assets/prototype_object_1642341757058_0.png)
+		- ***prototype*** property points to the Prototype object of the function
+		- Use \<function name\>.prototype to access the function's prototype property
 - from the prototype of the function, use \<function name\>.prototype.constructor to access the function object back
 - in the above image, the person object has a prototype object. inside the prototype object, it has a constructor object. the constructor object points back to the person object instance.
 - thus the following comparisons are true :
