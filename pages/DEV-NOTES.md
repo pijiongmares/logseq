@@ -1,2 +1,2 @@
 - Description : Notes for my software development skills
-- {{query Later}}
+- {{query LATER}}
