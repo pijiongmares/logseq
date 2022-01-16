@@ -152,19 +152,16 @@
 		  ```
 		- For example, using **new** keyword to create a new instance of Person named Bob, the properties of Person will be added to the Bob instance, but the methods are in the prototype object of Bob. Since the methods are added in the Person prototype object, any created instance of Person will have the methods in the prototype object that is referencing back to the Person prototype object
 		- ![prototype object of new instance.png](../assets/prototype_object_of_new_instance_1642341823509_0.png)
-- so the prototype of Person should be equal to the prototype object of Bob
-  
-  ``` js 
-  	console.log(Bob.__proto__ === Person.prototype); //prints true
-  ```
-- creating another instance of Person named Alex
-  
-  ![[prototype object of another instance.png]]
-- Alex instance prototype object should be equal to Bob prototype
-  
-  ``` js 
-  	console.log(Bob.__proto__ === Alex.__proto__); //prints true
-  ```
+		- So the prototype of Person should be equal to the prototype object of Bob
+		- ``` js 
+		  	console.log(Bob.__proto__ === Person.prototype); //prints true
+		  ```
+		- Creating another instance of Person named Alex
+		- ![prototype object of another instance.png](../assets/prototype_object_of_another_instance_1642341883047_0.png)
+		- Alex instance prototype object should be equal to Bob prototype
+		- ``` js 
+		  	console.log(Bob.__proto__ === Alex.__proto__); //prints true
+		  ```
 ## prototype chain
 - javascript has built-in objects like Object (all object's parent), Array, Date, Function, etc. and each of these objects will have respective prototype objects attached to it
 - all objects leads to one parent, the Object
