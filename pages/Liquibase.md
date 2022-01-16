@@ -2,51 +2,51 @@
 -
 - Description : Liquibase notes
 -
-# Introduction
-- Open source database migration tool
-- Track, version, deploy database schema changes
-- Uses commands and **Change Types** (changes to database schema) to specify what is needed to do and how would it be done
-- Uses **ChangeLogs** and Tracking Table to determine what is deployed to the database after the commands have been run
-- Creates and executes rollback
-# Supported Databases
-- Oracle
-- PostgreSql
-- Mssql
-- H2
-- Db2
-- MariaDb
-- MySql
-- SqlLite
-- Informix
-- Apache Derby
-- Snowflake
-- CockroachDb
-- SyBase
-- Cassandra
-- MongoDb
-- Sap Hana
-- Amazon Aurora
-- Amazon RDS
-# Schema Changes
-- Fundamental unit of change in Liquibase
-- Schema changes are written using SQL statements that create, modify, or drop database objects
-- Typical schema changes are create table, add index, and drop column
-- In XML, YAML, or JSON, the same schema changes are modeled as Liquibase **Change Types**
-## ChangeLog
-- Changes are written in **ChangeLog**
-- In most cases, there should be one file per application release
-- Supported formats : XML, JSON, YAML, SQL
-- One or more **ChangeSets** are contained in a **ChangeLog**
-- **ChangeLogs** are text files containing schema changes. They should be stored and versioned in the preferred source control tool
-- **ChangeLog** can inlcude other **ChangeLogs**. This allows multiple teams to each work on their own **ChangeLogs** so they can work independently
-## Change Types
-- One or more schema changes are grouped into a **ChangeSet**
-- The best practice is to limit each **ChangeSet** to only one **Change Type
-## ChangeSet
-- **ChangeLogs** contains **ChangeSets**
-- Unit of change
-- One logical change per change set
-- Identified by the author name and id
+- ## Introduction
+	- Open source database migration tool
+	- Track, version, deploy database schema changes
+	- Uses commands and **Change Types** (changes to database schema) to specify what is needed to do and how would it be done
+	- Uses **ChangeLogs** and Tracking Table to determine what is deployed to the database after the commands have been run
+	- Creates and executes rollback
+- ## Supported Databases
+	- Oracle
+	- PostgreSql
+	- Mssql
+	- H2
+	- Db2
+	- MariaDb
+	- MySql
+	- SqlLite
+	- Informix
+	- Apache Derby
+	- Snowflake
+	- CockroachDb
+	- SyBase
+	- Cassandra
+	- MongoDb
+	- Sap Hana
+	- Amazon Aurora
+	- Amazon RDS
+- ## Schema Changes
+	- Fundamental unit of change in Liquibase
+	- Schema changes are written using SQL statements that create, modify, or drop database objects
+	- Typical schema changes are create table, add index, and drop column
+	- In XML, YAML, or JSON, the same schema changes are modeled as Liquibase **Change Types**
+	- ### ChangeLog
+		- Changes are written in **ChangeLog**
+		- In most cases, there should be one file per application release
+		- Supported formats : XML, JSON, YAML, SQL
+		- One or more **ChangeSets** are contained in a **ChangeLog**
+		- **ChangeLogs** are text files containing schema changes. They should be stored and versioned in the preferred source control tool
+		- **ChangeLog** can inlcude other **ChangeLogs**. This allows multiple teams to each work on their own **ChangeLogs** so they can work independently
+	- ### Change Types
+		- One or more schema changes are grouped into a **ChangeSet**
+		- The best practice is to limit each **ChangeSet** to only one **Change Type**
+	- ### ChangeSet
+		- **ChangeLogs** contains **ChangeSets**
+		- Unit of change
+		- One logical change per change set
+		- Identified by the author name and id
 # Tracking Tables
 - Used to track, version, and deploy database schema changes
 - If the database does not contain a tracking table, Liquibase will create one
