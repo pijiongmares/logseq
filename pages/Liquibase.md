@@ -78,11 +78,11 @@
 	- ### generateChangeLog
 		- Creates a **ChangeLog** file that has a sequence of **ChangeSets** which describes how to re-create the current state of the database
 	- ### rollbackOneChangeSet
-		- reverts one non-sequential **ChangeSet** made during previous change to the database
-## rollbackOneUpdate
-- reverts all **ChangeSets** releted to a specific **deploymentId** made during a previous change to the database
-## rollbackOneUpdateSql
-- A helper command that allows inspecting the SQL Liquibase that will run (revert all **ChangeSets** associated with the **deploymentId** specified in the rollbackOneUpdate command)
+		- Reverts one non-sequential **ChangeSet** made during previous change to the database
+	- ### rollbackOneUpdate
+		- Reverts all **ChangeSets** releted to a specific **deploymentId** made during a previous change to the database
+	- ### rollbackOneUpdateSql
+		- A helper command that allows inspecting the SQL Liquibase that will run (revert all **ChangeSets** associated with the **deploymentId** specified in the rollbackOneUpdate command)
 ## rollbackOneChangeSetSql
 - A helper command that allows inspecting the SQL Liquibase that will run (revert the **ChangeSet** specified in the rollbackOneChangeSet command)
 ## history
