@@ -84,25 +84,24 @@
 		- **"let"** can be updated but not re-declared
 		- The same name variable can be declared in a different scope even if the other scope is more global compared to the other
 	- ### const
-		- use to declare constant variable
-		- constant variable share some similarities with **"let"** declarations
+		- Use to declare constant variable
+		- Constant variable share some similarities with **"let"** declarations
 		- **"let"** and **"const"** can only be accessed within the block they were declared
 		- **"const"** cannot be updated nor re-declared
 		- **"const"** must be initialized at the time of declaration
-		- constant objects cannot be updated but the values inside can.
--
-# math operations
-- use "=" for assignment of variables
-- "+" addition
-- "-" subtraction
-- "/" division
-- "\*" multiplication
-- if the statement is ""My age is " + 33", javascript concatenates the string to the numeric value
-- "5 * "a string"" returns "NaN" that means Not a Number
-# shorthand math operations
-- use "+=", "-=", "\*=", "/=" to perform the operation then assign to the numeric variable
-- use "++" or "--" to increment or decrement respectively the numeric value of the variable
-# logging to the console
+		- Constant objects cannot be updated but the values inside can.
+- ## Math Operations
+	- Use "=" for assignment of variables
+	- "+" addition
+	- "-" subtraction
+	- "/" division
+	- "\*" multiplication
+	- If the statement is ""My age is " + 33", javascript concatenates the string to the numeric value
+	- "5 * "a string"" returns "NaN" that means Not a Number
+- ## Shorthand Math Operations
+	- Use "+=", "-=", "\*=", "/=" to perform the operation then assign to the numeric variable
+	- Use "++" or "--" to increment or decrement respectively the numeric value of the variable
+- ## Logging To The console
 - use console.log() to print the value to the console
 # booleans
 - true/false
