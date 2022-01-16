@@ -32,17 +32,17 @@
 		- Empower self-organizing teams
 		- Face to face communication
 		- Reflect and adjust continuously
-# advantages of agile
-- persistent software delivery
-- increasedd stakeholder satisfaction
-- inspect and adapt
-- welcome to changes at any stage
-- design is important
-- daily interaction
+- ## Advantages Of Agile
+	- Persistent software delivery
+	- Increased stakeholder satisfaction
+	- Inspect and adapt
+	- Welcome to changes at any stage
+	- Design is important
+	- Daily interaction
 # how to implement agile (framework)
-## scrum
-
-![[scrum model.jpg]]
+- ## scrum
+  
+  ![scrum model.jpg](../assets/scrum_model_1642338830927_0.jpg)
 - constant iteration of plan -> build -> test -> review
 ### stakeholder
 - outside the scrum team, customer
