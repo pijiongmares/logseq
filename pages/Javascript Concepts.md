@@ -1,0 +1,4 @@
+- #Dev-Notes #JAVASCRIPT
+- Description : Other Javascript concepts
+-
+- ## Synchronous And Synchronous Call
