@@ -118,10 +118,10 @@
 			  	admin.login(); // still works because all are inherited
 			  
 			  ```
-# __proto__
-- every object in javascript has a prototype
-- javascript adds an extra property called *prototype* to the created function
-## constructor function objects
+- ## \__proto__
+	- every object in Javascript has a prototype
+	- Javascript adds an extra property called *prototype* to the created function
+	- ### constructor function objects
 - The ***prototype*** that is an object (called as prototype object) has a ***constructor*** property by default
 - The ***constructor*** property points back to the function object on which the ***prototype*** object is a property
   
