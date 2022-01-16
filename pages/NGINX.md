@@ -53,31 +53,31 @@
 		- Access log events and errors
 	- ### gzip
 		- gzip compressions
-- ## Installing nginxNGINX
-## install nginx
-- sudo wget http://nginx.org/keys/nginx_signing.key (get nginx key)
-- sudo apt-key add nginx_signing.key (add nginx key to apt)
-- sudo vi /etc/apt/sources.list.d/nginx.list
-- sudo add nginx repository (set the correct linux distro installed)
-- sudo apt update
-- sudo apt-get update
-- sudo apt-get install nginx
-- nginx -v (check if nginx installed)
-## adjust firewall
-- sudo ufw enable (enable firewall)
-- sudo ufw app list (list available apps)
-- sudo ufw allow 'Nginx Full'
-- sudo ufw allow 'Nginx HTTP'
-- sudo ufw allow 'Nginx HTTPS'
-## check server
-- sudo ufw status (check firewall status)
-- sudo systemctl status nginx (check nginx service)
-- sudo systemctl enable nginx (if nginx is disabled)
-- systemctl restart nginx (restart nginx)
-- systemctl stop nginx (stop nginx)
-- systemctl start nginx (start nginx)
-- systemctl reload nginx (reload conf files without restart the whole service)
-## manage nginx process
+- ## Installing NGINX
+	- ### Install NGINX
+		- sudo wget http://nginx.org/keys/nginx_signing.key (get nginx key)
+		- sudo apt-key add nginx_signing.key (add nginx key to apt)
+		- sudo vi /etc/apt/sources.list.d/nginx.list
+		- sudo add nginx repository (set the correct linux distro installed)
+		- sudo apt update
+		- sudo apt-get update
+		- sudo apt-get install nginx
+		- nginx -v (check if nginx installed)
+	- ### Adjust Firewall
+		- sudo ufw enable (enable firewall)
+		- sudo ufw app list (list available apps)
+		- sudo ufw allow 'Nginx Full'
+		- sudo ufw allow 'Nginx HTTP'
+		- sudo ufw allow 'Nginx HTTPS'
+	- ### Check Server
+		- sudo ufw status (check firewall status)
+		- sudo systemctl status nginx (check nginx service)
+		- sudo systemctl enable nginx (if nginx is disabled)
+		- systemctl restart nginx (restart nginx)
+		- systemctl stop nginx (stop nginx)
+		- systemctl start nginx (start nginx)
+		- systemctl reload nginx (reload conf files without restart the whole service)
+	- ### Manage NGINX Process
 - cd /etc/nginx (nginx directory, contains confs)
 - sudo vi nginx.conf (open nginx conf)
 - sudo vi conf.d/default.conf (open default conf file for the defaul nginx page, server block, conf per web app)
