@@ -55,7 +55,7 @@
 			- Done over a period of time
 			- Bits of features
 			- Product owner and scrum master are the ones to determine the backlogs
-### user stories
+		- #### User Stories
 - a single product backlog is called a user story
 ### sprint planning
 - product owner explains how is the end goal
