@@ -1,4 +1,4 @@
-- #DEV-NOTES
+- #DEV-NOTES #JAVASCRIPT
 - Description : Google Map API notes
 -
 - ## Setting Up The Map
@@ -49,7 +49,7 @@
 	  map: map,
 	  	});
 	  ```
-- ## Infowindow
+- ## infowindow
 	- Displays a custom HTML popup overlay
 	- Content: html element
 	- ``` js
@@ -60,8 +60,8 @@
 	  infoWindow.open(map, marker);
 	  	})
 	  ```
-# places.searchbox
-``` js
-	const input = document.getElementById("searchbox");
-	const searchBox = new google.maps.places.SearchBox(input);
-```
+- ## places.searchbox
+	- ``` js
+	  	const input = document.getElementById("searchbox");
+	  	const searchBox = new google.maps.places.SearchBox(input);
+	  ```
