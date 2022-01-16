@@ -34,26 +34,26 @@
 			- Responsible cache expiration and validation
 			- Restarted by the master node in case of failure
 			- Visited page are stored in the cache so that revisiting it again will be retrieved in the cache and will not go to the whole process
-	- ### backend
-		- #### webserver
-		- #### application server
-### memcached
-# why use nginx
-- ease of installation and maintenance
-- improves performance
-- reduces the wait time for users
-- load balancing
-- on the  fly upgrade
-# configuration settings
-## worker_processes
-- defines the number of processes
-## worker_connections
-- maximum number of simultaneously connections served by nginx
-## access_log & error_log
-- access log events and errors
-## gzip
-- gzip compressions
-# installing nginx
+	- ### Backend
+		- #### Webserver
+		- #### Application Server
+		- #### Memcached
+- ## Why Use NGINX
+	- Ease of installation and maintenance
+	- Improves performance
+	- Reduces the wait time for users
+	- Load balancing
+	- On the fly upgrade
+- ## configuration settings
+	- ### worker_processes
+		- Defines the number of processes
+	- ### worker_connections
+		- Maximum number of simultaneously connections served by nginx
+	- ### access_log & error_log
+		- Access log events and errors
+	- ### gzip
+		- gzip compressions
+- ## Installing nginxNGINX
 ## install nginx
 - sudo wget http://nginx.org/keys/nginx_signing.key (get nginx key)
 - sudo apt-key add nginx_signing.key (add nginx key to apt)
