@@ -1,4 +1,4 @@
-- description : Orientation notes in Wonders Corporation
+- Description : Orientation notes in Wonders Corporation
   collapsed:: true
 	- DONE Updated copy of resume
 	  :LOGBOOK:
