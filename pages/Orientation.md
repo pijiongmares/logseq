@@ -1,4 +1,4 @@
-- Tags : #WONDERS
+- #WONDERS
 - Description : Orientation notes in Wonders Corporation
   collapsed:: true
 	- DONE Updated copy of resume
