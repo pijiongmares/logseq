@@ -1,3 +1,3 @@
 - Description : Notes for my software development skills
-- notes : {{query todo}}
+- Unfinished notes : {{query (and(todo) )}}
   query-table:: false
