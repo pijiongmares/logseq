@@ -28,10 +28,10 @@
 		- Sustain technical excellence and good design
 		- Frequent interaction with stakeholders
 		- Keep it simple
-		- motivated individuals
-		- empower self-organizing teams
-		- face to face communication
-		- reflect and adjust continuously
+		- Motivated individuals
+		- Empower self-organizing teams
+		- Face to face communication
+		- Reflect and adjust continuously
 # advantages of agile
 - persistent software delivery
 - increasedd stakeholder satisfaction
