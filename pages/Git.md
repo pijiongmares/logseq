@@ -1,6 +1,10 @@
 - #Dev-Notes
 - Description : Git notes
-- LATER Done
+- TODO Done
+  :LOGBOOK:
+  CLOCK: [2022-01-16 Sun 22:29:13]--[2022-01-16 Sun 22:29:14] =>  00:00:01
+  CLOCK: [2022-01-16 Sun 22:29:14]--[2022-01-16 Sun 22:29:15] =>  00:00:01
+  :END:
 -
 - [Advanced Git Tutorial - YouTube](https://www.youtube.com/watch?v=0SJCYPsef54&ab_channel=DmitriSnytkine)
   [13 Advanced (but useful) Git Techniques and Shortcuts - YouTube](https://www.youtube.com/watch?v=ecK3EnyGD8o&t=292s&ab_channel=Fireship)

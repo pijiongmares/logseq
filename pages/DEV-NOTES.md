@@ -1,2 +1,3 @@
 - Description : Notes for my software development skills
-- {{query LATER}}
+- notes : {{query todo}}
+  query-table:: false
