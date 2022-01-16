@@ -1,4 +1,4 @@
-- #NOTES
+- #DEV-NOTES
 - Description : Git notes
 -
 - [Advanced Git Tutorial - YouTube](https://www.youtube.com/watch?v=0SJCYPsef54&ab_channel=DmitriSnytkine)
