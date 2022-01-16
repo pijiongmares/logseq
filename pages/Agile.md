@@ -47,14 +47,14 @@
 			- Outside the scrum team, customer
 		- #### Product Owner
 			- Manager, make sure the app deployed and committed. make sure the app is built it has to be. does not mean a technical person
-### scrum master
-- team leader, running meetings, review tasks
-### team
-### product backlogs
-- smaller tasks (plan -> build -> test -> review)
-- done over a period of time
-- bits of features
-- product owner and scrum master are the ones to determine the backlogs
+		- #### Scrum Master
+			- Team leader, running meetings, review tasks
+		- #### Team
+		- #### Product Backlogs
+			- Smaller tasks (plan -> build -> test -> review)
+			- Done over a period of time
+			- Bits of features
+			- Product owner and scrum master are the ones to determine the backlogs
 ### user stories
 - a single product backlog is called a user story
 ### sprint planning
