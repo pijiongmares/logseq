@@ -162,94 +162,92 @@
 		- ``` js 
 		  	console.log(Bob.__proto__ === Alex.__proto__); //prints true
 		  ```
-## prototype chain
-- javascript has built-in objects like Object (all object's parent), Array, Date, Function, etc. and each of these objects will have respective prototype objects attached to it
-- all objects leads to one parent, the Object
-- given an object apple, the apple object prototype is equal to the Object prototype
-  
-  ``` js 
-  	const apple = {};
-  	console.log(apple__proto__ === Object.prototype);
-  ```
-- since the apple object is an object literal, it has no constructor object
-- constructor object only exists in constructor functions
-  
-  ``` js 
-  	function Car(maxSpeed, driver){
-  this.maxSpeed= maxSpeed;
-  this.driver = driver;
-  this.parked = false;
-  	};
-  
-  	Car.prototype.park = function(){
-  this.parked = true;
-  	}
-  
-  	Car.prototype.drive = function(speed, time){
-  console.log(speed * time);
-  	}
-  
-  	function FamiliyCar(...args){
-  User.apply(this, args); 
-  this.role = "super admin";''
-  	}
-  
-  	Object.setPrototypeOf(FamilyCar.prototype, Car);
-  
-  	function CarWithChildLock(){};
-  
-  	Object.setPrototypeOf(CarWithChildLock.prototype, FamiliyCar);
-  
-  	let car = new CarWithChildLock();
-  
-  	// car.constructor is equal to the constructor function CarWithChildLock(){} (the CarWithChildLock object)
-  	// car.constructor.prototype and car.__proto__ are equal and is the object literal CarWithChildLock{}.
-  
-  	console.log(car.__proto__); // prints the object literal CarWithChildLock{}
-  	console.log(car.__proto__.__proto__); // prints the object literal FamilyCar{}
-  	console.log(car.__proto__.__proto__.__proto__); // prints the object literal Car{}
-  	console.log(car.__proto__.__proto__.__proto__.__proto__); // prints the object literal Object{}
-  	console.log(car.__proto__.__proto__.__proto__.__proto__.__proto__); // prints null
-  
-  
-  ```
-## __proto__ inheritance
-
-``` js 
-	function Car(maxSpeed, driver){
-this.maxSpeed= maxSpeed;
-this.driver = driver;
-this.parked = false;
-	};
-
-	Car.prototype.park = function(){
-this.parked = true;
-	}
-
-	Car.prototype.drive = function(speed, time){
-console.log(speed * time);
-	}
-
-	// array of parameters
-	function FamiliyCar(...args){
-// apply method of prototype is used to invoke the function (in this case a constructor function), as every function is an object and has a prototype object. The parameters are the object invoker (this or any object reference) and the array of arguments.
-
-User.apply(this, args); 
-this.role = "super admin";''
-	}
-
-	// additional method for familiy car
-
-	FamilyCar.prototype.slowDown = function(){
-
-	}
-
-	// methods are not automatically inherited. the following inherits the methods from car.
-
-	FamilyCar.prototype = Object.create(Car.prototype);
-
-	//or
-
-	Object.setPrototypeOf(FamilyCar.prototype, Car.prototype);
-
-```
+	- ### Prototype Chain
+		- Javascript has built-in objects like Object (all object's parent), Array, Date, Function, etc. and each of these objects will have respective prototype objects attached to it
+		- All objects leads to one parent, the Object
+		- Given an object apple, the apple object prototype is equal to the Object prototype
+		- ``` js 
+		  	const apple = {};
+		  	console.log(apple__proto__ === Object.prototype);
+		  ```
+		- Since the apple object is an object literal, it has no constructor object
+		- Constructor object only exists in constructor functions
+		- ``` js 
+		  	function Car(maxSpeed, driver){
+		  this.maxSpeed= maxSpeed;
+		  this.driver = driver;
+		  this.parked = false;
+		  	};
+		  
+		  	Car.prototype.park = function(){
+		  this.parked = true;
+		  	}
+		  
+		  	Car.prototype.drive = function(speed, time){
+		  console.log(speed * time);
+		  	}
+		  
+		  	function FamiliyCar(...args){
+		  User.apply(this, args); 
+		  this.role = "super admin";''
+		  	}
+		  
+		  	Object.setPrototypeOf(FamilyCar.prototype, Car);
+		  
+		  	function CarWithChildLock(){};
+		  
+		  	Object.setPrototypeOf(CarWithChildLock.prototype, FamiliyCar);
+		  
+		  	let car = new CarWithChildLock();
+		  
+		  	// car.constructor is equal to the constructor function CarWithChildLock(){} (the CarWithChildLock object)
+		  	// car.constructor.prototype and car.__proto__ are equal and is the object literal CarWithChildLock{}.
+		  
+		  	console.log(car.__proto__); // prints the object literal CarWithChildLock{}
+		  	console.log(car.__proto__.__proto__); // prints the object literal FamilyCar{}
+		  	console.log(car.__proto__.__proto__.__proto__); // prints the object literal Car{}
+		  	console.log(car.__proto__.__proto__.__proto__.__proto__); // prints the object literal Object{}
+		  	console.log(car.__proto__.__proto__.__proto__.__proto__.__proto__); // prints null
+		  
+		  
+		  ```
+	- ### \__proto__ inheritance
+	  
+	  ``` js 
+	  	function Car(maxSpeed, driver){
+	  this.maxSpeed= maxSpeed;
+	  this.driver = driver;
+	  this.parked = false;
+	  	};
+	  
+	  	Car.prototype.park = function(){
+	  this.parked = true;
+	  	}
+	  
+	  	Car.prototype.drive = function(speed, time){
+	  console.log(speed * time);
+	  	}
+	  
+	  	// array of parameters
+	  	function FamiliyCar(...args){
+	  // apply method of prototype is used to invoke the function (in this case a constructor function), as every function is an object and has a prototype object. The parameters are the object invoker (this or any object reference) and the array of arguments.
+	  
+	  User.apply(this, args); 
+	  this.role = "super admin";''
+	  	}
+	  
+	  	// additional method for familiy car
+	  
+	  	FamilyCar.prototype.slowDown = function(){
+	  
+	  	}
+	  
+	  	// methods are not automatically inherited. the following inherits the methods from car.
+	  
+	  	FamilyCar.prototype = Object.create(Car.prototype);
+	  
+	  	//or
+	  
+	  	Object.setPrototypeOf(FamilyCar.prototype, Car.prototype);
+	  
+	  ```
