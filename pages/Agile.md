@@ -8,19 +8,18 @@
 	  ![waterfall model.png](../assets/waterfall_model_1642338036670_0.png)
 -
 - ## What Is Agile
-  
-  ![agile model.jpg](../assets/agile_model_1642338113943_0.jpg)
-- Rapidly deploy an application in a much organize way
-- Small change to shift to the client
-- Constant feedback as soon as possible
-- Iterations
+	- ![agile model.jpg](../assets/agile_model_1642338113943_0.jpg)
+	- Rapidly deploy an application in a much organize way
+	- Small change to shift to the client
+	- Constant feedback as soon as possible
+	- Iterations
 -
 - ## Key Terms Of Agile
-- ### Values Of Agile
-- people over processes and tools
-- working software over comprehensive documentation
-- customer collaboration over rigid contracts
-- responding to change rather than following a plan
+	- ### Values Of Agile
+		- People over processes and tools
+		- Working software over comprehensive documentation
+		- Customer collaboration over rigid contracts
+		- Responding to change rather than following a plan
 ## principles of agile
 - satisfy the customer
 - measure by working software
