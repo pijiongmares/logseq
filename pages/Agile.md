@@ -2,10 +2,10 @@
 - Description : All about Agile methodology
 -
 - ## Why Do We Need Agile
-- Waterfall method suits for monolith application
-- Waterfall is not applicable when there are changes almost everyday
-  
-  ![waterfall model.png](../assets/waterfall_model_1642338036670_0.png)
+	- Waterfall method suits for monolith application
+	- Waterfall is not applicable when there are changes almost everyday
+	  
+	  ![waterfall model.png](../assets/waterfall_model_1642338036670_0.png)
 -
 - ## What Is Agile
   
@@ -14,8 +14,9 @@
 - Small change to shift to the client
 - Constant feedback as soon as possible
 - Iterations
-# key terms of agile
-## values of agile
+-
+- ## Key Terms Of Agile
+- ### Values Of Agile
 - people over processes and tools
 - working software over comprehensive documentation
 - customer collaboration over rigid contracts
