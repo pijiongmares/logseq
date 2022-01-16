@@ -47,21 +47,21 @@
 		- Unit of change
 		- One logical change per change set
 		- Identified by the author name and id
-# Tracking Tables
-- Used to track, version, and deploy database schema changes
-- If the database does not contain a tracking table, Liquibase will create one
-## DatabaseChangeLogs
-- Tracks each **ChangeSet** in the **ChangeLog** by id, author, and the file where the **ChangeSet** resides
-- The composite of id, author, and filename is unique across all rows of the table
-## DatabaseChangeLogLock
-- Ensures only one instance of Liquibase is running at one time
-- It locks others out to prevent multiple Liquibase commands from being executed at the same time which could cause database conflict
-- Ensures in keeping other devs, dba, or teams from overwriting changes accidentally
-# Liquibase Lifecycle
-1. Use the **ChangeLog** to write changes using **ChangeSets**
-2. Push the changes to the database with the Liquibase commands
-3. Tracks changes with a **DatabaseChangeLog Tracking Table**
-4. Protects changes with the **DatabaseChangeLogLock** so that other teammates will not override the changes
+- ## Tracking Tables
+	- Used to track, version, and deploy database schema changes
+	- If the database does not contain a tracking table, Liquibase will create one
+	- ### DatabaseChangeLogs
+		- Tracks each **ChangeSet** in the **ChangeLog** by id, author, and the file where the **ChangeSet** resides
+		- The composite of id, author, and filename is unique across all rows of the table
+	- ### DatabaseChangeLogLock
+		- Ensures only one instance of Liquibase is running at one time
+		- It locks others out to prevent multiple Liquibase commands from being executed at the same time which could cause database conflict
+		- Ensures in keeping other devs, dba, or teams from overwriting changes accidentally
+	- ## Liquibase Lifecycle
+	- 1. Use the **ChangeLog** to write changes using **ChangeSets**
+	- 2. Push the changes to the database with the Liquibase commands
+	- 3. Tracks changes with a **DatabaseChangeLog Tracking Table**
+	- 4. Protects changes with the **DatabaseChangeLogLock** so that other teammates will not override the changes
 # Liquibase Commands
 ## update
 - Applies to all unrun changes
