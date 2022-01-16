@@ -116,41 +116,38 @@
 	- <
 	- <=
 	- == or != (is value equal/not equal)
-	- === or !== (is value and type equal/not equal)
+	- \=== or !== (is value and type equal/not equal)
 - ## Logical Operators
 	- && and
 	- || or
-# while loops
-
-``` js 
-	while (condition){
-
-	}
-```
-# for loops
-
-``` js 
-	for (i = 1; i < list.length; i++){
-
-	}
-```
-# break and continue
-- break will end the entire loop
-- continue will stop the loop then continue to the next item
-# functions
-- functions allow exceeding arguments but are omitted
-  
-  ``` js 
-  	function getAverage(firstNumber, secondNumber)
-  	{
-  var average = (firstNumber + secondNumber) / 2
-  console.log(average);
-  return average;
-  	}
-  
-  	var result = getAverage(1, 2);
-  	console.log(result);
-  ```
+- ## While Loops
+	- ``` js 
+	  	while (condition){
+	  
+	  	}
+	  ```
+- ## For Loops
+	- ``` js 
+	  	for (i = 1; i < list.length; i++){
+	  
+	  	}
+	  ```
+- ## Break And Continue
+	- Break will end the entire loop
+	- Continue will stop the loop then continue to the next item
+- ## Functions
+	- Functions allow exceeding arguments but are omitted
+	- ``` js 
+	  	function getAverage(firstNumber, secondNumber)
+	  	{
+	  var average = (firstNumber + secondNumber) / 2
+	  console.log(average);
+	  return average;
+	  	}
+	  
+	  	var result = getAverage(1, 2);
+	  	console.log(result);
+	  ```
 # working with numbers
 - use Math.round() to roundup a decimal value
 - Math.floor() to rounddown what ever value in the decimal place
