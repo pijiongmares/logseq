@@ -169,16 +169,10 @@
 	  	arr[1] = "test";
 	  	arr[2] = 2.2;
 	  ```
-	  
-	  
-	  s
-	  
-	  ``` js 
+	- ``` js 
 	  	var arr = [10, 20, 30, true, "test"];
 	  ```
-	  
-	  
-	  ``` js 
+	- ``` js 
 	  	var arr = new Array();
 	  ```
 # objects
