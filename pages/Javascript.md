@@ -24,52 +24,50 @@
 	  </body>
 	  </html>
 	  ```
-	- ## Basic Syntax And Structure
-- javascript is case sensitive
-- contains many statements, all ending with a semicolon
-- not sensitive to whitespace or line breaks
-- oneline comment : 
-  ``` js 
-  	//one line comment
-  ```
-- multiline comments : 
-  ``` js 
-  	/*
-  multiline comment
-  	*/ 
-  ```
-- javascript runs from top to bottom
-# variables
-- javascript is a dynamic typed language (performs type checking at runtime)
-## var
-- declare a variable using **"var"**
-- it can be re-declared and updated
-  
-  ``` js 
-  	var myVariable;
-  	myVariable = 10;
-  	myVariable = "test";
-  ```
-- hoisting is a javascript mechanism where variables and function declarations are moved to the top of their scope before execution. 
-  
-  ``` js 
-  	console.log(myName);
-  	var myName = "Philip";
-  ```
-- problem with **"var"** is that if the variable was defined before and, not knowingly, it was defined again after somewhere in the code, this will make the output different as expected. for example : 
-  
-  ``` js 
-  	var greeter = "say hi";
-  	var times = 4;
-  
-  	if (times > 3){
-  var greeter = "say Hello instead";
-  	}
-  
-  	console.log(greeter); //prints "say Hello instead"
-  ```
-  
-  the "greeter" variable will be changed as **"var"** is an global scoped unless it is inside a function. this happens because **"var"** can be re-declared and updated.
+- ## Basic Syntax And Structure
+	- Javascript is case sensitive
+	- Contains many statements, all ending with a semicolon
+	- Not sensitive to whitespace or line breaks
+	- Oneline comment :
+		- ``` js 
+		  	//one line comment
+		  ```
+	- Multiline comments :
+		- ``` js 
+		  	/*
+		  multiline comment
+		  	*/ 
+		  ```
+	- Javascript runs from top to bottom
+- ## Variables
+	- Javascript is a dynamic typed language (performs type checking at runtime)
+	- ### var
+		- Declare a variable using **"var"**
+		- It can be re-declared and updated
+		- ``` js 
+		  	var myVariable;
+		  	myVariable = 10;
+		  	myVariable = "test";
+		  ```
+		- Hoisting is a javascript mechanism where variables and function declarations are moved to the top of their scope before execution.
+		- ``` js 
+		  	console.log(myName);
+		  	var myName = "Philip";
+		  ```
+	- problem with **"var"** is that if the variable was defined before and, not knowingly, it was defined again after somewhere in the code, this will make the output different as expected. for example : 
+	  
+	  ``` js 
+	  	var greeter = "say hi";
+	  	var times = 4;
+	  
+	  	if (times > 3){
+	  var greeter = "say Hello instead";
+	  	}
+	  
+	  	console.log(greeter); //prints "say Hello instead"
+	  ```
+	  
+	  the "greeter" variable will be changed as **"var"** is an global scoped unless it is inside a function. this happens because **"var"** can be re-declared and updated.
 ## let
 - preferred for variable declaration
 - it is a block scope. a block lives in curly braces "{}"
@@ -389,5 +387,4 @@ if (content.className == "open"){
 # javascript libraries
 - general purpose
 - animation
-- form enhancement
-- video
+- form enhan
