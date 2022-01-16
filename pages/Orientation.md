@@ -1,3 +1,4 @@
+- Tags : #WONDERS
 - Description : Orientation notes in Wonders Corporation
   collapsed:: true
 	- DONE Updated copy of resume
@@ -40,7 +41,7 @@
 	- DONE Signed contract (per page)
 	- DONE Signed Annex A
 	- DONE 2021 BIR Waiver (attached)
-- Tags : #wonders
+-
 - # List Of Requirements
 - # Orientation
   collapsed:: true
