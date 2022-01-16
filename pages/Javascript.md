@@ -148,14 +148,14 @@
 	  	var result = getAverage(1, 2);
 	  	console.log(result);
 	  ```
-# working with numbers
-- use Math.round() to roundup a decimal value
-- Math.floor() to rounddown what ever value in the decimal place
-- Math.ceil() to roundup what ever value in the decimal place
-- Math.max() get the highest value
-# NaN
-- not a number
-- isNaN() check if value is not a number
+- ## Working With Numbers
+	- Use Math.round() to roundup a decimal value
+	- Math.floor() to rounddown what ever value in the decimal place
+	- Math.ceil() to roundup what ever value in the decimal place
+	- Math.max() get the highest value
+- ## NaN
+	- Not a number
+	- isNaN() check if value is not a number
 # string
 - .toUpperCase() convert string to upper case
 - .toLowerCase() convert string to lower case
