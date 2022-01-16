@@ -83,36 +83,36 @@
 		- Reverts all **ChangeSets** releted to a specific **deploymentId** made during a previous change to the database
 	- ### rollbackOneUpdateSql
 		- A helper command that allows inspecting the SQL Liquibase that will run (revert all **ChangeSets** associated with the **deploymentId** specified in the rollbackOneUpdate command)
-## rollbackOneChangeSetSql
-- A helper command that allows inspecting the SQL Liquibase that will run (revert the **ChangeSet** specified in the rollbackOneChangeSet command)
-## history
-- A helper command that lists out all the **deploymentIds** and all **ChangeSets** associated with each **deploymentId**
-# liquibase.properties File
-- If file was named differently or was stored else where, use --defaultFile option in CLI
-## changeLogFile
-- Path to **ChangeLog**
-## driver
-- Class name to target database
-## url
-- Target database
-## username
-- Username for the target database
-## password
-- Password for the target database
-## referenceDriver
-- Driver class name for the source database
-## referenceURL
-- Starting point or source database and basis for the comparison
-## referenceUsername
-- Username for the source database
-## referencePassword
-- Password for the source database
-## liquibaseProLicenseKey
-- For pro users
-## classpath
-- Path for the database driver
-# ChangeSet Common Attributes
-## stripComments
+	- ### rollbackOneChangeSetSql
+		- A helper command that allows inspecting the SQL Liquibase that will run (revert the **ChangeSet** specified in the rollbackOneChangeSet command)
+	- ### history
+		- A helper command that lists out all the **deploymentIds** and all **ChangeSets** associated with each **deploymentId**
+- ## liquibase.properties File
+	- If file was named differently or was stored else where, use --defaultFile option in CLI
+	- ### changeLogFile
+		- Path to **ChangeLog**
+	- ### driver
+		- Class name to target database
+	- ### url
+		- Target database
+	- ### username
+		- Username for the target database
+	- ### password
+		- Password for the target database
+	- ### referenceDriver
+		- Driver class name for the source database
+	- ### referenceURL
+		- Starting point or source database and basis for the comparison
+	- ### referenceUsername
+		- Username for the source database
+	- ### referencePassword
+		- Password for the source database
+	- ### liquibaseProLicenseKey
+		- For pro users
+	- ### classpath
+		- Path for the database driver
+- ## ChangeSet Common Attributes
+	- ## stripComments
 - Set true to remove any comments in the SQL before executing, otherwise false. Defaults to true if not set
 ## splitStatements
 - Set to false to not have Liquibase split statements on ;'s and GO's. Defaults to true if not set
