@@ -277,58 +277,56 @@
 	- .createElement("") add the element to the selected element object
 	- .appendChild("") append the new element
 	- .insertBefore(elementToAdd, beforeElement) insert before an element
-- ## Removing From The dom
-- select the element object
-- .removeChild(selectedChild) removes the selected child element in the selected parent element
-# javascript events
-- attribute in an element onclick is an example of event
-- events are mostly done in the javascript block or file
-  ``` js 
-  	var title = document.getElementById("page-title");
-  	title.onclick = function(){
-  alert("title clicked");
-  	};
-  	title.onmouseover = function(){
-  alert("mouse hover over title");
-  	};
-  ```
-# button onclick event
-
-``` js 
-	var content = document.getElementById("content");
-	var button = document.getElementById("show-more");
-
-	button.onclick = function(){
-if (content.className == "open"){
-	content.className = "";
-}else{
-	content.className = "open";
-	button.innerHTML = "Show Less";
-}
-	};
-```
-# window onload event
-- to ensure that all dom are loaded before the javascript are executed, use onload event
-  
-  ``` js 
-  	function setUpEvents(){
-  var content = document.getElementById("content");
-  var button = document.getElementById("show-more");
-  
-  button.onclick = function(){
-  	if (content.className == "open"){
-  		content.className = "";
-  	}else{
-  		content.className = "open";
-  		button.innerHTML = "Show Less";
-  	}
-  };
-  	}
-  
-  	window.onload = function(){
-  setUpEvents();
-  	}
-  ```
+- ## Removing From The DOM
+	- Select the element object
+	- .removeChild(selectedChild) removes the selected child element in the selected parent element
+- ## Javascript Events
+	- Attribute in an element onclick is an example of event
+	- Events are mostly done in the javascript block or file
+	- ``` js 
+	  	var title = document.getElementById("page-title");
+	  	title.onclick = function(){
+	  alert("title clicked");
+	  	};
+	  	title.onmouseover = function(){
+	  alert("mouse hover over title");
+	  	};
+	  ```
+	- ### Button onClick Event
+		- ``` js 
+		  	var content = document.getElementById("content");
+		  	var button = document.getElementById("show-more");
+		  
+		  	button.onclick = function(){
+		  if (content.className == "open"){
+		  	content.className = "";
+		  }else{
+		  	content.className = "open";
+		  	button.innerHTML = "Show Less";
+		  }
+		  	};
+		  ```
+	- ### Window onLoad Event
+		- To ensure that all dom are loaded before the javascript are executed, use onload event
+		- ``` js 
+		  	function setUpEvents(){
+		  var content = document.getElementById("content");
+		  var button = document.getElementById("show-more");
+		  
+		  button.onclick = function(){
+		  	if (content.className == "open"){
+		  		content.className = "";
+		  	}else{
+		  		content.className = "open";
+		  		button.innerHTML = "Show Less";
+		  	}
+		  };
+		  	}
+		  
+		  	window.onload = function(){
+		  setUpEvents();
+		  	}
+		  ```
 # timers
 - setTimeout(function, millisecond) delays the execution of the function
   
