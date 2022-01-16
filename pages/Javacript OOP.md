@@ -127,34 +127,31 @@
 		- ![prototype object.png](../assets/prototype_object_1642341757058_0.png)
 		- ***prototype*** property points to the Prototype object of the function
 		- Use \<function name\>.prototype to access the function's prototype property
-- from the prototype of the function, use \<function name\>.prototype.constructor to access the function object back
-- in the above image, the person object has a prototype object. inside the prototype object, it has a constructor object. the constructor object points back to the person object instance.
-- thus the following comparisons are true :
-  
-  ``` js 
-  	console.log(Person.prototype.constructor === Person); //prints true
-  	console.log(Person.prototype === Person.prototype.constructor.prototype); //prints true
-  ```
-- when an instance of an object is created, javascript adds the prototype object in the instance referencing the prototype object of the function object
-- methods can be added in the prototype of Person
-  
-  ``` js 
-  	function Person(name, age) {
-  this.name = name;
-  this.age = age;
-  	};
-  
-  	Person.prototype.eat = function() {
-  console.log(name, " is eating");
-  	}
-  
-  	Person.prototype.sleep = function() {
-  console.log(name, " is sleeping");
-  	}
-  ```
-- for example, using **new** keyword to create a new instance of Person named Bob, the properties of Person will be added to the Bob instance, but the methods are in the prototype object of Bob. Since the methods are added in the Person prototype object, any created instance of Person will have the methods in the prototype object that is referencing back to the Person prototype object
-  
-  ![[prototype object of new instance.png]]
+		- From the prototype of the function, use \<function name\>.prototype.constructor to access the function object back
+		- In the above image, the person object has a prototype object. inside the prototype object, it has a constructor object. the constructor object points back to the person object instance.
+		- Thus the following comparisons are true :
+		- ``` js 
+		  	console.log(Person.prototype.constructor === Person); //prints true
+		  	console.log(Person.prototype === Person.prototype.constructor.prototype); //prints true
+		  ```
+		- When an instance of an object is created, javascript adds the prototype object in the instance referencing the prototype object of the function object
+		- Methods can be added in the prototype of Person
+		- ``` js 
+		  	function Person(name, age) {
+		  this.name = name;
+		  this.age = age;
+		  	};
+		  
+		  	Person.prototype.eat = function() {
+		  console.log(name, " is eating");
+		  	}
+		  
+		  	Person.prototype.sleep = function() {
+		  console.log(name, " is sleeping");
+		  	}
+		  ```
+		- For example, using **new** keyword to create a new instance of Person named Bob, the properties of Person will be added to the Bob instance, but the methods are in the prototype object of Bob. Since the methods are added in the Person prototype object, any created instance of Person will have the methods in the prototype object that is referencing back to the Person prototype object
+		- ![prototype object of new instance.png](../assets/prototype_object_of_new_instance_1642341823509_0.png)
 - so the prototype of Person should be equal to the prototype object of Bob
   
   ``` js 
