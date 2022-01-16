@@ -1,2 +1,5 @@
 - #Dev-Notes
-- Description :
+- Description : Self signed certificate
+- TODO #Unfinished
+-
+- [How to create a self-signed Certificate (akadia.com)](https://www.akadia.com/services/ssh_test_certificate.html)
