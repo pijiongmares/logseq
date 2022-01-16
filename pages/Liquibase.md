@@ -1,5 +1,4 @@
 - #Dev-Notes #Database
--
 - Description : Liquibase notes
 -
 - ## Introduction
@@ -112,35 +111,35 @@
 	- ### classpath
 		- Path for the database driver
 - ## ChangeSet Common Attributes
-	- ## stripComments
-- Set true to remove any comments in the SQL before executing, otherwise false. Defaults to true if not set
-## splitStatements
-- Set to false to not have Liquibase split statements on ;'s and GO's. Defaults to true if not set
-## rollbackSplitStatements
-- Same as splitStatement but for rollback SQL
-## endDelimiter
-- Delimiter to apply to the end of the statement. Defaults to ";", may be set to ""
-## rollbackEndDelimiter
-- Same as endDelimiter but for rollbackSQL
-## runAlways
-- Executes the **ChangeSet** on every run, even if it has been run before
-## runOnChange
-- Executes the change the first time it is seend and each time the **ChangeSet** has been changed
-## context
-- Executes the change if the particular context was passed at runtime. Any string can be used for the context name and are checked case-insensitively
-- Can be specified using AND, OR, !, and parentheses in the **ChangeSet**. Without the parentheses the order of operations are !, AND, and then OR
-- Using "," to separate contexts works like an OR operation but with the highest precedence
-## logicalFilePath
-- Use to override the file name and path when creating the unique identifier of **Changesets**
-- Required when moving or renaming **ChangeLogs**
-## labels
-- Are a general-purpose way to categorize **ChangeSets** like contexts, but working in the opposite way
-- Instead of defining a set of contexts at runtime and then a match expression in the **ChangeSet**, defined a set of labels in the context and a match expression at runtime
-## runInTransaction
-- Should the **ChangeSet** be run as a single transaction. Defaults to true
-- **Warning:** If set to false and an error occurs partway through running a **ChangeSet** containing multiple statements, the Liquibase **DatabaseChangeLog** table will be left in an invalid state
-## failOnError
-- Should the migration fail if an error occurs while executing the **ChangeSet**
-## dbms
-- The type of a database which that **ChangeSet** is to be used for
-- When the migration step is running, it checks the database type against this attribute
+	- ### stripComments
+		- Set true to remove any comments in the SQL before executing, otherwise false. Defaults to true if not set
+	- ### splitStatements
+		- Set to false to not have Liquibase split statements on ;'s and GO's. Defaults to true if not set
+	- ### rollbackSplitStatements
+		- Same as splitStatement but for rollback SQL
+	- ### endDelimiter
+		- Delimiter to apply to the end of the statement. Defaults to ";", may be set to ""
+	- ### rollbackEndDelimiter
+		- Same as endDelimiter but for rollbackSQL
+	- ### runAlways
+		- Executes the **ChangeSet** on every run, even if it has been run before
+	- ### runOnChange
+		- Executes the change the first time it is seend and each time the **ChangeSet** has been changed
+	- ### context
+		- Executes the change if the particular context was passed at runtime. Any string can be used for the context name and are checked case-insensitively
+		- Can be specified using AND, OR, !, and parentheses in the **ChangeSet**. Without the parentheses the order of operations are !, AND, and then OR
+		- Using "," to separate contexts works like an OR operation but with the highest precedence
+	- ### logicalFilePath
+		- Use to override the file name and path when creating the unique identifier of **Changesets**
+		- Required when moving or renaming **ChangeLogs**
+	- ### labels
+		- Are a general-purpose way to categorize **ChangeSets** like contexts, but working in the opposite way
+		- Instead of defining a set of contexts at runtime and then a match expression in the **ChangeSet**, defined a set of labels in the context and a match expression at runtime
+	- ### runInTransaction
+		- Should the **ChangeSet** be run as a single transaction. Defaults to true
+		- **Warning:** If set to false and an error occurs partway through running a **ChangeSet** containing multiple statements, the Liquibase **DatabaseChangeLog** table will be left in an invalid state
+	- ### failOnError
+		- Should the migration fail if an error occurs while executing the **ChangeSet**
+	- ### dbms
+		- The type of a database which that **ChangeSet** is to be used for
+		- When the migration step is running, it checks the database type against this attribute
