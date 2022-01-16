@@ -22,105 +22,102 @@
 	  	user.login();
 	  	user.logout();
 	  ```
-# updating properties
-- properties can be set by assigning the value to the properties user.name = "Stellar"
-- or user\["name"\] = "Stellar" to have more flexibility (place the property value in variable inside the brackets)
-# classes
-- in es6, javascript has a **"class"** keyword that can be initialized like "var user = new User()". but javascript actually has no class concept and is just a syntactic sugar. best approach is to use **"__proto__"**
-## class
-- class has constructor function (uses constructor function)
-- always use this keyword when referring to the properties of the object
-- methods in the class can also be seen in the **"__proto__"** object
-  
-  ``` js 
-  	class User {
-  	constructor(email, name){
-  		this.email = email;
-  		this.name = name;
-  	}
-  	login(){
-  		console.log(this.email, " just logged in");
-  	}
-  	logout(){
-  		console.log(this.email, " just logged out");
-  	}
-  	}
-  
-  	var user = new User("test@email.com", "Philip");
-  ```
-## method chaining
-- return the object in the method like "return this"
-- like a builder pattern
-  
-  ``` js 
-  	class User {
-  	constructor(email, name){
-  		this.email = email;
-  		this.name = name;
-  		this.score = 0;
-  	}
-  	login(){
-  		console.log(this.email, " just logged in");
-  		return this;
-  	}
-  	logout(){
-  		console.log(this.email, " just logged out");
-  		return this;
-  	}
-  	updateScore(){
-  		this.score++;
-  		console.log(this.email, " score is now ", score);
-  		return this;
-  	}
-  	}
-  
-  	var user = new User("test@email.com", "Philip");
-  ```
-## class inheritance
-
-``` js 
-
-	class User {
-	constructor(email, name){
-		this.email = email;
-		this.name = name;
-		this.score = 0;
-	}
-	login(){
-		console.log(this.email, " just logged in");
-		return this;
-	}
-	logout(){
-		console.log(this.email, " just logged out");
-		return this;
-	}
-	updateScore(){
-		this.score++;
-		console.log(this.email, " score is now ", score);
-		return this;
-	}
-	}
-
-	class Admin extends User {
-	deleteUser(user){
-		users = users.filter(u => {
-			/* 
-				filter the user that is not equal to the given paramter. 
-				also not good accessing arrays outside the object
-			*/
-			return u.email != user.email; 
-		});
-	}
-	}
-
-	var firstUser = new User("test@email.com", "Philip");
-	var secondUser = new User("test@email.com", "Philip");
-
-	var users = [firstUser, secondUser];
-	admin.deleteUser(secondUser); 
-	admin.login(); // still works because all are inherited
-
-```
+- ## Updating Properties
+	- Properties can be set by assigning the value to the properties user.name = "Stellar"
+	- Or user\["name"\] = "Stellar" to have more flexibility (place the property value in variable inside the brackets)
+- ## Classes
+	- In es6, javascript has a **"class"** keyword that can be initialized like "var user = new User()". but javascript actually has no class concept and is just a syntactic sugar. best approach is to use **"__proto__"**
+	- ### Class
+		- Class has constructor function (uses constructor function)
+		- Always use this keyword when referring to the properties of the object
+		- Methods in the class can also be seen in the **"__proto__"** object
+		- ``` js 
+		  	class User {
+		  	constructor(email, name){
+		  		this.email = email;
+		  		this.name = name;
+		  	}
+		  	login(){
+		  		console.log(this.email, " just logged in");
+		  	}
+		  	logout(){
+		  		console.log(this.email, " just logged out");
+		  	}
+		  	}
+		  
+		  	var user = new User("test@email.com", "Philip");
+		  ```
+		- ### Method Chaining
+			- Return the object in the method like "return this"
+			- Like a builder pattern
+			- ``` js 
+			  	class User {
+			  	constructor(email, name){
+			  		this.email = email;
+			  		this.name = name;
+			  		this.score = 0;
+			  	}
+			  	login(){
+			  		console.log(this.email, " just logged in");
+			  		return this;
+			  	}
+			  	logout(){
+			  		console.log(this.email, " just logged out");
+			  		return this;
+			  	}
+			  	updateScore(){
+			  		this.score++;
+			  		console.log(this.email, " score is now ", score);
+			  		return this;
+			  	}
+			  	}
+			  
+			  	var user = new User("test@email.com", "Philip");
+			  ```
+		- ### Class Inheritance
+			- ``` js 
+			  
+			  	class User {
+			  	constructor(email, name){
+			  		this.email = email;
+			  		this.name = name;
+			  		this.score = 0;
+			  	}
+			  	login(){
+			  		console.log(this.email, " just logged in");
+			  		return this;
+			  	}
+			  	logout(){
+			  		console.log(this.email, " just logged out");
+			  		return this;
+			  	}
+			  	updateScore(){
+			  		this.score++;
+			  		console.log(this.email, " score is now ", score);
+			  		return this;
+			  	}
+			  	}
+			  
+			  	class Admin extends User {
+			  	deleteUser(user){
+			  		users = users.filter(u => {
+			  			/* 
+			  				filter the user that is not equal to the given paramter. 
+			  				also not good accessing arrays outside the object
+			  			*/
+			  			return u.email != user.email; 
+			  		});
+			  	}
+			  	}
+			  
+			  	var firstUser = new User("test@email.com", "Philip");
+			  	var secondUser = new User("test@email.com", "Philip");
+			  
+			  	var users = [firstUser, secondUser];
+			  	admin.deleteUser(secondUser); 
+			  	admin.login(); // still works because all are inherited
+			  
+			  ```
 # __proto__
 - every object in javascript has a prototype
 - javascript adds an extra property called *prototype* to the created function
