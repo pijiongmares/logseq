@@ -156,27 +156,31 @@
 - ## NaN
 	- Not a number
 	- isNaN() check if value is not a number
-# string
-- .toUpperCase() convert string to upper case
-- .toLowerCase() convert string to lower case
-- .indexOf get the index of a value in the string, returns -1 if not found
-- .slice(fromIndex, beforeIndex)  extracts the value in a string
-- .split(delimiter) splits the string into an array
-# arrays
-``` js 
-	var arr = [];
-	arr[0] = true;
-	arr[1] = "test";
-	arr[2] = 2.2;
-```
-
-``` js 
-	var arr = [10, 20, 30, true, "test"];
-```
-
-``` js 
-	var arr = new Array();
-```
+- ## string
+	- .toUpperCase() convert string to upper case
+	- .toLowerCase() convert string to lower case
+	- .indexOf get the index of a value in the string, returns -1 if not found
+	- .slice(fromIndex, beforeIndex)  extracts the value in a string
+	- .split(delimiter) splits the string into an array
+- ## arrays
+	- ``` js 
+	  	var arr = [];
+	  	arr[0] = true;
+	  	arr[1] = "test";
+	  	arr[2] = 2.2;
+	  ```
+	  
+	  
+	  s
+	  
+	  ``` js 
+	  	var arr = [10, 20, 30, true, "test"];
+	  ```
+	  
+	  
+	  ``` js 
+	  	var arr = new Array();
+	  ```
 # objects
 - javascript uses objects
 - strings, numbers, arrays, etc.
