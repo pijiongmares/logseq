@@ -101,26 +101,25 @@
 - ## Shorthand Math Operations
 	- Use "+=", "-=", "\*=", "/=" to perform the operation then assign to the numeric variable
 	- Use "++" or "--" to increment or decrement respectively the numeric value of the variable
-- ## Logging To The console
-- use console.log() to print the value to the console
-# booleans
-- true/false
-  
-  ``` js 
-  	var isEditable = true;
-  ```
-# control flow and logic
-- if, else if, else
-# comparison operators
-- >
-- >=
-- <
-- <=
-- == or != (is value equal/not equal)
-- === or !== (is value and type equal/not equal)
-# logical operators
-- && and
-- || or
+- ## Logging To The Console
+	- Use console.log() to print the value to the console
+- ## Booleans
+	- true/false
+	- ``` js 
+	  	var isEditable = true;
+	  ```
+- ## Control Flow And Logic
+	- if, else if, else
+- ## Comparison Operators
+	- >
+	- \>=
+	- <
+	- <=
+	- == or != (is value equal/not equal)
+	- === or !== (is value and type equal/not equal)
+- ## Logical Operators
+	- && and
+	- || or
 # while loops
 
 ``` js 
