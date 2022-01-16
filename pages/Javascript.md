@@ -175,44 +175,42 @@
 	- ``` js 
 	  	var arr = new Array();
 	  ```
-# objects
-- javascript uses objects
-- strings, numbers, arrays, etc.
-- this is an example of creating an object : 
-  
-  ``` js 
-  	var car = new Object();
-  	car.maxSpeed = 50;
-  	car.driver = "Philip"
-  	console.log(car.driver); //prints "Philip"
-  	car.drive = function(){
-  console.log("now driving");
-  	};
-  	car.drive(); //prints "now driving"
-  ```
-- here is an example of object literal
-  ``` js 
-  	var car = {
-  maxSpeed: 50,
-  driver: "Philip",
-  drive: function(speed, time){
-  	console.log(speed * time);
-  }
-  	};
-  	car.drive(100, 2); //prints "200"
-  ```
-# this keyword
-- refers to the current object it was called
-- console.log(this) //prints the root window document of the html
-  
-  ``` js 
-  	var car = {
-  test: function(){
-  	console.log(this);
-  }
-  	};
-  	car.test(); //prints the car instance object
-  ```
+- ## objects
+	- Javascript uses objects
+	- Strings, numbers, arrays, etc.
+	- This is an example of creating an object :
+	- ``` js 
+	  	var car = new Object();
+	  	car.maxSpeed = 50;
+	  	car.driver = "Philip"
+	  	console.log(car.driver); //prints "Philip"
+	  	car.drive = function(){
+	  console.log("now driving");
+	  	};
+	  	car.drive(); //prints "now driving"
+	  ```
+	- Here is an example of object literal
+	- ``` js 
+	  	var car = {
+	  maxSpeed: 50,
+	  driver: "Philip",
+	  drive: function(speed, time){
+	  	console.log(speed * time);
+	  }
+	  	};
+	  	car.drive(100, 2); //prints "200"
+	  ```
+- ## this keyword
+	- Refers to the current object it was called
+	- console.log(this) //prints the root window document of the html
+	- ``` js 
+	  	var car = {
+	  test: function(){
+	  	console.log(this);
+	  }
+	  	};
+	  	car.test(); //prints the car instance object
+	  ```
 # constructor function
 - variable name is in upper case
   ``` js 
