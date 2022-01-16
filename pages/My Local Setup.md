@@ -1,6 +1,6 @@
-- Description : My local setup
+- Description : My local setup and configurations for Wonders Corporation
+- Tags : #work #wonders
 - # My Workstation Environment
-  collapsed:: true
 	- # MySQL Workstation
 		- Download both the kjt and kjtcallctr script files in [kjtcallctr database copy](https://drive.google.com/drive/u/2/folders/1ubCcGcHjmdNmw4KxE1QveSmrU41qoY3x) (use wonders google account) and run in it the local mysql database
 		- ## Local Creds
