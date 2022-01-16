@@ -13,26 +13,25 @@
 	- Small change to shift to the client
 	- Constant feedback as soon as possible
 	- Iterations
--
 - ## Key Terms Of Agile
 	- ### Values Of Agile
 		- People over processes and tools
 		- Working software over comprehensive documentation
 		- Customer collaboration over rigid contracts
 		- Responding to change rather than following a plan
-## principles of agile
-- satisfy the customer
-- measure by working software
-- welcome changing requirements
-- maintain constant pace
-- deliver working software frequently
-- sustain technical excellence and good design
-- frequent interaction with stakeholders
-- keep it simple
-- motivated individuals
-- empower self-organizing teams
-- face to face communication
-- reflect and adjust continuously
+	- ### Principles Of Agile
+		- Satisfy the customer
+		- Measure by working software
+		- Welcome changing requirements
+		- Maintain constant pace
+		- Deliver working software frequently
+		- Sustain technical excellence and good design
+		- Frequent interaction with stakeholders
+		- Keep it simple
+		- motivated individuals
+		- empower self-organizing teams
+		- face to face communication
+		- reflect and adjust continuously
 # advantages of agile
 - persistent software delivery
 - increasedd stakeholder satisfaction
