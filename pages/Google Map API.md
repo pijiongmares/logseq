@@ -5,7 +5,6 @@
 	- Create project and billing in Google Cloud API
 	- Create an API key in the Google Cloud API for the the Google Map
 	- Setup Javascript for loading simple map
-	-
 	- ```html
 	  	<!DOCTYPE html>
 	  	<html lang="en">
@@ -21,9 +20,7 @@
 	  </body>
 	  	</html>
 	  ```
-	-
 	- map.js file (overkill setting the Javascript source)
-	-
 	- ``` js
 	  	var script = document.createElement("script");
 	  	script.src ="https://maps.googleapis.com/maps/api/jskey=AIzaSyCRZLcvuJjXfC1FDN54vJhRm30asFrpBvk&callback=initMap";
@@ -42,29 +39,27 @@
 	- Center : longitude and latitude to focus
 	- Zoom : zoom level (1: world, 5: landmass continent, 10: city, 15: street, 20: buildings)
 - ## Markers
-- set the marker/pin in the map
-- position: longitude and latitude to mark
-- map: map object
-- icon: custom icon
-  
-  ``` js
-  	let marker = new google.maps.Marker({
-  position: { lat: -34.397, lng: 150.644 },
-  map: map,
-  	});
-  ```
-# infowindow
-- displays a custom html popup overlay
-- content: html element
-  
-  ``` js
-  	let infoWindow = new google.maps.InfoWindow({
-  content: '<h1>Test</h1>',
-  	});
-  	marker.addListener('click', function(){
-  infoWindow.open(map, marker);
-  	})
-  ```
+	- Set the marker/pin in the map
+	- Position: longitude and latitude to mark
+	- Map: map object
+	- Icon: custom icon
+	- ``` js
+	  	let marker = new google.maps.Marker({
+	  position: { lat: -34.397, lng: 150.644 },
+	  map: map,
+	  	});
+	  ```
+- ## Infowindow
+	- Displays a custom HTML popup overlay
+	- Content: html element
+	- ``` js
+	  	let infoWindow = new google.maps.InfoWindow({
+	  content: '<h1>Test</h1>',
+	  	});
+	  	marker.addListener('click', function(){
+	  infoWindow.open(map, marker);
+	  	})
+	  ```
 # places.searchbox
 ``` js
 	const input = document.getElementById("searchbox");
