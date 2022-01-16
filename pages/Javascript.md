@@ -54,44 +54,42 @@
 		  	console.log(myName);
 		  	var myName = "Philip";
 		  ```
-	- problem with **"var"** is that if the variable was defined before and, not knowingly, it was defined again after somewhere in the code, this will make the output different as expected. for example : 
-	  
-	  ``` js 
-	  	var greeter = "say hi";
-	  	var times = 4;
-	  
-	  	if (times > 3){
-	  var greeter = "say Hello instead";
-	  	}
-	  
-	  	console.log(greeter); //prints "say Hello instead"
-	  ```
-	  
-	  the "greeter" variable will be changed as **"var"** is an global scoped unless it is inside a function. this happens because **"var"** can be re-declared and updated.
-## let
-- preferred for variable declaration
-- it is a block scope. a block lives in curly braces "{}"
-  
-  ``` js 
-  	let greeter = "say hi";
-  	let times = 4;
-  
-  	if (times > 3){
-  let hello = "say Hello instead";
-  console.log(hello); //prints "say Hello instead"
-  	}
-  
-  	console.log(hello); //prints "hello is not defined"
-  ```
-- **"let"** can be updated but not re-declared
-- the same name variable can be declared in a different scope even if the other scope is more global compared to the other
-## const
-- use to declare constant variable
-- constant variable share some similarities with **"let"** declarations
-- **"let"** and **"const"** can only be accessed within the block they were declared
-- **"const"** cannot be updated nor re-declared
-- **"const"** must be initialized at the time of declaration
-- constant objects cannot be updated but the values inside can.
+		- Problem with **"var"** is that if the variable was defined before and, not knowingly, it was defined again after somewhere in the code, this will make the output different as expected. for example :
+		- ``` js 
+		  	var greeter = "say hi";
+		  	var times = 4;
+		  
+		  	if (times > 3){
+		  var greeter = "say Hello instead";
+		  	}
+		  
+		  	console.log(greeter); //prints "say Hello instead"
+		  ```
+		  
+		  the "greeter" variable will be changed as **"var"** is an global scoped unless it is inside a function. this happens because **"var"** can be re-declared and updated.
+	- ### let
+		- Preferred for variable declaration
+		- It is a block scope. a block lives in curly braces "{}"
+		- ``` js 
+		  	let greeter = "say hi";
+		  	let times = 4;
+		  
+		  	if (times > 3){
+		  let hello = "say Hello instead";
+		  console.log(hello); //prints "say Hello instead"
+		  	}
+		  
+		  	console.log(hello); //prints "hello is not defined"
+		  ```
+		- **"let"** can be updated but not re-declared
+		- The same name variable can be declared in a different scope even if the other scope is more global compared to the other
+	- ### const
+		- use to declare constant variable
+		- constant variable share some similarities with **"let"** declarations
+		- **"let"** and **"const"** can only be accessed within the block they were declared
+		- **"const"** cannot be updated nor re-declared
+		- **"const"** must be initialized at the time of declaration
+		- constant objects cannot be updated but the values inside can.
 -
 # math operations
 - use "=" for assignment of variables
@@ -387,4 +385,5 @@ if (content.className == "open"){
 # javascript libraries
 - general purpose
 - animation
-- form enhan
+- form enhancement
+- video
