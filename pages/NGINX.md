@@ -12,31 +12,31 @@
 	- Uses a non-thread and event driven software
 - ## NGINX architecture
 	- ![nxginx arch.png](../assets/nxginx_arch_1642342899902_0.png)
-	- ### master
+	- ### Master
 		- Only 1 master node
 		- Responsible for reading and validating configuration
 		- Creating binding and crossing sockets
 		- Responsible for terminating and maintaining the configured number of worker processes
-		- responsible for reconfiguring without any service interruption
-		- controls non-stop binary upgrades and reopening of the log files
-		- compiles embedded Perl scripts
-## worker
-- single thread processes
-- handles thousands of concurrent connections every seconds
-- accepts new requests from a shared list of socket and execute a highly efficient run loop inside each work process
-## proxy cache
-### cache loader
-- mainly responsible for checking the on disk cache items and populating engine in-memory database with the cache metadata
-- prepares engine instances to work  with files already stored in the disk
-- checks cache contents with the metadata
-- updates the relevant entries in shared memory
-### cache manager
-- responsible cache expiration and validation
-- restarted by the master node in case of failure
-- visited page are stored in the cache so that revisiting it again will be retrieved in the cache and will not go to the whole process
-## backend
-### webserver
-### application server
+		- Responsible for reconfiguring without any service interruption
+		- Controls non-stop binary upgrades and reopening of the log files
+		- Compiles embedded Perl scripts
+	- ### Worker
+		- Single thread processes
+		- Handles thousands of concurrent connections every seconds
+		- Accepts new requests from a shared list of socket and execute a highly efficient run loop inside each work process
+	- ### Proxy Cache
+		- #### Cache Loader
+			- Mainly responsible for checking the on disk cache items and populating engine in-memory database with the cache metadata
+			- Prepares engine instances to work  with files already stored in the disk
+			- Checks cache contents with the metadata
+			- Updates the relevant entries in shared memory
+		- #### Cache Manager
+			- Responsible cache expiration and validation
+			- Restarted by the master node in case of failure
+			- Visited page are stored in the cache so that revisiting it again will be retrieved in the cache and will not go to the whole process
+	- ### backend
+		- #### webserver
+		- #### application server
 ### memcached
 # why use nginx
 - ease of installation and maintenance
