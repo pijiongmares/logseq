@@ -56,15 +56,15 @@
 			- Bits of features
 			- Product owner and scrum master are the ones to determine the backlogs
 		- #### User Stories
-- a single product backlog is called a user story
-### sprint planning
-- product owner explains how is the end goal
-### sprint backlog
-- prioritized user stories. what to work on first
-### daily scrum
-- daily meeting
-### sprint review
-- end of the user story. each and every user story usually ends in 2 weeks
+			- A single product backlog is called a user story
+		- #### Sprint Planning
+			- Product owner explains how is the end goal
+		- #### Sprint Backlog
+			- Prioritized user stories. what to work on first
+		- #### Daily Scrum
+			- Daily meeting
+		- #### Sprint Review
+			- End of the user story. each and every user story usually ends in 2 weeks
 ### sprint retrospective
 ## eXtreme programming
 ## LEAN
