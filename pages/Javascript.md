@@ -327,50 +327,49 @@
 		  setUpEvents();
 		  	}
 		  ```
-# timers
-- setTimeout(function, millisecond) delays the execution of the function
-  
-  ``` js 
-  	var message = document.document.getElementId("message");
-  
-  	function showMessage(){
-  message.className = "show";
-  	}
-  
-  	setTimeout(showMessage, 3000);
-  ```
-- setInterval(function, millisecond) recurring function
-- clearInterval(intervalObject) stops the currently running timer
-  ``` js 
-  	var colorChanger = document.document.getElementId("colour-changer");
-  	var colours = ["red", blue, "green", "pink"];
-  	var counter = 0;
-  
-  	function changeColor(){
-  
-  if (counter >= colours.length){
-  	counter = 0;
-  }
-  
-  colourChanger.style.background = colours[counter];
-  counter++;
-  
-  	}
-  
-  	var intervalTimer = setInterval(changeColor, 3000);
-  
-  	colorChanger.onclick = function(){
-  clearInterval(intervalTimer);
-  	}
-  
-  	setTimeout(showMessage, 3000);
-  ```
-# accessing form elements
-- var form = document.forms.\<form name\>
-- form.name.value set/get the value of the input element with name attribute inside the html form
-- can also set/get events
-# javascript libraries
-- general purpose
-- animation
-- form enhancement
-- video
+- ## Timers
+	- setTimeout(function, millisecond) delays the execution of the function
+	- ``` js 
+	  	var message = document.document.getElementId("message");
+	  
+	  	function showMessage(){
+	  message.className = "show";
+	  	}
+	  
+	  	setTimeout(showMessage, 3000);
+	  ```
+	- setInterval(function, millisecond) recurring function
+	- clearInterval(intervalObject) stops the currently running timer
+	- ``` js 
+	  	var colorChanger = document.document.getElementId("colour-changer");
+	  	var colours = ["red", blue, "green", "pink"];
+	  	var counter = 0;
+	  
+	  	function changeColor(){
+	  
+	  if (counter >= colours.length){
+	  	counter = 0;
+	  }
+	  
+	  colourChanger.style.background = colours[counter];
+	  counter++;
+	  
+	  	}
+	  
+	  	var intervalTimer = setInterval(changeColor, 3000);
+	  
+	  	colorChanger.onclick = function(){
+	  clearInterval(intervalTimer);
+	  	}
+	  
+	  	setTimeout(showMessage, 3000);
+	  ```
+- ## Accessing Form Elements
+	- var form = document.forms.\<form name\>
+	- form.name.value set/get the value of the input element with name attribute inside the html form
+	- Can also set/get events
+- ## Javascript Libraries
+	- General purpose
+	- Animation
+	- Form enhancement
+	- Video
