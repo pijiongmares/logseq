@@ -1,3 +1,2 @@
-title:: DEV-NOTES
-
+- Description : Notes for my software development skills
 -
