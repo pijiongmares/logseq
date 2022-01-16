@@ -39,15 +39,14 @@
 	- Welcome to changes at any stage
 	- Design is important
 	- Daily interaction
-# how to implement agile (framework)
-- ## scrum
-  
-  ![scrum model.jpg](../assets/scrum_model_1642338830927_0.jpg)
-- constant iteration of plan -> build -> test -> review
-### stakeholder
-- outside the scrum team, customer
-### product owner
-- manager, make sure the app deployed and committed. make sure the app is built it has to be. does not mean a technical person
+- ## How To Implement Agile (Framework)
+	- ### Scrum
+	- ![scrum model.jpg](../assets/scrum_model_1642338830927_0.jpg)
+	- Constant iteration of plan -> build -> test -> review
+		- #### Stakeholder
+			- Outside the scrum team, customer
+		- #### Product Owner
+			- Manager, make sure the app deployed and committed. make sure the app is built it has to be. does not mean a technical person
 ### scrum master
 - team leader, running meetings, review tasks
 ### team
