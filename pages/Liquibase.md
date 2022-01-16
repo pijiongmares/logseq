@@ -57,28 +57,28 @@
 		- Ensures only one instance of Liquibase is running at one time
 		- It locks others out to prevent multiple Liquibase commands from being executed at the same time which could cause database conflict
 		- Ensures in keeping other devs, dba, or teams from overwriting changes accidentally
-	- ## Liquibase Lifecycle
+- ## Liquibase Lifecycle
 	- 1. Use the **ChangeLog** to write changes using **ChangeSets**
 	- 2. Push the changes to the database with the Liquibase commands
 	- 3. Tracks changes with a **DatabaseChangeLog Tracking Table**
 	- 4. Protects changes with the **DatabaseChangeLogLock** so that other teammates will not override the changes
-# Liquibase Commands
-## update
-- Applies to all unrun changes
-## rollback
-- Reverts changes the have made in the database
-## snapshot
-- Used to quickly compare changes in the database or keep a record of the current database state
-## dbDoc
-- Generates database change documentation
-## diff
-- Compare two database of the same type or different types to one another
-## diffChangeLog
-- Used to create a deployable **ChangeLog** to synchronize multiple database
-## generateChangeLog
-- Creates a **ChangeLog** file that has a sequence of **ChangeSets** which describes how to re-create the current state of the database
-## rollbackOneChangeSet
-- reverts one non-sequential **ChangeSet** made during previous change to the database
+- ## Liquibase Commands
+	- ### update
+		- Applies to all unrun changes
+	- ### rollback
+		- Reverts changes the have made in the database
+	- ### snapshot
+		- Used to quickly compare changes in the database or keep a record of the current database state
+	- ### dbDoc
+		- Generates database change documentation
+	- ### diff
+		- Compare two database of the same type or different types to one another
+	- ### diffChangeLog
+		- Used to create a deployable **ChangeLog** to synchronize multiple database
+	- ### generateChangeLog
+		- Creates a **ChangeLog** file that has a sequence of **ChangeSets** which describes how to re-create the current state of the database
+	- ### rollbackOneChangeSet
+		- reverts one non-sequential **ChangeSet** made during previous change to the database
 ## rollbackOneUpdate
 - reverts all **ChangeSets** releted to a specific **deploymentId** made during a previous change to the database
 ## rollbackOneUpdateSql
