@@ -1,4 +1,5 @@
 - Description : Javascript notes
+  title:: Javascript
 -
 - ## What Is Javascript
 	- Is a scripting language

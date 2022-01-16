@@ -1,4 +1,4 @@
-- #Dev-Notes #JAVASCRIPT
+- #Dev-Notes #Javascript
 - Description : Javascript Geolocation notes
 -
 - ## Introduction
@@ -28,34 +28,33 @@
 		  	};
 		  	navigator.geolocation.getCurrentLocation(successCallback, errorCallback);
 		  ```
-	- ### getCurrentLocation options paramter
-- options parameter gives more paramters for getting the current location
-  ``` js
-  
-  	const successCallback = (position) => {
-  console.log(position);
-  	};
-  	const errorCallback = (error) => {
-  console.error(error);
-  	};
-  	navigator.geolocation.getCurrentLocation(successCallback, errorCallback, {
-  enableHighAccuracy: true,
-  timeout: 5000
-  	});
-  ```
-## watchPosition function
-- function gets the location and continuously updates the user's current location
-- to stop the watch session, use the clearWatch function with the parameter of watchId returned from the watchPosition function
-  
-  ``` js
-  
-  	const successCallback = (position) => {
-  console.log(position);
-  	};
-  	const errorCallback = (error) => {
-  console.error(error);
-  	};
-  	const watchId = navigator.geolocation.watchPosition(successCallback, errorCallback);
-  
-  	navigator.geolocation.clearWatch(watchId);
-  ```
+		- #### getCurrentLocation options paramter
+		- Options parameter gives more paramters for getting the current location
+		- ``` js
+		  
+		  	const successCallback = (position) => {
+		  console.log(position);
+		  	};
+		  	const errorCallback = (error) => {
+		  console.error(error);
+		  	};
+		  	navigator.geolocation.getCurrentLocation(successCallback, errorCallback, {
+		  enableHighAccuracy: true,
+		  timeout: 5000
+		  	});
+		  ```
+	- ### watchPosition function
+		- Function gets the location and continuously updates the user's current location
+		- To stop the watch session, use the clearWatch function with the parameter of watchId returned from the watchPosition function
+		- ``` js
+		  
+		  	const successCallback = (position) => {
+		  console.log(position);
+		  	};
+		  	const errorCallback = (error) => {
+		  console.error(error);
+		  	};
+		  	const watchId = navigator.geolocation.watchPosition(successCallback, errorCallback);
+		  
+		  	navigator.geolocation.clearWatch(watchId);
+		  ```
