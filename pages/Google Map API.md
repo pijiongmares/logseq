@@ -38,7 +38,7 @@
 	- Use new google.maps.Map(\<html element to place the map\>, \<options\>) to initialize the map
 	- Center : longitude and latitude to focus
 	- Zoom : zoom level (1: world, 5: landmass continent, 10: city, 15: street, 20: buildings)
-	- To limit the dis
+	- To limit the visibility of points of interests (POI), like parks, school, government buildings, etc., use the following script
 - ## Markers
 	- Set the marker/pin in the map
 	- Position: longitude and latitude to mark
