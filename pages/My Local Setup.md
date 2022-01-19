@@ -60,15 +60,15 @@
 		- ### appication-local.yml
 			- ``` yml
 			  	
-			  	# username and password changed
-			  	application: 
-			  		datasource: 
-			  			type: com.zaxxer.hikari.HikariDataSource
-			  			jdbc: jdbc:mysql://localhost:3306/kjt?autoReconnect=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true&useSSL=false&serverTimezone=America/New_York
-			  			username: root
-			  			password: p@ssw0rd
+			  # username and password changed
+			  application: 
+			    datasource: 
+			      type: com.zaxxer.hikari.HikariDataSource
+			      jdbc: jdbc:mysql://localhost:3306/kjt?autoReconnect=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true&useSSL=false&serverTimezone=America/New_York
+			      username: root
+			      password: p@ssw0rd
 			  	
-			  	```
+			  ```
 		- ### pom.xml
 			- ```xml
 			  <!--jabylon repo commented-->
