@@ -352,19 +352,20 @@
 			  ```
 	- ## nginx.conf
 		- ### added **/map** on the uri to make route to customerlocationsms.html work
-			- ``` conf
-			  	 location /KJTCore/resources/map/ {
-			  		 alias "D:/work/wonders corp/projects/sms-customer-client/";
-			  		 try_files $uri $uri.html $uri/;
-			  		 autoindex off;
-			  		 expires -1;
-			  	 }
+			- ``` conf 
+			  location /KJTCore/resources/map/ {
+			    alias "D:/work/wonders corp/projects/sms-customer-client/";
+			    try_files $uri $uri.html $uri/;
+			    autoindex off;
+			    expires -1;
+			  }
 			  ```
+			-
 	- ## kjt-pos-callctr-client
 		- ### webrtc-common.js
 			- ``` js
+			  // added localhost to dns for websocket initialization on screenshare.js
 			  let dns = {
-			    // added localhost to dns for websocket initialization on screenshare.js
 			    localhost: {
 			      app: "localhost",
 			      voip: "localhost",
@@ -478,5 +479,40 @@
 			      alwaysonServer: 4
 			    }
 			  };
+			  
+			  // added localhost validation to return sswebsocket
+			  function getSSWebsocketDns() { // get the voip server dns by hostname
+			    var hostname = location.hostname;
+			    if (hostname == dns.prod_env.app) {
+			      return dns.prod_env.sswebsocket;
+			    } else if (hostname == dns.prod_kmc_env.app) {
+			      return dns.prod_kmc_env.sswebsocket;
+			    } else if (hostname == dns.prod_qfn_env.app) {
+			      return dns.prod_qfn_env.sswebsocket;
+			    } else if (hostname == dns.prod_qfm_env.app) {
+			      return dns.prod_qfm_env.sswebsocket;
+			    } else if (hostname == dns.prod_dr_env.app) {
+			      return dns.prod_dr_env.sswebsocket;
+			    } else if (hostname == dns.prod_dr_adv_env.app) {
+			      return dns.prod_dr_adv_env.sswebsocket;
+			    } else if (hostname == dns.prod_mnl_env.app) {
+			      return dns.prod_mnl_env.sswebsocket;
+			    } else if (hostname == dns.prod_ph_env.app) {
+			      return dns.prod_ph_env.sswebsocket;
+			    } else if (hostname == dns.prod_dgt_env.app) {
+			      return dns.prod_dgt_env.sswebsocket;
+			    } else if (hostname == dns.int_env.app) {
+			      return dns.int_env.sswebsocket;
+			    } else if (hostname == dns.qa_env.app) {
+			      return dns.qa_env.sswebsocket;
+			    } else if (hostname == dns.dev_env.app) {
+			      return dns.dev_env.sswebsocket;
+			    } else if (hostname == dns.localhost.app) {
+			      return dns.localhost.sswebsocket;
+			    } else {
+			      console.log("WARNING: Using unknown environment. Please refer to getSSWebsocketDns function.");
+			      return;
+			    }
+			  }
 			  ```
 -
