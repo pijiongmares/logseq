@@ -215,6 +215,8 @@
 			  		 </bean>
 			  
 			  ```
+		- ### application-local.properties
+			- ``````
 	- ## sms-customer-client/customerlocationsms.html
 		- ``` js
 		  	 const getBaseUrl = () => {
