@@ -363,5 +363,120 @@
 	- ## kjt-pos-callctr-client
 		- ### webrtc-common.js
 			- ``` js
+			  let dns = {
+			    // added localhost to dns for websocket initialization on screenshare.js
+			    localhost: {
+			      app: "localhost",
+			      voip: "localhost",
+			      stun: "localhost:19302",
+			      sswebsocket: "localhost",
+			      turn: "localhost:3478",
+			      alwaysonServer: 1
+			    },
+			    int_env: {
+			      app: "int.letsdochinese.com",
+			      voip: "int.letsdochinese.com",
+			      stun: "stun.l.google.com:19302",
+			      sswebsocket: "int.letsdochinese.com",
+			      turn: "turn-qa.letsdochinese.com:3478",
+			      alwaysonServer: 1
+			    },
+			    qa_env: {
+			      app: "qa.letsdochinese.com",
+			      voip: "lizard.letsdochinese.com",
+			      stun: "stun.l.google.com:19302",
+			      sswebsocket: "qa.letsdochinese.com",
+			      turn: "turn-qa.letsdochinese.com:3478",
+			      alwaysonServer: 1
+			    },
+			    qa2_env: {
+			      app: "qa.letsdochinese.com",
+			      voip: "lizard2.letsdochinese.com",
+			      stun: "stun.l.google.com:19302",
+			      sswebsocket: "qa.letsdochinese.com",
+			      turn: "turn-qa.letsdochinese.com:3478",
+			      alwaysonServer: 2
+			    },
+			    dev_env: {
+			      app: "dev.letsdochinese.com",
+			      voip: "dev.letsdochinese.com",
+			      stun: "stun.l.google.com:19302",
+			      sswebsocket: "dev.letsdochinese.com",
+			      turn: "turn-qa.letsdochinese.com:3478",
+			      alwaysonServer: 1
+			    },
+			    prod_env: {
+			      app: "lic-api.letsdochinese.com",
+			      voip: "lynx.letsdochinese.com",
+			      stun: "lynx.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 3
+			    },
+			    prod_dr_env: {
+			      app: "dr-api.letsdochinese.com", // DR Akorbi
+			      voip: "lynx.letsdochinese.com",
+			      stun: "lynx.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 3
+			    },
+			    prod_dr_adv_env: {
+			      app: "dr-adv-api.letsdochinese.com", // DR Advensus
+			      voip: "lynx.letsdochinese.com",
+			      stun: "lynx.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 3
+			    },
+			    prod_qfn_env: {
+			      app: "qfn-api.letsdochinese.com", // PH Qualfon Duma
+			      voip: "pavo.letsdochinese.com",
+			      stun: "pavo.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 2
+			    },
+			    prod_qfm_env: {
+			      app: "qfm-api.letsdochinese.com", // PH Qualfon Manila
+			      voip: "pavo.letsdochinese.com",
+			      stun: "pavo.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 2
+			    },
+			    prod_kmc_env: {
+			      app: "kmc-api.letsdochinese.com", // PH KMC
+			      voip: "norma.letsdochinese.com",
+			      stun: "norma.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 1
+			    },
+			    prod_mnl_env: {
+			      app: "mnl-api.letsdochinese.com", // PH Internet Cafe
+			      voip: "voip-edge.letsdochinese.com",
+			      stun: "voip-edge.letsdochinese.com:3478",
+			      sswebsocket: "coreapp.letsdochinese.com",
+			      turn: "coreapp.letsdochinese.com:4478",
+			      alwaysonServer: 6
+			    },
+			    prod_ph_env: {
+			      app: "ph-api.letsdochinese.com", // PH ph-api
+			      voip: "lacerta.letsdochinese.com",
+			      stun: "lacerta.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 5
+			    },
+			    prod_dgt_env: {
+			      app: "dgt-api.letsdochinese.com", // DGT Vitro Data Center
+			      voip: "antares.letsdochinese.com",
+			      stun: "antares.letsdochinese.com:3478",
+			      sswebsocket: "corenginx.letsdochinese.com",
+			      turn: "turn.letsdochinese.com:4478",
+			      alwaysonServer: 4
+			    }
+			  };
 			  ```
 -
