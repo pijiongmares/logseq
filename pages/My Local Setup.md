@@ -481,7 +481,7 @@
 			    }
 			  };
 			  
-			  // added localhost validation to return sswebsocket
+			  // added localhost validation to return its sswebsocket in the dns object
 			  function getSSWebsocketDns() { // get the voip server dns by hostname
 			    var hostname = location.hostname;
 			    if (hostname == dns.prod_env.app) {
@@ -516,4 +516,5 @@
 			    }
 			  }
 			  ```
+	- ### chrome-
 -
