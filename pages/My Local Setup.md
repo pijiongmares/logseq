@@ -248,94 +248,94 @@
 			  ```
 		- ### pom.xml
 			- ``` xml
-			  	<!--added local profiles-->	
-			  	<profile>
-			  		<id>local</id>
-			  		<activation>
-			  			<activeByDefault>true</activeByDefault>
-			  		</activation>
-			  		<dependencies>
-			  			<dependency>
-			  				<groupId>org.springframework.boot</groupId>
-			  				<artifactId>spring-boot-starter-undertow</artifactId>
-			  			</dependency>
-			  			<dependency>
-			  				<groupId>org.springframework.boot</groupId>
-			  				<artifactId>spring-boot-devtools</artifactId>
-			  				<optional>true</optional>
-			  			</dependency>
-			  		</dependencies>
-			  		<build>
-			  			<plugins>
-			  				<plugin>
-			  					<groupId>org.springframework.boot</groupId>
-			  					<artifactId>spring-boot-maven-plugin</artifactId>
-			  					<configuration>
-			  						<profiles>
-			  							<profile>local</profile>
-			  						</profiles>
-			  					</configuration>
-			  				</plugin>
-			  			</plugins>
-			  		</build>
-			  	</profile>
+			  <!--added local profiles-->	
+			  <profile>
+			    <id>local</id>
+			    <activation>
+			      <activeByDefault>true</activeByDefault>
+			    </activation>
+			    <dependencies>
+			      <dependency>
+			        <groupId>org.springframework.boot</groupId>
+			        <artifactId>spring-boot-starter-undertow</artifactId>
+			      </dependency>
+			      <dependency>
+			        <groupId>org.springframework.boot</groupId>
+			        <artifactId>spring-boot-devtools</artifactId>
+			        <optional>true</optional>
+			      </dependency>
+			    </dependencies>
+			    <build>
+			      <plugins>
+			        <plugin>
+			          <groupId>org.springframework.boot</groupId>
+			          <artifactId>spring-boot-maven-plugin</artifactId>
+			          <configuration>
+			            <profiles>
+			              <profile>local</profile>
+			            </profiles>
+			          </configuration>
+			        </plugin>
+			      </plugins>
+			    </build>
+			  </profile>
 			  ```
 		- ### redis-config.xml
 		- ``` xml
-		  	<!--commented to change the password and database variable-->
-		  	<!-- <bean id="jedisConnFactory" 						class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+		  <!--commented to change the password and database variable-->
+		  <!-- <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
 		   p:use-pool="true"
 		   p:password="${application.redis.password}"
 		   p:database="${application.redis.dbindex.cache}"
 		   p:poolConfig-ref="jedisPoolConfig">
-		  		<constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
-		  	</bean> -->
+		    <constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
+		   </bean> -->
 		  
-		  	 <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-		  	 p:use-pool="true"
-		  	 p:password=""
-		  	 p:database="0"
-		  	 p:poolConfig-ref="jedisPoolConfig">
-		  	 	<constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
-		  	 </bean>
+		  <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+		        p:use-pool="true"
+		        p:password=""
+		        p:database="0"
+		        p:poolConfig-ref="jedisPoolConfig">
+		    <constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
+		  </bean>
 		  
-		  	<!--commented to change the max total and idle variable-->
-		  	<!-- <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig"
-		  	p:maxTotal="${application.redis.connection.max.total}"
-		  	p:maxIdle="${application.redis.connection.max.idle}">
-		  	 </bean> -->
+		  <!--commented to change the max total and idle variable-->
+		  <!-- <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig"
+		   p:maxTotal="${application.redis.connection.max.total}"
+		   p:maxIdle="${application.redis.connection.max.idle}">
+		    </bean> -->
 		  
-		  	<bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig"
-		  	p:maxTotal="8"
-		  	p:maxIdle="8">
-		  	</bean>
+		  <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig"
+		        p:maxTotal="8"
+		        p:maxIdle="8">
+		  </bean>
 		  
-		  	<!--commented the variable sentinel.host and sentinel.port-->
-		  	 <bean id="redisSentinelConfigurationWithMasterAndThirdSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
-		  		 <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndSecondSentinel" />
-		  		 <property name="targetMethod" value="sentinel" />
-		  		 <property name="arguments">
-		  			 <list>
-		  				 <!-- <value>${application.third.sentinel.host}</value>
-		  				 <value>${application.third.sentinel.port}</value> -->
-		  				 <value>localhost</value>
-		  				 <value>26379</value>
-		  			 </list>
-		  		 </property>
-		  	 </bean>
+		  <!--commented the variable sentinel.host and sentinel.port-->
+		  <bean id="redisSentinelConfigurationWithMasterAndThirdSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		    <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndSecondSentinel" />
+		    <property name="targetMethod" value="sentinel" />
+		    <property name="arguments">
+		      <list>
+		        <!-- <value>${application.third.sentinel.host}</value>
+		       <value>${application.third.sentinel.port}</value> -->
+		        <value>localhost</value>
+		        <value>26379</value>
+		      </list>
+		    </property>
+		  </bean>
 		  
-		  	 <bean id="redisSentinelConfigurationWithMasterAndSecondSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
-		  		 <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndFirstSentinel" />
-		  		 <property name="targetMethod" value="sentinel" />
-		  		 <property name="arguments">
-		  			 <list>
-		  				 <!-- <value>${application.second.sentinel.host}</value>
-		  				 <value>${application.second.sentinel.port}</value> -->
-		  				 <value>localhost</value>
-		  				 <value>26379</value>
-		  			 </list>
-		  		 </property>
-		  	 </bean>
+		  <bean id="redisSentinelConfigurationWithMasterAndSecondSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		    <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndFirstSentinel" />
+		    <property name="targetMethod" value="sentinel" />
+		    <property name="arguments">
+		      <list>
+		        <!-- <value>${application.second.sentinel.host}</value>
+		       <value>${application.second.sentinel.port}</value> -->
+		        <value>localhost</value>
+		        <value>26379</value>
+		      </list>
+		    </property>
+		  </bean>
 		  
 		  <bean id="redisSentinelConfigurationWithMasterAndFirstSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
 		    <property name="targetObject" ref="redisSentinelConfigurationWithMaster" />
@@ -349,6 +349,7 @@
 		      </list>
 		    </property>
 		  </bean>
+		  ```
 	- ## nginx.conf
 		- ### added **/map** on the uri to make route to customerlocationsms.html work
 			- ``` conf 
