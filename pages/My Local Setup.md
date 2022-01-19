@@ -518,5 +518,33 @@
 			  ```
 		- ### chrome-screenshare-app.js
 			- ``` js
+			  function connectAndRegister(platform, registeruser, turnserver) {
+			      globalturnserver = turnserver;
+			      serverAddress = platform;
+			    	// disable secures websocket through https
+			      // serverString = 'wss://' + serverAddress + ':8143';
+			      serverString = 'ws://' + serverAddress + ':8143';
+			      if (chromesssock != null && chromesssock.readyState == 1) {
+			          console.log('Closing the prior websocket connection');
+			          chromesssock.close();
+			          chromesssock = null;
+			      }
+			      chromesssock = new ReconnectingWebSocket(serverString);
+			      chromesssock.addEventListener("message", onWebSocketMessage, false);
+			  
+			      chromesssock.onopen = function(e) {
+			          console.log('Connection established!');
+			          var millisecondsToWait = 1250;
+			          setTimeout(function() {
+			              console.log('Trying to register the user on the screenshare websocket');
+			              chromesssock.send(JSON.stringify({
+			                  "user": registeruser,
+			                  "messageType": "registerUser"
+			              }));
+			              fromUsr = registeruser;
+			          }, millisecondsToWait);
+			          // registerUser(registeruser);
+			      };
+			  }
 			  ```
 -
