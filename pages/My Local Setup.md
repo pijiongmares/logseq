@@ -216,7 +216,10 @@
 			  
 			  ```
 		- ### application-local.properties
-			- ``````
+			- ```properties
+			  	# com.kjt.sms.web.socket.con=wss://localhost:8143/
+			  	com.kjt.sms.web.socket.con=ws://localhost:8143/
+			  ```
 	- ## sms-customer-client/customerlocationsms.html
 		- ``` js
 		  	 const getBaseUrl = () => {
