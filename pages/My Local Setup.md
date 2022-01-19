@@ -71,180 +71,181 @@
 			  	```
 		- ### pom.xml
 			- ```xml
-			  	<!--jabylon repo commented-->
-			  	 <repositories>
-			  		 <!-- jhipster-needle-maven-repository -->
-			  		 <!-- <repository>
-			  			 <id>jabylon</id>
-			  			 <url>http://www.jabylon.org/maven/</url>
-			  		 </repository> -->
-			  	 </repositories>
-			  	
-			  	<!--added local profile-->
-			  	<profile>
-			  		 <id>local</id>
-			  		 <dependencies>
-			  			 <dependency>
-			  				 <groupId>org.springframework.boot</groupId>
-			  				 <artifactId>spring-boot-starter-undertow</artifactId>
-			  			 </dependency>
-			  		 </dependencies>
-			  		 <build>
-			  			 <plugins>
-			  				 <plugin>
-			  					 <artifactId>maven-clean-plugin</artifactId>
-			  					 <configuration>
-			  					 <filesets>
-			  					 <fileset>
-			  					 <directory>D:/work/wonders\ corp/projects/content-config-server/src/main/resources/static</directory>
-			  					 </fileset>
-			  					 </filesets>
-			  					 </configuration>
-			  				 </plugin>
-			  					 <plugin>
-			  						 <groupId>org.springframework.boot</groupId>
-			  						 <artifactId>spring-boot-maven-plugin</artifactId>
-			  						 <configuration>
-			  							<mainClass>com.kjt.ccs.ContentConfigServerApp</mainClass>
-			  						 </configuration>
-			  						 <executions>
-			  							 <execution>
-			  								 <goals>
-			  									<goal>build-info</goal>
-			  								 </goals>
-			  							 </execution>
-			  						 </executions>
-			  					 </plugin>
-			  				 <plugin>
-			  					 <groupId>pl.project13.maven</groupId>
-			  					 <artifactId>git-commit-id-plugin</artifactId>
-			  				 </plugin>
-			  			 </plugins>
-			  		 </build>
-			  		 <properties>
-			  			 <!-- default Spring profiles -->
-			  			 <spring.profiles.active>local${profile.swagger}${profile.no-liquibase}</spring.profiles.active>
-			  		 </properties>
-			  	 </profile>
+			  <!--jabylon repo commented-->
+			  <repositories>
+			    <!-- jhipster-needle-maven-repository -->
+			    <!-- <repository>
+			      <id>jabylon</id>
+			      <url>http://www.jabylon.org/maven/</url>
+			     </repository> -->
+			  </repositories>
+			  
+			  <!--added local profile-->
+			  <profile>
+			    <id>local</id>
+			    <dependencies>
+			      <dependency>
+			        <groupId>org.springframework.boot</groupId>
+			        <artifactId>spring-boot-starter-undertow</artifactId>
+			      </dependency>
+			    </dependencies>
+			    <build>
+			      <plugins>
+			        <plugin>
+			          <artifactId>maven-clean-plugin</artifactId>
+			          <configuration>
+			            <filesets>
+			              <fileset>
+			                <directory>D:/work/wonders\ corp/projects/content-config-server/src/main/resources/static</directory>
+			              </fileset>
+			            </filesets>
+			          </configuration>
+			        </plugin>
+			        <plugin>
+			          <groupId>org.springframework.boot</groupId>
+			          <artifactId>spring-boot-maven-plugin</artifactId>
+			          <configuration>
+			            <mainClass>com.kjt.ccs.ContentConfigServerApp</mainClass>
+			          </configuration>
+			          <executions>
+			            <execution>
+			              <goals>
+			                <goal>build-info</goal>
+			              </goals>
+			            </execution>
+			          </executions>
+			        </plugin>
+			        <plugin>
+			          <groupId>pl.project13.maven</groupId>
+			          <artifactId>git-commit-id-plugin</artifactId>
+			        </plugin>
+			      </plugins>
+			    </build>
+			    <properties>
+			      <!-- default Spring profiles -->
+			      <spring.profiles.active>local${profile.swagger}${profile.no-liquibase}</spring.profiles.active>
+			    </properties>
+			  </profile>
 			  ```
 	- ## kjt-sms-connect-service
 		- ### pom.xml
 			- ``` xml
-			  		<!--added local profiles-->	
-			  		 <profiles>
-			  			 <profile>
-			  				 <id>local</id>
-			  				 <activation>
-			  					<activeByDefault>true</activeByDefault>
-			  				 </activation>
-			  				 <build>
-			  					 <plugins>
-			  						 <plugin>
-			  							 <groupId>org.springframework.boot</groupId>
-			  							 <artifactId>spring-boot-maven-plugin</artifactId>
-			  							 <configuration>
-			  								 <profiles>
-			  									<profile>local</profile>
-			  								 </profiles>
-			  							 </configuration>
-			  						 </plugin>
-			  					 </plugins>
-			  				 </build>
-			  			 </profile>
-			  		 </profiles>
+			  <!--added local profiles-->	
+			  <profiles>
+			    <profile>
+			      <id>local</id>
+			      <activation>
+			        <activeByDefault>true</activeByDefault>
+			      </activation>
+			      <build>
+			        <plugins>
+			          <plugin>
+			            <groupId>org.springframework.boot</groupId>
+			            <artifactId>spring-boot-maven-plugin</artifactId>
+			            <configuration>
+			              <profiles>
+			                <profile>local</profile>
+			              </profiles>
+			            </configuration>
+			          </plugin>
+			        </plugins>
+			      </build>
+			    </profile>
+			  </profiles>
 			  
 			  ```
 		- ### redis-config.xml
 			- ``` xml
-			  		<!--commented the variable ${master.name}-->
-			  		 <bean id="redisSentinelConfigurationWithMaster" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
-			  			 <property name="targetObject" ref="redisSentinelConfiguration" />
-			  			 <property name="targetMethod" value="master" />
-			  			 <!-- <property name="arguments" value="${master.name}" /> -->
-			  			 <property name="arguments" value="redis-master" />
-			  		 </bean>
+			  <!--commented the variable ${master.name}-->
+			  <bean id="redisSentinelConfigurationWithMaster" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			    <property name="targetObject" ref="redisSentinelConfiguration" />
+			    <property name="targetMethod" value="master" />
+			    <!-- <property name="arguments" value="${master.name}" /> -->
+			    <property name="arguments" value="redis-master" />
+			  </bean>
 			  
-			  		<!--commented the variable sentinel.host and sentinel.port-->
-			  		<bean id="redisSentinelConfigurationWithMasterAndFirstSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
-			  			 <property name="targetObject" ref="redisSentinelConfigurationWithMaster" />
-			  			 <property name="targetMethod" value="sentinel" />
-			  			 <property name="arguments">
-			  				 <list>
-			  					 <!-- <value>${first.sentinel.host}</value>
-			  					 <value>${first.sentinel.port}</value> -->
-			  					 <value>localhost</value>
-			  					 <value>26379</value>
-			  				 </list>
-			  			 </property>
-			  		 </bean>
+			  <!--commented the variable sentinel.host and sentinel.port-->
+			  <bean id="redisSentinelConfigurationWithMasterAndFirstSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			    <property name="targetObject" ref="redisSentinelConfigurationWithMaster" />
+			    <property name="targetMethod" value="sentinel" />
+			    <property name="arguments">
+			      <list>
+			        <!-- <value>${first.sentinel.host}</value>
+			        <value>${first.sentinel.port}</value> -->
+			        <value>localhost</value>
+			        <value>26379</value>
+			      </list>
+			    </property>
+			  </bean>
 			  
-			  		 <bean id="redisSentinelConfigurationWithMasterAndSecondSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
-			  			 <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndFirstSentinel" />
-			  			 <property name="targetMethod" value="sentinel" />
-			  			 <property name="arguments">
-			  				 <list>
-			  					 <!-- <value>${second.sentinel.host}</value>
-			  					 <value>${second.sentinel.port}</value> -->
-			  					 <value>localhost</value>
-			  					 <value>26379</value>
-			  				 </list>
-			  			 </property>
-			  		 </bean>
+			  <bean id="redisSentinelConfigurationWithMasterAndSecondSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			    <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndFirstSentinel" />
+			    <property name="targetMethod" value="sentinel" />
+			    <property name="arguments">
+			      <list>
+			        <!-- <value>${second.sentinel.host}</value>
+			        <value>${second.sentinel.port}</value> -->
+			        <value>localhost</value>
+			        <value>26379</value>
+			      </list>
+			    </property>
+			  </bean>
 			  
-			  		 <bean id="redisSentinelConfigurationWithMasterAndThirdSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
-			  			 <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndSecondSentinel" />
-			  			 <property name="targetMethod" value="sentinel" />
-			  			 <property name="arguments">
-			  				 <list>
-			  					 <!-- <value>${third.sentinel.host}</value>
-			  					 <value>${third.sentinel.port}</value> -->
-			  					 <value>localhost</value>
-			  					 <value>26379</value>
-			  				 </list>
-			  			 </property>
-			  		 </bean>
+			  <bean id="redisSentinelConfigurationWithMasterAndThirdSentinel" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+			    <property name="targetObject" ref="redisSentinelConfigurationWithMasterAndSecondSentinel" />
+			    <property name="targetMethod" value="sentinel" />
+			    <property name="arguments">
+			      <list>
+			        <!-- <value>${third.sentinel.host}</value>
+			        <value>${third.sentinel.port}</value> -->
+			        <value>localhost</value>
+			        <value>26379</value>
+			      </list>
+			    </property>
+			  </bean>
 			  
-			  		<!--commented to change the password and database variable-->
-			  		 <!-- <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-			  		 p:use-pool="true" p:password="${redis.password}" p:database="${redis.dbindex}">
-			  		 <constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
-			  		 </bean> -->
-			  		 <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-			  		 p:use-pool="true" p:password="" p:database="0">
-			  			<constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
-			  		 </bean>
+			  <!--commented to change the password and database variable-->
+			  <!-- <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+			     p:use-pool="true" p:password="${redis.password}" p:database="${redis.dbindex}">
+			     <constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
+			     </bean> -->
+			  <bean id="jedisConnFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+			        p:use-pool="true" p:password="" p:database="0">
+			    <constructor-arg ref="redisSentinelConfigurationWithMasterAndThirdSentinel" />
+			  </bean>
 			  
 			  ```
 		- ### application-local.properties
 			- ```properties
-			  	# com.kjt.sms.web.socket.con=wss://localhost:8143/
-			  	com.kjt.sms.web.socket.con=ws://localhost:8143/
+			  # com.kjt.sms.web.socket.con=wss://localhost:8143/
+			  com.kjt.sms.web.socket.con=ws://localhost:8143/
 			  ```
 	- ## sms-customer-client/customerlocationsms.html
 		- ``` js
-		  	 const getBaseUrl = () => {
-		  		 const currentUrl = window.location.href;
-		  		 if (currentUrl.indexOf("localhost") > -1) {
-		  			return "http://localhost";
-		  		 } else if (currentUrl.indexOf("int.sesame") > -1) {
-		  			return "https://int.sesame.menu";
-		  		 } else if (currentUrl.indexOf("qa.sesame") > -1) {
-		  			return "https://qa.sesame.menu";
-		  		 } else {
-		  			return "http://sesame.menu";
-		  		 }
-		  	 };
+		  const getBaseUrl = () => {
+		    const currentUrl = window.location.href;
+		    if (currentUrl.indexOf("localhost") > -1) {
+		      return "http://localhost";
+		    } else if (currentUrl.indexOf("int.sesame") > -1) {
+		      return "https://int.sesame.menu";
+		    } else if (currentUrl.indexOf("qa.sesame") > -1) {
+		      return "https://qa.sesame.menu";
+		    } else {
+		      return "http://sesame.menu";
+		    }
+		  };
 		  ```
 	- ## user-config-server
 		- ### application-local.yml
 			- ``` yml
-			  	# username and password changed
-			  	application: 
-			  		datasource: 
-			  			type: com.zaxxer.hikari.HikariDataSource
-			  			jdbc: jdbc:mysql://localhost:3306/kjt?autoReconnect=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true&useSSL=false&serverTimezone=America/New_York
-			  			username: root
-			  			password: p@ssw0rd
+			  # username and password changed
+			  application: 
+			    datasource: 
+			      type: com.zaxxer.hikari.HikariDataSource
+			      jdbc: jdbc:mysql://localhost:3306/kjt?autoReconnect=true&characterEncoding=UTF-8&noAccessToProcedureBodies=true&useSSL=false&serverTimezone=America/New_York
+			      username: root
+			      password: p@ssw0rd
+			  
 			  ```
 		- ### pom.xml
 			- ``` xml
