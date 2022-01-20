@@ -6,9 +6,7 @@
 	- Remarks :
 	-
 	- ### Send SMS Improvement Feature Notes:
-	  collapsed:: true
 		- ### Current:
-		  collapsed:: true
 			- Hi, this is CHEF KWO SKT. Please click the link below to share with us your location for delivery. [https://sesame.menu/sms/api/location/redirect/gI61xp](https://sesame.menu/sms/api/location/redirect/gI61xp)
 		- ### Permission:
 		  collapsed:: true
@@ -76,7 +74,6 @@
 		  collapsed:: true
 			- Receives the confirmed address and send it back to the pos order screen via web socket (changing the address in the screen of the agent in real time)
 	- ## Notes To Consider
-	  collapsed:: true
 		- In the map.html, the request being sent includes smsnumber, username, and restaurant id. maybe just add the address set by the agent
 		- The CustomerLocationSMS model class is in the kjt-pos-comm which is part of a core library. Maybe restaurant id property is used in other projects so do not remove it, maybe just add the address property that was set by the agent in the property of the class?
 		- There are 2 places where the validation of expired linked are done. 
@@ -92,14 +89,12 @@
 		  collapsed:: true
 			-
 	- ## Revised Specs 10/20/21
-	  collapsed:: true
 		- 1. Bring out send sms  (bring out the send sms button from map.html beside the address input box)
 		- 2. Map cleaner  (remove pins of commercial/other places)
 		- 3. Make input field double size  (make textarea)
 		- 4. Input feature gives the address  (already doing this)
 		- 5. Confirmation alert after selecting an address (edited)
 	- ## Execution Plan
-	  collapsed:: true
 		- 1. Create a button with a message icon beside the address text field, copy the script from the send button in map.html (the modal html element that has an input box for the mobile number and the buttons). The script, using ajax, includes the request to the kjt-sms-connect-service confirm endpoint that sends the address back to the pos.html using websocket
 		- 2. Update the customerlocationsms.html google api implementation and just add the options to remove the pinned commercial places
 		- 3. Change the input element to textarea (google map api searchbox accepts textarea element)
