@@ -224,7 +224,6 @@
 		- ``` js
 		  const getBaseUrl = () => {
 		    const currentUrl = window.location.href;
-		    // added localhost validation to return its base url
 		    if (currentUrl.indexOf("localhost") > -1) {
 		      return "http://localhost";
 		    } else if (currentUrl.indexOf("int.sesame") > -1) {
