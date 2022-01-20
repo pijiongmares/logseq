@@ -127,6 +127,7 @@
 		- kjt.dish
 		- kjt.dishproperties
 - ## 122421 Address Logging Vulnerability Issue
+  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 -
