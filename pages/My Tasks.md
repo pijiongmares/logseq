@@ -2,7 +2,9 @@
 - Description : My tasks in Wonders Corporation
 -
 - ## 101121 Enhance SMS Address Confirmation
-	- Status : DONE
+	- Status : **DONE**
+	-
+	-
 	- ### Send SMS Improvement Feature Notes:
 		- ### Current:
 			- Hi, this is CHEF KWO SKT. Please click the link below to share with us your location for delivery. [https://sesame.menu/sms/api/location/redirect/gI61xp](https://sesame.menu/sms/api/location/redirect/gI61xp)
