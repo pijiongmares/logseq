@@ -101,7 +101,6 @@
 		- 4. Google map api already shows the places while typing in the search box (autocomplete)
 		- 5. Show an alert element (popup/anywhere in the main page) that the location was sent back to the agent
 	- ## venom.letsdochinese.com nginx.conf
-	  collapsed:: true
 		- collapsed:: true
 		  ``` nginx
 		  # added line in int.letsdochinese.com server
