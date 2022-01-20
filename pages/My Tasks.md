@@ -131,21 +131,19 @@
 	- Remarks:
 -
 	- ### Backend services affected
-	- content-config-server,
-	- user-config-server,
-- customer-relationship-service,
-  kjt-core-stream,
-  kjt-pos-core,
-  mistake-report-service
-	- ESAPI 2.1.0.1 uses log4j 1.2.17
-		- set logger in the ESAPI.properties : ESAPI.Logger=org.owasp.esapi.reference.Log4JLogFactory
-		  
-		  kjt-content-pusher
-	- ESAPI 2.1.0 uses log4j 1.2.16
-		- set logger in the ESAPI.properties : ESAPI.Logger=org.owasp.esapi.reference.Log4JLogFactory
-		  
-		  mistake-report-service
-	- Classes RestDBAuthenticationProvider and TokenAuthFilter uses log4j
+		- #### content-config-server,
+		- #### user-config-server,
+		- #### customer-relationship-service,
+		- #### kjt-core-stream,
+		- #### kjt-pos-core,
+	- #### mistake-report-service
+		- #### ESAPI 2.1.0.1 uses log4j 1.2.17
+			- set logger in the ESAPI.properties : ESAPI.Logger=org.owasp.esapi.reference.Log4JLogFactory
+			- kjt-content-pusher
+		- #### ESAPI 2.1.0 uses log4j 1.2.16
+			- set logger in the ESAPI.properties : ESAPI.Logger=org.owasp.esapi.reference.Log4JLogFactory
+			- mistake-report-service
+		- #### Classes RestDBAuthenticationProvider and TokenAuthFilter uses log4j
 - ## 012022 SMS Address Enhancements
   collapsed:: true
 	- Status: **DONE**
