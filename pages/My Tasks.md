@@ -2,6 +2,7 @@
 - Description : My tasks in Wonders Corporation
 -
 - ## 101121 Enhance SMS Address Confirmation
+  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	-
@@ -117,6 +118,7 @@
 		- 2. copy /var/www/smslocation/customerlocationsms.html from electro to tango and tango-2's /var/www/smslocation/
 		- 3. update key in customerlocationsms.html use the key from the original file in \#1
 - ## 110921 Add Cloning Of Menu in Restaurant Editor
+  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	- ## Tables currently affected by the cloning
@@ -124,7 +126,10 @@
 		- kjt.comboappcategory
 		- kjt.dish
 		- kjt.dishproperties
+-
+  ##
 - ## 012022 SMS Address Enhancements
+  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	-
