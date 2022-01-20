@@ -112,6 +112,7 @@
 		  }
 		  ```
 	- ### How to Deploy sms-customer-client to PROD
+	  id:: b1f07b87-d700-4fbb-a20c-2f7563af57f3
 		- 1. in tango and tango-2, backup /var/www/smslocation/customerlocationsms.html
 		- 2. copy /var/www/smslocation/customerlocationsms.html from electro to tango and tango-2's /var/www/smslocation/
 		- 3. update key in customerlocationsms.html use the key from the original file in \#1
