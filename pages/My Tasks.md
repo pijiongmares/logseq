@@ -2,8 +2,8 @@
 - Description : My tasks in Wonders Corporation
 -
 - ## 101121 Enhance SMS Address Confirmation
-	- Status : **DONE**
 	-
+	- Status : **DONE**
 	-
 	- ### Send SMS Improvement Feature Notes:
 		- ### Current:
