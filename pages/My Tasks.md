@@ -130,7 +130,7 @@
   collapsed:: true
 	- Status: **DONE**
 	- Remarks:
--
+	-
 	- ### Backend services affected
 		- #### content-config-server,
 		- #### user-config-server,
@@ -146,9 +146,9 @@
 				- mistake-report-service
 			- #### Classes RestDBAuthenticationProvider and TokenAuthFilter uses log4j
 - ## 012022 SMS Address Enhancements
-  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	-
-	- ## Note
+	- ## Note To Consider
 		- ((b1f07b87-d700-4fbb-a20c-2f7563af57f3))
+		- Now that restaurant address is not being
