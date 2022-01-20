@@ -2,6 +2,7 @@
 - Description : My tasks in Wonders Corporation
 -
 - ## 101121 Enhance SMS Address Confirmation
+  collapsed:: true
 	- Status : **DONE**
 	- Remarks :
 	-
@@ -113,9 +114,10 @@
 		  ```
 		  ```
 - ## 110921 Add Cloning Of Menu in Restaurant Editor
+  collapsed:: true
 	- ## Tables currently affected by the cloning
 		- kjt.category
 		- kjt.comboappcategory
 		- kjt.dish
 		- kjt.dishproperties
--
+- ## 012022 SMS
