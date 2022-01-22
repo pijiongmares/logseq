@@ -1,1 +1,1 @@
-- Description: Unfinished notes
+- Description: Pending notes to be done
