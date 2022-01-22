@@ -3,6 +3,7 @@
 -
 - # My Workstation Environment
 	- # MySQL Workstation
+	  collapsed:: true
 		- Download both the kjt and kjtcallctr script files in [kjtcallctr database copy](https://drive.google.com/drive/u/2/folders/1ubCcGcHjmdNmw4KxE1QveSmrU41qoY3x) (use wonders google account) and run in it the local mysql database
 		- ## Local Creds
 			- Windows service name : MySQL57
@@ -13,6 +14,7 @@
 			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn
 			- [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
 	- # Liquibase ChangeLogs for kjt and kjtcallctr
+	  collapsed:: true
 		- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
 			- Clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
 			- Clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
@@ -21,6 +23,7 @@
 			- mvn liquibase:update -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
 			- mvn liquibase:rollback -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master Dliquibase.username=appuser -Dliquibase.password=123 -Dliquibase.rollbackCount=1
 	- # Redis
+	  collapsed:: true
 		- Download [sentinel_26379.conf](https://drive.google.com/file/d/1CFOT6nfyIVK9L4VcRPGOSP9uF9YDlNfO/view?usp=sharing) and move it to the redis directory
 		- Download [redis desktop manager](https://drive.google.com/open?id=1dezAKxn9dufo7RwMpuyXee_x0V7kKyjI)
 		- ## Local
