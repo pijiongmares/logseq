@@ -459,7 +459,6 @@
 		- # Queue Display
 			- UI to display calls that are in queue
 - # Onboarding With JZ
-  collapsed:: true
 	- # Entities
 	  Client 
 	  Customer
