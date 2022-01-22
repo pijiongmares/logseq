@@ -154,4 +154,5 @@
 		- Now that restaurant address is not being pinned/marked in the google map whenever the user denied the location permission, should the restaurant address in the url be retained?
 -
 	- ## Notes regarding with the discussion with the new feature enhancements
-		- Display
+		- Display apt, house, biz option with unit number field in the costumerlocationsms.html which is being sent to the customer through sms
+		-
