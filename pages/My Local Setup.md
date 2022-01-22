@@ -13,13 +13,13 @@
 			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn
 			- [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
 	- # Liquibase ChangeLogs for kjt and kjtcallctr
-	- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
-		- Clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
-		- Clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
-	- ## Liquibase Maven commands
-		- mvn liquibase:status -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
-		- mvn liquibase:update -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
-		- mvn liquibase:rollback -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master Dliquibase.username=appuser -Dliquibase.password=123 -Dliquibase.rollbackCount=1
+		- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
+			- Clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
+			- Clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
+		- ## Liquibase Maven commands
+			- mvn liquibase:status -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
+			- mvn liquibase:update -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master -Dliquibase.username=appuser -Dliquibase.password=123
+			- mvn liquibase:rollback -Plocal -Dliquibase.contexts=local -Dliquibase.changeLogFile=changelog-master Dliquibase.username=appuser -Dliquibase.password=123 -Dliquibase.rollbackCount=1
 	- # Redis
 		- Download [sentinel_26379.conf](https://drive.google.com/file/d/1CFOT6nfyIVK9L4VcRPGOSP9uF9YDlNfO/view?usp=sharing) and move it to the redis directory
 		- Download [redis desktop manager](https://drive.google.com/open?id=1dezAKxn9dufo7RwMpuyXee_x0V7kKyjI)
