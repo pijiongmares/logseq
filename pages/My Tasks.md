@@ -146,9 +146,11 @@
 				- mistake-report-service
 			- #### Classes RestDBAuthenticationProvider and TokenAuthFilter uses log4j
 - ## 012022 SMS Address Enhancements
-	- Status: **DONE**
+	- Status: **Pending**
 	- Remarks:
 	-
 	- ## Note To Consider
 		- ((b1f07b87-d700-4fbb-a20c-2f7563af57f3))
 		- Now that restaurant address is not being pinned/marked in the google map whenever the user denied the location permission, should the restaurant address in the url be retained?
+-
+	- ## Discussions Regarding The New
