@@ -1,3 +1,2 @@
-- Description : Tag related to my work
-  title:: Work
+- Description: Tag related to my work
 -
