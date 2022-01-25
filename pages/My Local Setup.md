@@ -61,6 +61,7 @@
 		- kjt-sms-connect-service needs core-client-comm (gradle) and sms-service-comm (maven)
 - # Applications Setup Changes (For Local Only)
 	- ## content-config-service
+	  collapsed:: true
 		- ### appication-local.yml
 			- ``` yml
 			  	
@@ -132,6 +133,7 @@
 			  </profile>
 			  ```
 	- ## kjt-sms-connect-service
+	  collapsed:: true
 		- ### pom.xml
 			- ``` xml
 			  <!--added local profiles-->	
@@ -225,6 +227,7 @@
 			  com.kjt.sms.web.socket.con=ws://localhost:8143/
 			  ```
 	- ## sms-customer-client/customerlocationsms.html
+	  collapsed:: true
 		- ``` js
 		  const getBaseUrl = () => {
 		    const currentUrl = window.location.href;
@@ -240,6 +243,7 @@
 		  };
 		  ```
 	- ## user-config-server
+	  collapsed:: true
 		- ### application-local.yml
 			- ``` yml
 			  # username and password changed
@@ -356,6 +360,7 @@
 		  </bean>
 		  ```
 	- ## nginx.conf
+	  collapsed:: true
 		- ### added **/map** on the uri to make route to customerlocationsms.html work
 			- ``` conf 
 			  location /KJTCore/resources/map/ {
@@ -367,6 +372,7 @@
 			  ```
 			-
 	- ## kjt-pos-callctr-client
+	  collapsed:: true
 		- ### webrtc-common.js
 			- ``` js
 			  // added localhost to dns for websocket initialization on screenshare.js
