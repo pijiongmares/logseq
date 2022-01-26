@@ -156,6 +156,3 @@
 	- ## Notes regarding with the discussion with the new feature enhancements
 		- Display apt, house, biz option with unit number field in the costumerlocationsms.html which is being sent to the customer through sms
 		-
-	- ## Deployment Notes
-		- Include commit **https://github.com/kjt01/kjt-pos-callctr-client/commit/41204186c4aabe8db4f85c6d6ccf45c06694a959** when promoting to STAGING and PROD
-		-
