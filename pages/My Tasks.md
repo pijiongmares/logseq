@@ -156,3 +156,5 @@
 	- ## Notes regarding with the discussion with the new feature enhancements
 		- Display apt, house, biz option with unit number field in the costumerlocationsms.html which is being sent to the customer through sms
 		-
+	-
+		-
