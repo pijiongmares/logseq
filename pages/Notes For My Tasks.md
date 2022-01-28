@@ -145,7 +145,7 @@
 				- mistake-report-service
 			- #### Classes RestDBAuthenticationProvider and TokenAuthFilter uses log4j
 - ## 012022 SMS Address Enhancements
-	- Status: **Pending**
+	- Status: **PENDING**
 	- Remarks:
 	-
 	- ## Note To Consider
