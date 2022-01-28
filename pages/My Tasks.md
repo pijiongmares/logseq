@@ -1,5 +1,5 @@
 - #Work #Wonders-Corp
-- Description : My tasks in Wonders Corporation
+- Description : These are notes for my tasks  in Wonders Corporation
 -
 - ## 101121 Enhance SMS Address Confirmation
   collapsed:: true
