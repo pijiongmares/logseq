@@ -118,7 +118,6 @@
 		- 2. copy /var/www/smslocation/customerlocationsms.html from electro to tango and tango-2's /var/www/smslocation/
 		- 3. update key in customerlocationsms.html use the key from the original file in \#1
 - ## 110921 Add Cloning Of Menu in Restaurant Editor
-  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	- ## Tables currently affected by the cloning
@@ -152,5 +151,6 @@
 	- ## Note To Consider
 		- ((b1f07b87-d700-4fbb-a20c-2f7563af57f3))
 		- Now that restaurant address is not being pinned/marked in the google map whenever the user denied the location permission, should the restaurant address in the url be retained?
+	- ## Notes regarding with the discussion with the new feature enhancements
+		- Display apt, house, biz option with unit number field in the costumerlocationsms.html which is being sent to the customer through sms
 		-
--
