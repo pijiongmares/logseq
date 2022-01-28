@@ -126,7 +126,6 @@
 		- kjt.comboappcategory
 		- kjt.dish
 		- kjt.dishproperties
-	- ## Issue 012622
 - ## 122421 Address Logging Vulnerability Issue
   collapsed:: true
 	- Status: **DONE**
