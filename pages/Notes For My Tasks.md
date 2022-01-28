@@ -126,6 +126,9 @@
 		- kjt.comboappcategory
 		- kjt.dish
 		- kjt.dishproperties
+	- ## Issues Encountered in Regression Testing
+		- ### subCategoryLink Field in Category Table(01/26/22)
+			- subCategoryLink and other link fields in the Category table
 - ## 122421 Address Logging Vulnerability Issue
   collapsed:: true
 	- Status: **DONE**
