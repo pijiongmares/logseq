@@ -1,42 +1,42 @@
 [{:block/name "a",
-  :block/created-at 1643347354904,
-  :block/updated-at 1643347354904}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "agile",
   :block/created-at 1642337438310,
   :block/updated-at 1642339519925}
  {:block/name "b",
-  :block/created-at 1643347354907,
-  :block/updated-at 1643347354907}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "bank",
   :block/created-at 1642339831522,
   :block/updated-at 1642340457785}
  {:block/name "c",
-  :block/created-at 1643347354908,
-  :block/updated-at 1643347354908}
+  :block/created-at 1643450182642,
+  :block/updated-at 1643450182642}
  {:block/name "card",
-  :block/created-at 1643347354906,
-  :block/updated-at 1643347354906}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "citibank personal loan october 2021",
   :block/created-at 1642339659176,
   :block/updated-at 1642339789516}
  {:block/name "contents",
-  :block/created-at 1643347354909,
-  :block/updated-at 1643347354909}
+  :block/created-at 1643450182642,
+  :block/updated-at 1643450182642}
  {:block/name "database",
-  :block/created-at 1643347354906,
-  :block/updated-at 1643347354906}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "dev-notes",
   :block/created-at 1642340072673,
   :block/updated-at 1642344231340}
  {:block/name "doing",
-  :block/created-at 1643347354906,
-  :block/updated-at 1643347354906}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "done",
-  :block/created-at 1643347354908,
-  :block/updated-at 1643347354908}
+  :block/created-at 1643450182642,
+  :block/updated-at 1643450182642}
  {:block/name "favorites",
-  :block/created-at 1643347354904,
-  :block/updated-at 1643347354904}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "git",
   :block/created-at 1642339892732,
   :block/updated-at 1642344189475}
@@ -44,8 +44,8 @@
   :block/created-at 1642340153833,
   :block/updated-at 1642456148903}
  {:block/name "in-progress",
-  :block/created-at 1643347354909,
-  :block/updated-at 1643347354909}
+  :block/created-at 1643450182642,
+  :block/updated-at 1643450182642}
  {:block/name "jan 11th, 2022",
   :block/created-at 1641859200000,
   :block/updated-at 1641859200000}
@@ -86,8 +86,11 @@
   :block/created-at 1643320014420,
   :block/updated-at 1643320582685}
  {:block/name "jan 28th, 2022",
-  :block/created-at 1643328000000,
-  :block/updated-at 1643328000000}
+  :block/created-at 1643405298874,
+  :block/updated-at 1643410037244}
+ {:block/name "jan 29th, 2022",
+  :block/created-at 1643414400000,
+  :block/updated-at 1643414400000}
  {:block/name "javacript oop",
   :block/created-at 1642341368931,
   :block/updated-at 1642341969577}
@@ -101,29 +104,26 @@
   :block/created-at 1642342191458,
   :block/updated-at 1642342279151}
  {:block/name "later",
-  :block/created-at 1643347354906,
-  :block/updated-at 1643347354906}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "linux",
-  :block/created-at 1643347354906,
-  :block/updated-at 1643347354906}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "liquibase",
   :block/created-at 1642342356680,
   :block/updated-at 1642342790427}
  {:block/name "my local setup",
   :block/created-at 1642197793598,
   :block/updated-at 1642600135053}
- {:block/name "my tasks",
-  :block/created-at 1642268494798,
-  :block/updated-at 1642705683853}
  {:block/name "nginx",
   :block/created-at 1642342846436,
   :block/updated-at 1642343112599}
- {:block/name "notes",
-  :block/created-at 1643347354907,
-  :block/updated-at 1643347354907}
+ {:block/name "notes for my tasks",
+  :block/created-at 1642268494798,
+  :block/updated-at 1643412303202}
  {:block/name "now",
-  :block/created-at 1643347354909,
-  :block/updated-at 1643347354909}
+  :block/created-at 1643450182642,
+  :block/updated-at 1643450182642}
  {:block/name "obsidian archived wonders journals",
   :block/created-at 1642136469016,
   :block/updated-at 1642197742312}
@@ -140,20 +140,20 @@
   :block/created-at 1642344285962,
   :block/updated-at 1642344321931}
  {:block/name "todo",
-  :block/created-at 1643347354907,
-  :block/updated-at 1643347354907}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "unfinished",
-  :block/created-at 1643347354906,
-  :block/updated-at 1643347354906}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "wait",
-  :block/created-at 1643347354909,
-  :block/updated-at 1643347354909}
+  :block/created-at 1643450182642,
+  :block/updated-at 1643450182642}
  {:block/name "waiting",
-  :block/created-at 1643347354904,
-  :block/updated-at 1643347354904}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "wonders",
-  :block/created-at 1643347354904,
-  :block/updated-at 1643347354904}
+  :block/created-at 1643450182641,
+  :block/updated-at 1643450182641}
  {:block/name "wonders-corp",
   :block/created-at 1642337119528,
   :block/updated-at 1642340489051}
