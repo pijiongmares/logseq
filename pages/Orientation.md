@@ -44,7 +44,6 @@
 -
 - # List Of Requirements
 - # Orientation
-  collapsed:: true
 	- Founded 2012, Long Island, NYC
 	  
 	  1st Captive Inhouse BPO, fastest growing BPO in Dumaguete
@@ -91,7 +90,6 @@
 		- With lockers
 		- Health Declaration Form every day when going onsite
 - # Engineering Introduction
-  collapsed:: true
 	- # Onboarding with Sir Arman
 		- Jira - tasks - [Wonderers - Agile Board - Jira (atlassian.net)](https://wondersco.atlassian.net/secure/RapidBoard.jspa?rapidView=58&projectKey=SKT)
 		- Confluence - for documentations - [BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/overview)
@@ -126,7 +124,6 @@
 		  Nico - IT Ops
 		  Joseph Nicko - HR business partner for engineering
 - # Onboarding
-  collapsed:: true
 	- # Onboarding Notes
 		- # Application Environments
 			- ## int/int-ph
