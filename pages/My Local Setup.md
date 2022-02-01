@@ -14,7 +14,6 @@
 			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn
 			- [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
 	- # Liquibase ChangeLogs for kjt and kjtcallctr
-	  collapsed:: true
 		- ## kjt-db-kjtcore and kjt-db-kjtcallctr github
 			- Clone [kjt-db-kjtcore git repo](https://github.com/kjt01/kjt-db-kjtcore)
 			- Clone [kjt-db-kjtcallctr](https://github.com/kjt01/kjt-db-kjtcallctr)
