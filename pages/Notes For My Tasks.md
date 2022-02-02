@@ -129,9 +129,8 @@
 	- ## Issues Encountered in Regression Testing
 		- ### subCategoryLink Field in Category Table(01/26/22)
 			- **[012622]** When subCategoryLink and other link fields in the category are cloned, the values in those fields, which are category id, are being retained instead of being updated with the new id of the category from the new copied restaurant
-			- **[020122]** Created tickets
+			- **[020122]** New tickets to fix this issue are [SKT-7902](https://wondersco.atlassian.net/browse/SKT-7902) and [SKT-7929](https://wondersco.atlassian.net/browse/SKT-7929)
 - ## 122421 Address Logging Vulnerability Issue
-  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	-
@@ -160,3 +159,4 @@
 	- ## Notes regarding with the discussion with the new feature enhancements
 		- Display apt, house, biz option with unit number field in the costumerlocationsms.html which is being sent to the customer through sms
 		-
+-
