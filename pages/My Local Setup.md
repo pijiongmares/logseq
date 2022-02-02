@@ -10,7 +10,7 @@
 			- Username : appuser
 			- Password : p@ssw0rd
 		- ## Database VPN Access
-			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn **[INACTIVE]**
+			- [mnl-db.letsdochinese.com](http://mnl-db.letsdochinese.com/) connects using pseudothyrum vpn #Inactive
 			- [foxtrot.letsdochinese.com](http://foxtrot.letsdochinese.com/) connects using  aditus vpn
 	- # Liquibase ChangeLogs for kjt and kjtcallctr
 		- ## kjt-db-kjtcore and kjt-db-kjtcallctr github

@@ -44,6 +44,7 @@
 -
 - # List Of Requirements
 - # Orientation
+  collapsed:: true
 	- Founded 2012, Long Island, NYC
 	  
 	  1st Captive Inhouse BPO, fastest growing BPO in Dumaguete
