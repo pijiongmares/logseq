@@ -1,7 +1,11 @@
 - #Wonders-Corp
 - Description : Orientation notes in Wonders Corporation
   collapsed:: true
+-
+- # List Of Requirements
+  collapsed:: true
 	- DONE Updated copy of resume
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-01-16 Sun 00:46:12]--[2022-01-16 Sun 00:46:13] =>  00:00:01
 	  CLOCK: [2022-01-16 Sun 00:46:13]--[2022-01-16 Sun 00:46:13] =>  00:00:00
@@ -21,6 +25,7 @@
 	- DONE Member's Change of Information Form (MCIF)
 	- DONE Pag-ibig Statement of Account (SOA) - (if with an existing loan)_Send your SOA to aldrin.amante@wondersco.com and Hr@wondersco.com
 	- DONE Proof of Tax Identification Number (TIN)\
+	  collapsed:: true
 	  :LOGBOOK:
 	  CLOCK: [2022-01-16 Sun 00:47:40]--[2022-01-16 Sun 00:47:41] =>  00:00:01
 	  :END:
@@ -41,8 +46,6 @@
 	- DONE Signed contract (per page)
 	- DONE Signed Annex A
 	- DONE 2021 BIR Waiver (attached)
--
-- # List Of Requirements
 - # Orientation
   collapsed:: true
 	- Founded 2012, Long Island, NYC
