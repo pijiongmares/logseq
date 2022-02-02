@@ -15,4 +15,4 @@
 - [Combining Git commits with squash - YouTube](https://www.youtube.com/watch?v=V5KrD7CmO4o&list=PLfU9XN7w4tFzXhl94ryX8zT06NNI-MJbg&index=3&ab_channel=TheModernCoder)
 - [A Better Git Workflow with Rebase - YouTube](https://www.youtube.com/watch?v=f1wnYdLEpgI&list=PLfU9XN7w4tFzXhl94ryX8zT06NNI-MJbg&index=5&ab_channel=TheModernCoder)
 - [Git STASH Explained in Simple Words - YouTube](https://www.youtube.com/watch?v=DeU6opFU_zw&ab_channel=Academind)
-- https://www.youtube.com/watch?v=U3uwMr3u2Q4
+- [Learn Git from Scratch - The Git Revert Command](https://www.youtube.com/watch?v=U3uwMr3u2Q4)
