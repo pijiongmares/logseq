@@ -128,7 +128,8 @@
 		- kjt.dishproperties
 	- ## Issues Encountered in Regression Testing
 		- ### subCategoryLink Field in Category Table(01/26/22)
-			- When subCategoryLink and other link fields in the category are cloned, the values in those fields, which are category id, are being retained instead of being updated with the new id of the category from the new copied restaurant
+			- **[012622]** When subCategoryLink and other link fields in the category are cloned, the values in those fields, which are category id, are being retained instead of being updated with the new id of the category from the new copied restaurant
+			- **[020122]** Created tickets
 - ## 122421 Address Logging Vulnerability Issue
   collapsed:: true
 	- Status: **DONE**
