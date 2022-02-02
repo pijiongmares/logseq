@@ -91,6 +91,7 @@
 		- With lockers
 		- Health Declaration Form every day when going onsite
 - # Engineering Introduction
+  collapsed:: true
 	- # Onboarding with Sir Arman
 		- Jira - tasks - [Wonderers - Agile Board - Jira (atlassian.net)](https://wondersco.atlassian.net/secure/RapidBoard.jspa?rapidView=58&projectKey=SKT)
 		- Confluence - for documentations - [BA Corner - Confluence (atlassian.net)](https://wondersco.atlassian.net/wiki/spaces/BA/overview)
@@ -522,7 +523,6 @@
 			- For measuring the effectiveness of the change/additional feature
 			- Possible of multiple phases if requirements are not met
 - # Ways Of Working
-  collapsed:: true
 	- # Pull Request Format
 		- \<Epic\> - \<User story/bug ticket\> - \<User story/bug ticket title\>
 		- SKT-6497 - SKT-6761 - Change English and Chinese Texts in Chinese Modal
