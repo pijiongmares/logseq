@@ -8,5 +8,4 @@
 	- The following are the different scenarios for deploying and performing a rollback :
 	- ### Backend Service
 		- These applications usually are being promoted in different status in [Jarvis Jenkins](http://jarvis.letsdochinese.com/jenkins/). Then there is a status to upload it to [PRODJenkins](http://prod-jenkins.letsdochinese.com:8080/). In the PROD Jenkins, this is where the backend service Docker image are being created and deployed to the PROD servers.
-		-
-		  ####
+		- #### Promoting to QA, STAGING,  (and TRAINING?)
