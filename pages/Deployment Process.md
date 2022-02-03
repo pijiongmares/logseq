@@ -7,4 +7,4 @@
 	- It is best to review first the project's/repository's deployment process like what environments it is currently being deployed, if there are other teams working on the said projects, and how to rollback if an error occurred after deployment.
 	- The following are the different scenarios for deploying and performing a rollback :
 	- ### Backend Service
-		- These applications usually are being promoted in different status in
+		- These applications usually are being promoted in different status in [Jarvis Jenkins](http://jarvis.letsdochinese.com/jenkins/).
