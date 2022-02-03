@@ -11,5 +11,6 @@
 		- #### Promoting to QA, STAGING, and Upload Docker Image To PROD (and TRAINING?)
 			- Like the **content-config-server**, these applications are being promoted in **QA**, **STAGING**, and **PROD as Docker Image**. But first analyze the **Build History** of the job to take consideration of other devs/teams build.
 			- ![image.png](../assets/image_1643854152418_0.png)
-			- For example, the build number to be deployed is **#140**
+			- For example
+				- the build number to be deployed is **#140**, the last build that was deployed in PROD is **#135**.
 			-
