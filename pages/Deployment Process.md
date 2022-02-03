@@ -9,5 +9,5 @@
 	- ### Backend Service
 		- These applications usually are being promoted in different status in [Jarvis Jenkins](http://jarvis.letsdochinese.com/jenkins/). And then there is a status to upload docker image to [PRODJenkins](http://prod-jenkins.letsdochinese.com:8080/). In the PROD Jenkins, this is where the backend service Docker image are being deployed to the PROD servers.
 		- #### Promoting to QA, STAGING, and Upload Docker Image To PROD (and TRAINING?)
-			- Like the **content-config-server**, these applications are being promoted in **QA**, **STAGING**, and **PROD as Docker Image**.
+			- Like the **content-config-server**, these applications are being promoted in **QA**, **STAGING**, and **PROD as Docker Image**. But first analyze the **Build History** of the job to take
 			-
