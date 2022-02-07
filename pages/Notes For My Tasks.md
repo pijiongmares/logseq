@@ -118,6 +118,7 @@
 		- 2. copy /var/www/smslocation/customerlocationsms.html from electro to tango and tango-2's /var/www/smslocation/
 		- 3. update key in customerlocationsms.html use the key from the original file in \#1
 - ## 110921 Add Cloning Of Menu in Restaurant Editor
+  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	-
@@ -131,6 +132,7 @@
 			- **[012622]** When subCategoryLink and other link fields in the category are cloned, the values in those fields, which are category id, are being retained instead of being updated with the new id of the category from the new copied restaurant
 			- **[020122]** New tickets to fix this issue are [SKT-7902](https://wondersco.atlassian.net/browse/SKT-7902) and [SKT-7929](https://wondersco.atlassian.net/browse/SKT-7929)
 - ## 122421 Address Logging Vulnerability Issue
+  collapsed:: true
 	- Status: **DONE**
 	- Remarks:
 	-
@@ -149,7 +151,8 @@
 				- mistake-report-service
 			- #### Classes RestDBAuthenticationProvider and TokenAuthFilter uses log4j
 - ## 012022 SMS Address Enhancements
-	- Status: **PENDING**
+  collapsed:: true
+	- Status: **DONE**
 	- Remarks:
 	-
 	- ## Note To Consider
