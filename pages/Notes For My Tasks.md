@@ -2,8 +2,9 @@
 - Description : These are notes for my tasks  in Wonders Corporation
 -
 - ## For Discussion
-	- ### SMS Address Confirmation (Address City Enhancements)
-		-
+	- ### SMS Address Confirmation : Address City Enhancements (020722)
+		- #### Remove restaurant address in the URL
+			-
 -
 - ## 101121 Enhance SMS Address Confirmation
   collapsed:: true
