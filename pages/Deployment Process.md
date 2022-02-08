@@ -14,7 +14,7 @@
 			- For example,
 				- the build number to be deployed is **#140**
 				- the last build that was deployed in PROD is **#135**.
-				- ![Screenshot 2022-02-02 213632.png](../assets/Screenshot_2022-02-02_213632_1643856607624_0.png)
+				- ![Screenshot 2022-02-02 213632.png](../assets/Screenshot_2022-02-02_213632_1644361201056_0.png)
 -
 -
 -
